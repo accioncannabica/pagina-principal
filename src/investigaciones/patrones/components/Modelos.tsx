@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { Scale, GitCompareArrows, TriangleAlert, Layers, Crosshair } from "lucide-react";
 import { Card, Badge, FadeIn } from "./ui";
 import { LOGREG, ODDS_PROBLEMAS, ODDS_TERAPEUTICO, ROC_POINTS, ROC_LOGREG_PROBLEMAS, ROC_LOGREG_TERAPEUTICO, fmt } from "../data/research";
@@ -60,9 +59,8 @@ function RocChart() {
         <svg viewBox="0 0 100 100" className="h-full w-full">
           <rect x="10" y="10" width="84" height="84" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.09)" rx="3" />
           <line x1="10" y1="94" x2="94" y2="10" stroke="#71717a" strokeWidth="0.7" strokeDasharray="3 3" />
-          {curvas.map((c, i) => (
-            <motion.path key={c.nombre} d={`M ${pts(c.d)}`} fill="none" stroke={c.color} strokeWidth="2.1" strokeLinejoin="round"
-              initial={{ pathLength: 0 }} whileInView={{ pathLength: 1 }} viewport={{ once: true }} transition={{ duration: 1.2, delay: i * 0.15 }} />
+          {curvas.map((c) => (
+            <path key={c.nombre} d={`M ${pts(c.d)}`} fill="none" stroke={c.color} strokeWidth="2.1" strokeLinejoin="round" />
           ))}
           <text x="52" y="99.5" textAnchor="middle" fill="#71717a" fontSize="5">Falsos positivos →</text>
           <text x="4" y="52" textAnchor="middle" fill="#71717a" fontSize="5" transform="rotate(-90 4 52)">Verdaderos positivos →</text>
@@ -107,12 +105,14 @@ function ForestPlot() {
               </div>
               <div className="relative mt-1 h-4">
                 <div className="absolute inset-y-0 w-px bg-white/25" style={{ left: `${x(1)}%` }} />
-                <motion.div className="absolute top-1/2 h-[3px] -translate-y-1/2 rounded-full"
+                <div
+                  className="absolute top-1/2 h-[3px] -translate-y-1/2 rounded-full"
                   style={{ left: `${x(o.lo)}%`, width: `${Math.max(1.5, x(o.hi) - x(o.lo))}%`, background: color, opacity: 0.55 }}
-                  initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.7 }} />
-                <motion.span className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-[#0d120e]"
+                />
+                <span
+                  className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-[#0d120e]"
                   style={{ left: `${x(o.or)}%`, background: color }}
-                  initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.2 }} />
+                />
               </div>
               <p className={cn("text-[10.5px]", sig ? "text-zinc-400" : "text-zinc-600")}>{o.nota}</p>
             </div>
@@ -181,8 +181,7 @@ export default function Modelos() {
                           </span>
                         </div>
                         <div className="h-2 overflow-hidden rounded-full bg-white/[0.06]">
-                          <motion.div key={modelo} className={cn("h-full rounded-full", modelo === "problemas" ? "bg-rose-400" : "bg-emerald-400")}
-                            initial={{ width: 0 }} animate={{ width: `${v * 100}%` }} transition={{ duration: 0.6 }} />
+                          <div className={cn("h-full rounded-full", modelo === "problemas" ? "bg-rose-400" : "bg-emerald-400")} style={{ width: `${v * 100}%` }} />
                         </div>
                       </div>
                     );

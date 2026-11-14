@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import {
   Workflow, Play, CheckCircle2, FileCode2, Bot, UserCheck, ShieldCheck, Database, Filter,
 } from "lucide-react";
@@ -97,9 +96,9 @@ export default function Harness() {
             ))}
           </div>
           {ejecutado && (
-            <motion.p initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="mt-4 flex items-center gap-2 rounded-xl border border-emerald-400/20 bg-emerald-400/[0.06] px-4 py-2.5 text-sm text-emerald-200">
+            <p className="mt-4 flex items-center gap-2 rounded-xl border border-emerald-400/20 bg-emerald-400/[0.06] px-4 py-2.5 text-sm text-emerald-200">
               <CheckCircle2 size={16} /> Re-ejecución simulada: 22/22 scripts reproducen las cifras del manuscrito (n=1.046 · AUC 0,49 · silhouette 0,19).
-            </motion.p>
+            </p>
           )}
         </Card>
       </FadeIn>
@@ -171,7 +170,7 @@ export default function Harness() {
                   </div>
                   <p className="text-[11px] text-zinc-500">{h.uso}</p>
                   <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-white/[0.06]">
-                    <motion.div className="h-full rounded-full bg-sky-400" initial={{ width: 0 }} whileInView={{ width: `${h.nivel}%` }} viewport={{ once: true }} transition={{ duration: 0.8 }} />
+                    <div className="h-full rounded-full bg-sky-400" style={{ width: `${h.nivel}%` }} />
                   </div>
                 </div>
               ))}

@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import {
   ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Cell,
 } from "recharts";
@@ -83,44 +82,41 @@ export default function Heatmap() {
               </div>
               <span>r = +1</span>
             </div>
-            <AnimatePresence mode="wait">
-              {sel ? (
-                <motion.div key={`${sel.a}-${sel.b}`} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
-                  className="mt-4 rounded-xl border border-white/[0.07] bg-white/[0.02] p-4">
-                  <div className="flex flex-wrap items-center justify-between gap-2">
-                    <p className="text-sm text-zinc-200">
-                      <span className="font-semibold text-zinc-50">{sel.a}</span>
-                      <span className="mx-2 text-zinc-600">×</span>
-                      <span className="font-semibold text-zinc-50">{sel.b}</span>
-                    </p>
-                    <Badge tone={sel.v >= 0 ? "emerald" : "rose"}>
-                      {sel.v >= 0 ? <TrendingUp size={12} /> : <TrendingDown size={12} />} r = {fmt(sel.v, 2)}
-                    </Badge>
-                  </div>
-                  <p className="mt-2 text-xs leading-relaxed text-zinc-400">
-                    {Math.abs(sel.v) >= 0.35
-                      ? "Una de las pocas asociaciones visibles: corresponde a variables conceptualmente solapadas (mismo bloque), no a un eje consumo–daño."
-                      : Math.abs(sel.v) >= 0.1
-                        ? "Asociación débil: variación leve sin significación estructural según la interpretación del paper (§5.1)."
-                        : "Asociación prácticamente nula: las dimensiones operan de manera relativamente independiente."}
+            {sel ? (
+              <div className="mt-4 rounded-xl border border-white/[0.07] bg-white/[0.02] p-4">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <p className="text-sm text-zinc-200">
+                    <span className="font-semibold text-zinc-50">{sel.a}</span>
+                    <span className="mx-2 text-zinc-600">×</span>
+                    <span className="font-semibold text-zinc-50">{sel.b}</span>
                   </p>
-                  {topCorr.length > 0 && celda && (
-                    <div className="mt-3 flex flex-wrap items-center gap-1.5">
-                      <span className="text-[11px] text-zinc-500">Top de {CORR_VARS[celda.i]}:</span>
-                      {topCorr.map((t) => (
-                        <span key={t.v} className="rounded-md px-2 py-0.5 font-mono text-[11px]" style={{ background: heatColor(t.c, 0.55), color: "#fff" }}>
-                          {t.v} {fmt(t.c, 2)}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </motion.div>
-              ) : (
-                <motion.p key="hint" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-4 flex items-center gap-2 text-xs text-zinc-600">
-                  <MousePointerClick size={14} /> Pasa el cursor sobre una celda para inspeccionarla.
-                </motion.p>
-              )}
-            </AnimatePresence>
+                  <Badge tone={sel.v >= 0 ? "emerald" : "rose"}>
+                    {sel.v >= 0 ? <TrendingUp size={12} /> : <TrendingDown size={12} />} r = {fmt(sel.v, 2)}
+                  </Badge>
+                </div>
+                <p className="mt-2 text-xs leading-relaxed text-zinc-400">
+                  {Math.abs(sel.v) >= 0.35
+                    ? "Una de las pocas asociaciones visibles: corresponde a variables conceptualmente solapadas (mismo bloque), no a un eje consumo–daño."
+                    : Math.abs(sel.v) >= 0.1
+                      ? "Asociación débil: variación leve sin significación estructural según la interpretación del paper (§5.1)."
+                      : "Asociación prácticamente nula: las dimensiones operan de manera relativamente independiente."}
+                </p>
+                {topCorr.length > 0 && celda && (
+                  <div className="mt-3 flex flex-wrap items-center gap-1.5">
+                    <span className="text-[11px] text-zinc-500">Top de {CORR_VARS[celda.i]}:</span>
+                    {topCorr.map((t) => (
+                      <span key={t.v} className="rounded-md px-2 py-0.5 font-mono text-[11px]" style={{ background: heatColor(t.c, 0.55), color: "#fff" }}>
+                        {t.v} {fmt(t.c, 2)}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <p className="mt-4 flex items-center gap-2 text-xs text-zinc-600">
+                <MousePointerClick size={14} /> Pasa el cursor sobre una celda para inspeccionarla.
+              </p>
+            )}
           </Card>
         </FadeIn>
 
@@ -220,11 +216,11 @@ export default function Heatmap() {
                         const t = k / 27;
                         const on = t <= f.peso / maxPeso;
                         return (
-                          <motion.span key={k}
-                            initial={{ opacity: 0, scaleY: 0.4 }} whileInView={{ opacity: 1, scaleY: 1 }} viewport={{ once: true }}
-                            transition={{ delay: idx * 0.05 + k * 0.008, duration: 0.3 }}
+                          <span
+                            key={k}
                             className="flex-1 rounded-[3px]"
-                            style={{ background: on ? `hsl(38, ${55 + t * 35}%, ${22 + t * 30}%)` : "rgba(255,255,255,0.05)" }} />
+                            style={{ background: on ? `hsl(38, ${55 + t * 35}%, ${22 + t * 30}%)` : "rgba(255,255,255,0.05)" }}
+                          />
                         );
                       })}
                     </div>
@@ -261,10 +257,12 @@ export default function Heatmap() {
               <svg viewBox="0 0 100 100" className="h-full w-full">
                 <rect x="8" y="4" width="88" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.09)" rx="3" />
                 <line x1="8" y1="92" x2="96" y2="4" stroke="#71717a" strokeWidth="0.7" strokeDasharray="3 3" />
-                <motion.path
+                <path
                   d={`M ${ROC_POINTS.map((p) => `${8 + p.fpr * 88},${92 - p.tpr * 88}`).join(" L ")}`}
-                  fill="none" stroke="#fb7185" strokeWidth="2.2" strokeLinejoin="round"
-                  initial={{ pathLength: 0 }} whileInView={{ pathLength: 1 }} viewport={{ once: true }} transition={{ duration: 1.4 }}
+                  fill="none"
+                  stroke="#fb7185"
+                  strokeWidth="2.2"
+                  strokeLinejoin="round"
                 />
                 {ROC_POINTS.map((p, i) => (
                   <circle key={i} cx={8 + p.fpr * 88} cy={92 - p.tpr * 88} r="1.7" fill="#fb7185" />

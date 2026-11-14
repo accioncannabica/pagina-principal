@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState, type ComponentType } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import {
   LayoutDashboard,
   FlaskConical,
@@ -95,6 +94,7 @@ const TICKER: [string, string, string][] = [
   ["Legalización", "69,3%", "apoyo"],
   ["Autocultivo", "65,2%", "acceso"],
 ];
+
 
 const isSection = (value: string | undefined): value is SectionId => NAV.some((item) => item.id === value);
 
@@ -204,17 +204,9 @@ export function PatronesPage({ initialSection, onSectionChange }: PatronesPagePr
         </div>
 
         <main className="mt-5">
-          <AnimatePresence mode="wait" initial={!prefersReducedMotion}>
-            <motion.div
-              key={section}
-              initial={prefersReducedMotion ? false : { opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={prefersReducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: -10 }}
-              transition={prefersReducedMotion ? { duration: 0 } : { duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <View />
-            </motion.div>
-          </AnimatePresence>
+          <div>
+            <View />
+          </div>
         </main>
 
         <footer className="mt-6 flex flex-col gap-3 rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-5 text-xs text-emerald-50/60 sm:flex-row sm:items-center sm:justify-between sm:px-6">

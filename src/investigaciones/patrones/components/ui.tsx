@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { motion } from "framer-motion";
 import { cn } from "../utils/cn";
 
 export const EASE = [0.22, 1, 0.36, 1] as const;
@@ -99,29 +98,13 @@ export function ProgressBar({ value, tone = "emerald", className }: { value: num
   const bar = { emerald: "bg-emerald-400", amber: "bg-amber-400", rose: "bg-rose-400" }[tone];
   return (
     <div className={cn("h-1.5 w-full overflow-hidden rounded-full bg-white/[0.06]", className)}>
-      <motion.div
-        className={cn("h-full rounded-full", bar)}
-        initial={{ width: 0 }}
-        whileInView={{ width: `${Math.min(100, value)}%` }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.9, ease: EASE }}
-      />
+      <div className={cn("h-full rounded-full", bar)} style={{ width: `${Math.min(100, value)}%` }} />
     </div>
   );
 }
 
 export function FadeIn({ children, delay = 0, className }: { children: ReactNode; delay?: number; className?: string }) {
-  return (
-    <motion.div
-      className={className}
-      initial={{ opacity: 0, y: 14 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.55, delay, ease: EASE }}
-    >
-      {children}
-    </motion.div>
-  );
+  return <div className={className} style={delay ? { transitionDelay: `${delay}s` } : undefined}>{children}</div>;
 }
 
 // Escala de color divergente para mapas de calor: esmeralda (+) ↔ rojo (−), sólido por celda

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "../../../lib/motion-lite";
 import { Code2, Copy, Check, FileCode2, Library, Filter } from "lucide-react";
 import { Card, SectionHeader, Badge, FadeIn } from "./ui";
 import { CODIGO } from "../data/research";

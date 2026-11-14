@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "../../../lib/motion-lite";
 import {
   ClipboardList, RotateCcw, CheckCircle2, Users, Leaf, HeartPulse, ShieldAlert, Sparkles, Search, ChevronDown, ListOrdered,
 } from "lucide-react";

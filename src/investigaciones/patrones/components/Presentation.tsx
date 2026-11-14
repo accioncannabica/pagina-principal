@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "../../../lib/motion-lite";
 import {
   ChevronLeft, ChevronRight, Leaf, Globe2, Target, Users, Sprout, HeartPulse,
   Landmark, BrainCircuit, GitCompareArrows, Code2, Flag, Maximize2,
