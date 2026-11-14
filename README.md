@@ -50,7 +50,8 @@ Los gráficos están hechos a medida en SVG (no se usa ninguna librería de grá
 
 ## Requisitos previos
 
-- Node.js y npm. El repositorio no declara una versión requerida (no hay campo `engines` ni `.nvmrc`); la build se verificó con Node.js 22.15.0.
+- Node.js 22.15.0 (definido en `.nvmrc`) y npm 10.x compatible.
+- Python 3.11+ con `requests`, `pandas` y `python-dotenv` para ejecutar los scripts de datos del observatorio (`scripts/observatorio/`).
 
 ## Instalación y ejecución
 
@@ -58,6 +59,12 @@ Los gráficos están hechos a medida en SVG (no se usa ninguna librería de grá
 npm ci          # instala las dependencias según package-lock.json
 npm run dev     # servidor de desarrollo de Vite
 ```
+
+## Trabajo con Codex CLI
+
+- Revisa `.codex/instructions.md` para las pautas de estilo, flujo issue → plan → implementación y checklists de arranque.
+- Sigue `docs/codex.md` para el paso a paso de inicialización en esta terminal (instalación, validaciones y scripts frecuentes).
+- Antes de implementar cambios, ejecuta `npx tsc --noEmit`, `npm run build` y `npm run test:observatorio` según el alcance.
 
 ## Scripts disponibles
 
@@ -81,4 +88,6 @@ No hay pipelines de CI/CD, Docker ni infraestructura como código en el reposito
 ## Documentación
 
 - [`docs/overview.md`](docs/overview.md): propósito, arquitectura, organización del código y flujos.
+- [`docs/codex.md`](docs/codex.md): guía extendida para trabajar con Codex CLI.
+- [`.codex/instructions.md`](.codex/instructions.md): resumen operativo específico para Codex.
 - [`.github/copilot-instructions.md`](.github/copilot-instructions.md): guía para GitHub Copilot en este repositorio.
