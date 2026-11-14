@@ -1,0 +1,1130 @@
+{
+  "records": [
+    {
+      "id": "nyc-2025-B",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Bronx",
+      "level": "municipality",
+      "lat": 40.85,
+      "lon": -73.87,
+      "year": 2025,
+      "arrests": 140,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2025-K",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Brooklyn",
+      "level": "municipality",
+      "lat": 40.65,
+      "lon": -73.95,
+      "year": 2025,
+      "arrests": 49,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2025-M",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Manhattan",
+      "level": "municipality",
+      "lat": 40.78,
+      "lon": -73.97,
+      "year": 2025,
+      "arrests": 49,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2025-Q",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Queens",
+      "level": "municipality",
+      "lat": 40.73,
+      "lon": -73.79,
+      "year": 2025,
+      "arrests": 161,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2025-S",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Staten Island",
+      "level": "municipality",
+      "lat": 40.58,
+      "lon": -74.15,
+      "year": 2025,
+      "arrests": 8,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2024-B",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Bronx",
+      "level": "municipality",
+      "lat": 40.85,
+      "lon": -73.87,
+      "year": 2024,
+      "arrests": 94,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2024-K",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Brooklyn",
+      "level": "municipality",
+      "lat": 40.65,
+      "lon": -73.95,
+      "year": 2024,
+      "arrests": 51,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2024-M",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Manhattan",
+      "level": "municipality",
+      "lat": 40.78,
+      "lon": -73.97,
+      "year": 2024,
+      "arrests": 59,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2024-Q",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Queens",
+      "level": "municipality",
+      "lat": 40.73,
+      "lon": -73.79,
+      "year": 2024,
+      "arrests": 190,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2024-S",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Staten Island",
+      "level": "municipality",
+      "lat": 40.58,
+      "lon": -74.15,
+      "year": 2024,
+      "arrests": 5,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2023-B",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Bronx",
+      "level": "municipality",
+      "lat": 40.85,
+      "lon": -73.87,
+      "year": 2023,
+      "arrests": 94,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2023-K",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Brooklyn",
+      "level": "municipality",
+      "lat": 40.65,
+      "lon": -73.95,
+      "year": 2023,
+      "arrests": 69,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2023-M",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Manhattan",
+      "level": "municipality",
+      "lat": 40.78,
+      "lon": -73.97,
+      "year": 2023,
+      "arrests": 82,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2023-Q",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Queens",
+      "level": "municipality",
+      "lat": 40.73,
+      "lon": -73.79,
+      "year": 2023,
+      "arrests": 179,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2023-S",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Staten Island",
+      "level": "municipality",
+      "lat": 40.58,
+      "lon": -74.15,
+      "year": 2023,
+      "arrests": 19,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2022-B",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Bronx",
+      "level": "municipality",
+      "lat": 40.85,
+      "lon": -73.87,
+      "year": 2022,
+      "arrests": 34,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2022-K",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Brooklyn",
+      "level": "municipality",
+      "lat": 40.65,
+      "lon": -73.95,
+      "year": 2022,
+      "arrests": 26,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2022-M",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Manhattan",
+      "level": "municipality",
+      "lat": 40.78,
+      "lon": -73.97,
+      "year": 2022,
+      "arrests": 23,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2022-Q",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Queens",
+      "level": "municipality",
+      "lat": 40.73,
+      "lon": -73.79,
+      "year": 2022,
+      "arrests": 44,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    },
+    {
+      "id": "nyc-2022-S",
+      "iso": "USA",
+      "province": "Nueva York",
+      "municipality": "Nueva York",
+      "district": "Staten Island",
+      "level": "municipality",
+      "lat": 40.58,
+      "lon": -74.15,
+      "year": 2022,
+      "arrests": 4,
+      "prosecuted": null,
+      "imprisoned": null,
+      "scope": "cannabis",
+      "unit": "arrest-records",
+      "sourceUrl": "https://data.cityofnewyork.us/d/8h9b-rp9u",
+      "sourceName": "NYPD / NYC Open Data",
+      "note": "Registros de detención del municipio, no personas únicas ni total de EE. UU. Selección por descripción MARIJUANA/CANNABIS; el año puede ser parcial."
+    }
+  ],
+  "points": [
+    {
+      "id": "cell-2022-B-44",
+      "year": 2022,
+      "borough": "Bronx",
+      "lat": 40.83,
+      "lon": -73.92,
+      "value": 7
+    },
+    {
+      "id": "cell-2022-B-46",
+      "year": 2022,
+      "borough": "Bronx",
+      "lat": 40.86,
+      "lon": -73.9,
+      "value": 5
+    },
+    {
+      "id": "cell-2022-B-52",
+      "year": 2022,
+      "borough": "Bronx",
+      "lat": 40.87,
+      "lon": -73.89,
+      "value": 7
+    },
+    {
+      "id": "cell-2022-Q-105",
+      "year": 2022,
+      "borough": "Queens",
+      "lat": 40.68,
+      "lon": -73.74,
+      "value": 5
+    },
+    {
+      "id": "cell-2022-Q-108",
+      "year": 2022,
+      "borough": "Queens",
+      "lat": 40.74,
+      "lon": -73.94,
+      "value": 5
+    },
+    {
+      "id": "cell-2022-Q-109",
+      "year": 2022,
+      "borough": "Queens",
+      "lat": 40.77,
+      "lon": -73.83,
+      "value": 6
+    },
+    {
+      "id": "cell-2022-Q-110",
+      "year": 2022,
+      "borough": "Queens",
+      "lat": 40.74,
+      "lon": -73.86,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-B-40",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.82,
+      "lon": -73.92,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-B-41",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.82,
+      "lon": -73.89,
+      "value": 9
+    },
+    {
+      "id": "cell-2023-B-43",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.83,
+      "lon": -73.86,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-B-44",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.84,
+      "lon": -73.92,
+      "value": 10
+    },
+    {
+      "id": "cell-2023-B-45",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.83,
+      "lon": -73.83,
+      "value": 14
+    },
+    {
+      "id": "cell-2023-B-46",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.85,
+      "lon": -73.9,
+      "value": 13
+    },
+    {
+      "id": "cell-2023-B-47",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.88,
+      "lon": -73.86,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-B-49",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.86,
+      "lon": -73.86,
+      "value": 8
+    },
+    {
+      "id": "cell-2023-B-52",
+      "year": 2023,
+      "borough": "Bronx",
+      "lat": 40.87,
+      "lon": -73.89,
+      "value": 16
+    },
+    {
+      "id": "cell-2023-K-60",
+      "year": 2023,
+      "borough": "Brooklyn",
+      "lat": 40.58,
+      "lon": -73.99,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-K-66",
+      "year": 2023,
+      "borough": "Brooklyn",
+      "lat": 40.64,
+      "lon": -73.99,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-K-68",
+      "year": 2023,
+      "borough": "Brooklyn",
+      "lat": 40.63,
+      "lon": -74.02,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-K-72",
+      "year": 2023,
+      "borough": "Brooklyn",
+      "lat": 40.64,
+      "lon": -74.01,
+      "value": 7
+    },
+    {
+      "id": "cell-2023-K-73",
+      "year": 2023,
+      "borough": "Brooklyn",
+      "lat": 40.67,
+      "lon": -73.91,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-K-94",
+      "year": 2023,
+      "borough": "Brooklyn",
+      "lat": 40.72,
+      "lon": -73.94,
+      "value": 11
+    },
+    {
+      "id": "cell-2023-M-6",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.73,
+      "lon": -74,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-M-18",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.76,
+      "lon": -73.99,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-M-23",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.79,
+      "lon": -73.95,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-M-25",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.8,
+      "lon": -73.93,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-M-28",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.81,
+      "lon": -73.95,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-M-33",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.84,
+      "lon": -73.94,
+      "value": 9
+    },
+    {
+      "id": "cell-2023-M-34",
+      "year": 2023,
+      "borough": "Manhattan",
+      "lat": 40.86,
+      "lon": -73.92,
+      "value": 10
+    },
+    {
+      "id": "cell-2023-Q-101",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.6,
+      "lon": -73.76,
+      "value": 5
+    },
+    {
+      "id": "cell-2023-Q-102",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.69,
+      "lon": -73.85,
+      "value": 13
+    },
+    {
+      "id": "cell-2023-Q-103",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.7,
+      "lon": -73.8,
+      "value": 10
+    },
+    {
+      "id": "cell-2023-Q-104",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.7,
+      "lon": -73.9,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-Q-105",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.68,
+      "lon": -73.74,
+      "value": 25
+    },
+    {
+      "id": "cell-2023-Q-106",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.68,
+      "lon": -73.83,
+      "value": 9
+    },
+    {
+      "id": "cell-2023-Q-108",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.75,
+      "lon": -73.91,
+      "value": 9
+    },
+    {
+      "id": "cell-2023-Q-109",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.77,
+      "lon": -73.82,
+      "value": 14
+    },
+    {
+      "id": "cell-2023-Q-110",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.74,
+      "lon": -73.88,
+      "value": 8
+    },
+    {
+      "id": "cell-2023-Q-112",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.72,
+      "lon": -73.85,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-Q-113",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.68,
+      "lon": -73.78,
+      "value": 52
+    },
+    {
+      "id": "cell-2023-Q-114",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.76,
+      "lon": -73.93,
+      "value": 14
+    },
+    {
+      "id": "cell-2023-Q-115",
+      "year": 2023,
+      "borough": "Queens",
+      "lat": 40.75,
+      "lon": -73.87,
+      "value": 6
+    },
+    {
+      "id": "cell-2023-S-120",
+      "year": 2023,
+      "borough": "Staten Island",
+      "lat": 40.63,
+      "lon": -74.08,
+      "value": 13
+    },
+    {
+      "id": "cell-2024-B-40",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.82,
+      "lon": -73.92,
+      "value": 20
+    },
+    {
+      "id": "cell-2024-B-41",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.82,
+      "lon": -73.89,
+      "value": 11
+    },
+    {
+      "id": "cell-2024-B-44",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.83,
+      "lon": -73.92,
+      "value": 9
+    },
+    {
+      "id": "cell-2024-B-45",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.83,
+      "lon": -73.82,
+      "value": 5
+    },
+    {
+      "id": "cell-2024-B-46",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.86,
+      "lon": -73.9,
+      "value": 8
+    },
+    {
+      "id": "cell-2024-B-47",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.89,
+      "lon": -73.85,
+      "value": 7
+    },
+    {
+      "id": "cell-2024-B-48",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.85,
+      "lon": -73.89,
+      "value": 6
+    },
+    {
+      "id": "cell-2024-B-49",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.86,
+      "lon": -73.86,
+      "value": 8
+    },
+    {
+      "id": "cell-2024-B-52",
+      "year": 2024,
+      "borough": "Bronx",
+      "lat": 40.87,
+      "lon": -73.89,
+      "value": 13
+    },
+    {
+      "id": "cell-2024-K-67",
+      "year": 2024,
+      "borough": "Brooklyn",
+      "lat": 40.65,
+      "lon": -73.94,
+      "value": 5
+    },
+    {
+      "id": "cell-2024-K-68",
+      "year": 2024,
+      "borough": "Brooklyn",
+      "lat": 40.62,
+      "lon": -74.02,
+      "value": 5
+    },
+    {
+      "id": "cell-2024-K-75",
+      "year": 2024,
+      "borough": "Brooklyn",
+      "lat": 40.68,
+      "lon": -73.89,
+      "value": 9
+    },
+    {
+      "id": "cell-2024-M-1",
+      "year": 2024,
+      "borough": "Manhattan",
+      "lat": 40.71,
+      "lon": -74.01,
+      "value": 5
+    },
+    {
+      "id": "cell-2024-M-33",
+      "year": 2024,
+      "borough": "Manhattan",
+      "lat": 40.84,
+      "lon": -73.94,
+      "value": 10
+    },
+    {
+      "id": "cell-2024-M-34",
+      "year": 2024,
+      "borough": "Manhattan",
+      "lat": 40.86,
+      "lon": -73.93,
+      "value": 10
+    },
+    {
+      "id": "cell-2024-Q-101",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.6,
+      "lon": -73.77,
+      "value": 19
+    },
+    {
+      "id": "cell-2024-Q-102",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.7,
+      "lon": -73.84,
+      "value": 23
+    },
+    {
+      "id": "cell-2024-Q-103",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.7,
+      "lon": -73.8,
+      "value": 11
+    },
+    {
+      "id": "cell-2024-Q-104",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.7,
+      "lon": -73.9,
+      "value": 6
+    },
+    {
+      "id": "cell-2024-Q-105",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.68,
+      "lon": -73.74,
+      "value": 10
+    },
+    {
+      "id": "cell-2024-Q-107",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.73,
+      "lon": -73.8,
+      "value": 5
+    },
+    {
+      "id": "cell-2024-Q-108",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.74,
+      "lon": -73.93,
+      "value": 9
+    },
+    {
+      "id": "cell-2024-Q-109",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.77,
+      "lon": -73.83,
+      "value": 11
+    },
+    {
+      "id": "cell-2024-Q-113",
+      "year": 2024,
+      "borough": "Queens",
+      "lat": 40.68,
+      "lon": -73.78,
+      "value": 83
+    },
+    {
+      "id": "cell-2025-B-40",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.81,
+      "lon": -73.91,
+      "value": 24
+    },
+    {
+      "id": "cell-2025-B-41",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.82,
+      "lon": -73.9,
+      "value": 12
+    },
+    {
+      "id": "cell-2025-B-42",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.82,
+      "lon": -73.91,
+      "value": 6
+    },
+    {
+      "id": "cell-2025-B-43",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.83,
+      "lon": -73.86,
+      "value": 15
+    },
+    {
+      "id": "cell-2025-B-44",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.84,
+      "lon": -73.92,
+      "value": 12
+    },
+    {
+      "id": "cell-2025-B-45",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.84,
+      "lon": -73.83,
+      "value": 9
+    },
+    {
+      "id": "cell-2025-B-46",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.85,
+      "lon": -73.91,
+      "value": 19
+    },
+    {
+      "id": "cell-2025-B-47",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.88,
+      "lon": -73.85,
+      "value": 12
+    },
+    {
+      "id": "cell-2025-B-48",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.86,
+      "lon": -73.89,
+      "value": 5
+    },
+    {
+      "id": "cell-2025-B-49",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.86,
+      "lon": -73.86,
+      "value": 10
+    },
+    {
+      "id": "cell-2025-B-52",
+      "year": 2025,
+      "borough": "Bronx",
+      "lat": 40.87,
+      "lon": -73.89,
+      "value": 13
+    },
+    {
+      "id": "cell-2025-K-68",
+      "year": 2025,
+      "borough": "Brooklyn",
+      "lat": 40.63,
+      "lon": -74.01,
+      "value": 8
+    },
+    {
+      "id": "cell-2025-K-72",
+      "year": 2025,
+      "borough": "Brooklyn",
+      "lat": 40.65,
+      "lon": -74,
+      "value": 5
+    },
+    {
+      "id": "cell-2025-K-75",
+      "year": 2025,
+      "borough": "Brooklyn",
+      "lat": 40.68,
+      "lon": -73.88,
+      "value": 11
+    },
+    {
+      "id": "cell-2025-M-25",
+      "year": 2025,
+      "borough": "Manhattan",
+      "lat": 40.8,
+      "lon": -73.94,
+      "value": 12
+    },
+    {
+      "id": "cell-2025-M-33",
+      "year": 2025,
+      "borough": "Manhattan",
+      "lat": 40.84,
+      "lon": -73.94,
+      "value": 5
+    },
+    {
+      "id": "cell-2025-M-34",
+      "year": 2025,
+      "borough": "Manhattan",
+      "lat": 40.86,
+      "lon": -73.93,
+      "value": 15
+    },
+    {
+      "id": "cell-2025-Q-101",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.6,
+      "lon": -73.76,
+      "value": 9
+    },
+    {
+      "id": "cell-2025-Q-102",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.69,
+      "lon": -73.85,
+      "value": 9
+    },
+    {
+      "id": "cell-2025-Q-103",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.71,
+      "lon": -73.79,
+      "value": 6
+    },
+    {
+      "id": "cell-2025-Q-105",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.7,
+      "lon": -73.73,
+      "value": 7
+    },
+    {
+      "id": "cell-2025-Q-108",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.74,
+      "lon": -73.92,
+      "value": 12
+    },
+    {
+      "id": "cell-2025-Q-113",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.67,
+      "lon": -73.78,
+      "value": 86
+    },
+    {
+      "id": "cell-2025-Q-115",
+      "year": 2025,
+      "borough": "Queens",
+      "lat": 40.76,
+      "lon": -73.87,
+      "value": 7
+    },
+    {
+      "id": "cell-2025-S-120",
+      "year": 2025,
+      "borough": "Staten Island",
+      "lat": 40.63,
+      "lon": -74.09,
+      "value": 7
+    }
+  ],
+  "queries": [
+    "https://data.cityofnewyork.us/resource/8h9b-rp9u.json?%24where=arrest_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+%28upper%28pd_desc%29+like+%27%25MARIJUANA%25%27+OR+upper%28pd_desc%29+like+%27%25CANNABIS%25%27%29&%24select=date_extract_y%28arrest_date%29+as+year%2C+arrest_boro%2C+count%28*%29+as+arrests&%24group=date_extract_y%28arrest_date%29%2C+arrest_boro&%24order=year+DESC&%24limit=500",
+    "https://data.cityofnewyork.us/resource/8h9b-rp9u.json?%24where=arrest_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+%28upper%28pd_desc%29+like+%27%25MARIJUANA%25%27+OR+upper%28pd_desc%29+like+%27%25CANNABIS%25%27%29+AND+latitude+between+40.4+and+41+AND+longitude+between+-74.3+and+-73.6&%24select=date_extract_y%28arrest_date%29+as+year%2C+arrest_boro%2C+arrest_precinct%2C+avg%28latitude%29+as+lat%2C+avg%28longitude%29+as+lon%2C+count%28*%29+as+arrests&%24group=date_extract_y%28arrest_date%29%2C+arrest_boro%2C+arrest_precinct&%24having=count%28*%29+%3E%3D+5&%24limit=5000",
+    "https://data.cityofnewyork.us/resource/8h9b-rp9u.json?%24where=arrest_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+%28upper%28pd_desc%29+like+%27%25MARIJUANA%25%27+OR+upper%28pd_desc%29+like+%27%25CANNABIS%25%27%29&%24select=max%28arrest_date%29+as+through"
+  ],
+  "retrievedAt": "2026-10-30T19:41:49.702Z",
+  "through": "2025-12-31",
+  "sourceUpdatedAt": "2026-04-28T15:56:20.000Z"
+}

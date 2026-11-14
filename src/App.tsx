@@ -7,6 +7,7 @@ import Inicio from "./sections/Inicio";
 import QuienesSomos from "./sections/QuienesSomos";
 import Recorrido from "./sections/Recorrido";
 import Novedades from "./sections/Novedades";
+import EnConstruccion from "./sections/EnConstruccion";
 import Redes from "./sections/Redes";
 import Reprocann from "./sections/Reprocann";
 import Facc from "./sections/Facc";
@@ -14,19 +15,21 @@ import DataLab from "./sections/DataLab";
 import Harness from "./sections/Harness";
 import { Donaciones, Tienda } from "./sections/Comercial";
 import Contacto from "./sections/Contacto";
+import ObservatorioPage from "./observatorio/ObservatorioPage";
 
-const GRUPOS = ["Tablero", "Institucional", "Redes", "Programas", "Datos", "Acción"] as const;
+const GRUPOS = ["Tablero", "Institucional", "Investigaciones", "Observatorio", "Redes", "Programas", "Datos", "Acción"] as const;
 
 export default function App() {
   const [vista, setVista] = useState<Vista>(() => {
-    const h = (typeof window !== "undefined" ? window.location.hash.replace("#", "") : "") as Vista;
+    const h = (typeof window !== "undefined" ? window.location.hash.replace("#", "").split("/")[0] : "") as Vista;
     return NAV_VISIBLE.some((n) => n.id === h) ? h : "inicio";
   });
   const [q, setQ] = useState("");
   const [menu, setMenu] = useState(false);
 
   useEffect(() => {
-    window.location.hash = vista;
+    // El observatorio guarda su pestaña como "#observatorio/<pestaña>": no pisar la sub-ruta.
+    if (window.location.hash.replace("#", "").split("/")[0] !== vista) window.location.hash = vista;
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [vista]);
 
@@ -64,6 +67,10 @@ export default function App() {
         return <Recorrido />;
       case "novedades":
         return <Novedades />;
+      case "patrones":
+        return <EnConstruccion titulo="Patrones de Consumo" />;
+      case "observatorio":
+        return <ObservatorioPage />;
       case "redes":
         return <Redes irA={irA} />;
       case "reprocann":
@@ -238,7 +245,8 @@ export default function App() {
               </p>
               <h1 className="mt-2 text-2xl font-semibold tracking-tight text-white sm:text-3xl">{item.bajada}</h1>
             </div>
-            <VistaActual />
+            {/* Llamada directa: como componente, VistaActual se redefine en cada render y remontaría la vista. */}
+            {VistaActual()}
           </div>
 
           {/* Footer */}

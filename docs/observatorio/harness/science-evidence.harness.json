@@ -1,0 +1,23 @@
+{
+  "name": "cannabis-science-evidence",
+  "schemaVersion": 1,
+  "topic": { "id": "T10414", "name": "Cannabis and Cannabinoid Research" },
+  "literature": {
+    "fromYear": 2020,
+    "maxSampleWorks": 100,
+    "maxMappedInstitutions": 100,
+    "retractedAllowed": false,
+    "requiredAggregates": ["publication_year", "authorships.institutions.country_code"]
+  },
+  "events": {
+    "requiredFields": ["id", "name", "iso", "city", "kind", "sourceUrl", "verifiedAt"],
+    "scientificKinds": ["Congreso científico", "Simposio", "Jornada académica"],
+    "coordinatePolicy": "nullable; never infer a private or street address"
+  },
+  "maps": {
+    "countryGradient": "count of records in selected universe",
+    "heatWeightLiterature": "works affiliated with institution",
+    "heatWeightEvents": "one per documented edition",
+    "notAllowed": ["attendance inferred from points", "clinical efficacy inferred from citations"]
+  }
+}

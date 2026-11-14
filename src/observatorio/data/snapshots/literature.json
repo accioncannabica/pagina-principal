@@ -1,0 +1,4557 @@
+{
+  "retrievedAt": "2026-10-30T22:04:55.201Z",
+  "sourceUpdatedAt": null,
+  "topicId": "T10414",
+  "topicName": "Cannabis and Cannabinoid Research",
+  "fromDate": "2020-01-01",
+  "throughDate": "2026-10-30",
+  "totalWorks": 50685,
+  "works": [
+    {
+      "id": "W3131397527",
+      "title": "Cannabis use and cannabis use disorder",
+      "year": 2021,
+      "publicationDate": "2021-02-25",
+      "citations": 552,
+      "doi": "https://doi.org/10.1038/s41572-021-00247-4",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8655458",
+      "type": "review",
+      "source": "Nature Reviews Disease Primers",
+      "authors": [
+        "Jason P. Connor",
+        "Daniel Stjepanović",
+        "Bernard Le Foll",
+        "Eva Hoch",
+        "Alan Jeffrey Budney",
+        "Wayne Hall"
+      ],
+      "institutions": [
+        "The University of Queensland",
+        "Centre for Addiction and Mental Health",
+        "University of Toronto",
+        "Campbell Family Mental Health Research Institute",
+        "LMU Klinikum",
+        "Ludwig-Maximilians-Universität München",
+        "Dartmouth College"
+      ],
+      "countries": [
+        "AU",
+        "CA",
+        "DE",
+        "US"
+      ]
+    },
+    {
+      "id": "W3046433489",
+      "title": "Review of the Endocannabinoid System",
+      "year": 2020,
+      "publicationDate": "2020-08-01",
+      "citations": 497,
+      "doi": "https://doi.org/10.1016/j.bpsc.2020.07.016",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7855189",
+      "type": "review",
+      "source": "Biological Psychiatry Cognitive Neuroscience and Neuroimaging",
+      "authors": [
+        "Hui‐Chen Lu",
+        "Ken Mackie"
+      ],
+      "institutions": [
+        "Indiana University Bloomington",
+        "Indiana University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3037140548",
+      "title": "The Seed of Industrial Hemp (Cannabis sativa L.): Nutritional Quality and Potential Functionality for Human Health and Nutrition",
+      "year": 2020,
+      "publicationDate": "2020-06-29",
+      "citations": 473,
+      "doi": "https://doi.org/10.3390/nu12071935",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/2072-6643/12/7/1935/pdf?version=1593671774",
+      "type": "review",
+      "source": "Nutrients",
+      "authors": [
+        "Barbara Farinon",
+        "Romina Molinari",
+        "Lara Costantini",
+        "Nicolò Merendino"
+      ],
+      "institutions": [
+        "Università degli Studi della Tuscia"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "id": "W3160356862",
+      "title": "Cannabinoids, Phenolics, Terpenes and Alkaloids of Cannabis",
+      "year": 2021,
+      "publicationDate": "2021-05-08",
+      "citations": 397,
+      "doi": "https://doi.org/10.3390/molecules26092774",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1420-3049/26/9/2774/pdf?version=1620615945",
+      "type": "review",
+      "source": "Molecules",
+      "authors": [
+        "Mohamed M. Radwan",
+        "Suman Chandra",
+        "Shahbaz W. Gul",
+        "Mahmoud A. ElSohly"
+      ],
+      "institutions": [
+        "University of Mississippi",
+        "ElSohly Laboratories (United States)"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3039416955",
+      "title": "Phytocannabinoids: Origins and Biosynthesis",
+      "year": 2020,
+      "publicationDate": "2020-07-06",
+      "citations": 396,
+      "doi": "https://doi.org/10.1016/j.tplants.2020.05.005",
+      "openAccess": true,
+      "openAccessUrl": "http://www.cell.com/article/S1360138520301874/pdf",
+      "type": "review",
+      "source": "Trends in Plant Science",
+      "authors": [
+        "Thies Gülck",
+        "Birger Lindberg Møller"
+      ],
+      "institutions": [
+        "University of Copenhagen"
+      ],
+      "countries": [
+        "DK"
+      ]
+    },
+    {
+      "id": "W3035571789",
+      "title": "Applications of hemp in textiles, paper industry, insulation and building materials, horticulture, animal nutrition, food and beverages, nutraceuticals, cosmetics and hygiene, medicine, agrochemistry, energy production and environment: a review",
+      "year": 2020,
+      "publicationDate": "2020-06-08",
+      "citations": 396,
+      "doi": "https://doi.org/10.1007/s10311-020-01029-2",
+      "openAccess": true,
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s10311-020-01029-2.pdf",
+      "type": "review",
+      "source": "Environmental Chemistry Letters",
+      "authors": [
+        "Grégorio Crini",
+        "Eric A. Lichtfouse",
+        "Gilles Chanet",
+        "Nadia Morin‐Crini"
+      ],
+      "institutions": [
+        "Laboratoire Chrono-Environnement",
+        "Université Bourgogne Franche-Comté",
+        "Centre National de la Recherche Scientifique",
+        "Aix-Marseille Université",
+        "Centre de Recherche et d’Enseignement de Géosciences de l’Environnement",
+        "Institut de Recherche pour le Développement"
+      ],
+      "countries": [
+        "FR"
+      ]
+    },
+    {
+      "id": "W3026114055",
+      "title": "What is the prevalence and risk of cannabis use disorders among people who use cannabis? a systematic review and meta-analysis",
+      "year": 2020,
+      "publicationDate": "2020-05-20",
+      "citations": 358,
+      "doi": "https://doi.org/10.1016/j.addbeh.2020.106479",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "review",
+      "source": "Addictive Behaviors",
+      "authors": [
+        "Janni Leung",
+        "Gary Chan",
+        "Leanne M. Hides",
+        "Wayne Hall"
+      ],
+      "institutions": [
+        "The University of Queensland"
+      ],
+      "countries": [
+        "AU"
+      ]
+    },
+    {
+      "id": "W3007489329",
+      "title": "Secondary Metabolites Profiled in Cannabis Inflorescences, Leaves, Stem Barks, and Roots for Medicinal Purposes",
+      "year": 2020,
+      "publicationDate": "2020-02-24",
+      "citations": 347,
+      "doi": "https://doi.org/10.1038/s41598-020-60172-6",
+      "openAccess": true,
+      "openAccessUrl": "https://www.nature.com/articles/s41598-020-60172-6.pdf",
+      "type": "article",
+      "source": "Scientific Reports",
+      "authors": [
+        "Dan Jin",
+        "Kaiping Dai",
+        "Zhen Xie",
+        "Jie Chen"
+      ],
+      "institutions": [
+        "University of Alberta"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W3094181094",
+      "title": "A large-scale genome-wide association study meta-analysis of cannabis use disorder",
+      "year": 2020,
+      "publicationDate": "2020-10-20",
+      "citations": 344,
+      "doi": "https://doi.org/10.1016/s2215-0366(20)30339-4",
+      "openAccess": true,
+      "openAccessUrl": "http://www.thelancet.com/article/S2215036620303394/pdf",
+      "type": "review",
+      "source": "The Lancet Psychiatry",
+      "authors": [
+        "Emma C. Johnson",
+        "Ditte Demontis",
+        "Thorgeir Elís Thorgeirsson",
+        "Raymond Kenney Walters",
+        "Renato A Polimanti",
+        "Alexander Samir Hatoum",
+        "Sandra Sanchez‐Roige",
+        "Sarah E. Paul"
+      ],
+      "institutions": [
+        "RTI International",
+        "Washington University in St. Louis",
+        "Aarhus University",
+        "Lundbeck Foundation",
+        "Broad Institute",
+        "Harvard University",
+        "Massachusetts General Hospital",
+        "Stanley Center for Psychiatric Research",
+        "Massachusetts Institute of Technology",
+        "Yale University",
+        "VA Connecticut Healthcare System",
+        "University of California San Diego",
+        "Vanderbilt University Medical Center",
+        "University of Edinburgh",
+        "Indiana University Indianapolis",
+        "Indiana University School of Medicine",
+        "University of Pittsburgh Medical Center",
+        "University of Iceland",
+        "Virginia Commonwealth University",
+        "University of Utah",
+        "SUNY Downstate Health Sciences University",
+        "University of Otago",
+        "Statens Serum Institut",
+        "University of Colorado Boulder",
+        "UNSW Sydney",
+        "National Drug and Alcohol Research Centre",
+        "Stanford University",
+        "Icahn School of Medicine at Mount Sinai",
+        "QIMR Berghofer Medical Research Institute",
+        "Stanford Medicine",
+        "The University of Sydney",
+        "The University of Queensland",
+        "Institute for Molecular Bioscience",
+        "Aarhus University Hospital",
+        "University of Copenhagen",
+        "Mental Health Services",
+        "Capital Region of Denmark",
+        "Virginia Commonwealth University Medical Center",
+        "University of Pittsburgh",
+        "Society of Alcoholism and other Addictions",
+        "Boston University",
+        "Copenhagen University Hospital",
+        "University of Minnesota",
+        "University of Vermont Medical Center",
+        "University of North Carolina at Chapel Hill",
+        "University of Connecticut",
+        "UConn Health",
+        "University of Colorado Denver",
+        "Philadelphia VA Medical Center",
+        "University of Pennsylvania",
+        "Johns Hopkins University",
+        "deCODE Genetics (Iceland)"
+      ],
+      "countries": [
+        "US",
+        "DK",
+        "GB",
+        "IS",
+        "NZ",
+        "AU"
+      ]
+    },
+    {
+      "id": "W3004133632",
+      "title": "Activation and Signaling Mechanism Revealed by Cannabinoid Receptor-Gi Complex Structures",
+      "year": 2020,
+      "publicationDate": "2020-01-30",
+      "citations": 343,
+      "doi": "https://doi.org/10.1016/j.cell.2020.01.008",
+      "openAccess": true,
+      "openAccessUrl": "https://doi.org/10.1016/j.cell.2020.01.008",
+      "type": "article",
+      "source": "Cell",
+      "authors": [
+        "Tian Hua",
+        "Xiaoting Li",
+        "Lijie Wu",
+        "Christos Iliopoulos‐Tsoutsouvas",
+        "Yuxia Wang",
+        "Meng Wu",
+        "Ling Shen",
+        "Christina A. Brust"
+      ],
+      "institutions": [
+        "ShanghaiTech University",
+        "Northeastern University",
+        "Dezhou University",
+        "Kunming Medical University",
+        "Chinese Academy of Sciences",
+        "Shenzhen Institutes of Advanced Technology"
+      ],
+      "countries": [
+        "CN",
+        "US"
+      ]
+    },
+    {
+      "id": "W3103481556",
+      "title": "Changes in delta‐9‐tetrahydrocannabinol (THC) and cannabidiol (CBD) concentrations in cannabis over time: systematic review and meta‐analysis",
+      "year": 2020,
+      "publicationDate": "2020-11-07",
+      "citations": 340,
+      "doi": "https://doi.org/10.1111/add.15253",
+      "openAccess": true,
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/add.15253",
+      "type": "review",
+      "source": "Addiction",
+      "authors": [
+        "Tom P. Freeman",
+        "Sam Craft",
+        "Jack Wilson",
+        "Stephan Stylianou",
+        "Mahmoud A. ElSohly",
+        "Marta Di Forti",
+        "Michael T. Lynskey"
+      ],
+      "institutions": [
+        "King's College London",
+        "University of Bath",
+        "The University of Sydney",
+        "University of Mississippi"
+      ],
+      "countries": [
+        "GB",
+        "AU",
+        "US"
+      ]
+    },
+    {
+      "id": "W3099423662",
+      "title": "History of cannabis and the endocannabinoid system",
+      "year": 2020,
+      "publicationDate": "2020-09-30",
+      "citations": 338,
+      "doi": "https://doi.org/10.31887/dcns.2020.22.3/mcrocq",
+      "openAccess": true,
+      "openAccessUrl": "https://doi.org/10.31887/dcns.2020.22.3/mcrocq",
+      "type": "article",
+      "source": "Dialogues in Clinical Neuroscience",
+      "authors": [
+        "Marc‐Antoine Crocq"
+      ],
+      "institutions": [
+        "Université de Haute-Alsace"
+      ],
+      "countries": [
+        "FR"
+      ]
+    },
+    {
+      "id": "W3088900688",
+      "title": "Associations Between Prenatal Cannabis Exposure and Childhood Outcomes",
+      "year": 2020,
+      "publicationDate": "2020-09-23",
+      "citations": 332,
+      "doi": "https://doi.org/10.1001/jamapsychiatry.2020.2902",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2770964/jamapsychiatry_paul_2020_oi_200057_1608576252.17563.pdf",
+      "type": "article",
+      "source": "JAMA Psychiatry",
+      "authors": [
+        "Sarah E. Paul",
+        "Alexander Samir Hatoum",
+        "Jeremy D. Fine",
+        "Emma C. Johnson",
+        "Isabella S. Hansen",
+        "Nicole R. Karcher",
+        "Allison L. Moreau",
+        "Erin Bondy"
+      ],
+      "institutions": [
+        "Washington University in St. Louis"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3112926747",
+      "title": "Effect of gut microbiota on depressive-like behaviors in mice is mediated by the endocannabinoid system",
+      "year": 2020,
+      "publicationDate": "2020-12-11",
+      "citations": 327,
+      "doi": "https://doi.org/10.1038/s41467-020-19931-2",
+      "openAccess": true,
+      "openAccessUrl": "https://www.nature.com/articles/s41467-020-19931-2.pdf",
+      "type": "article",
+      "source": "Nature Communications",
+      "authors": [
+        "Grégoire Chevalier",
+        "Eleni Siopi",
+        "Laure Guenin‐Macé",
+        "Maud Pascal",
+        "Thomas Laval",
+        "Aline Rifflet",
+        "Ivo Gomperts Boneca",
+        "Caroline Demangel"
+      ],
+      "institutions": [
+        "Inserm",
+        "Institut Pasteur",
+        "Centre National de la Recherche Scientifique",
+        "Gènes, synapses et cognition",
+        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "Université Paris-Saclay",
+        "CEA Paris-Saclay - Etablissement de Saclay",
+        "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+        "Institut des Sciences du Vivant Frédéric Joliot",
+        "CEA Paris-Saclay",
+        "Médicaments et Technologies pour la Santé",
+        "Direction de la Recherche Fondamentale",
+        "MetaboHUB",
+        "École Normale Supérieure de Lyon",
+        "Université de Lyon",
+        "Institut de Génomique Fonctionnelle de Lyon",
+        "Centre International de Recherche en Infectiologie"
+      ],
+      "countries": [
+        "FR"
+      ]
+    },
+    {
+      "id": "W3106550468",
+      "title": "Cannabidiol: pharmacology and therapeutic targets",
+      "year": 2020,
+      "publicationDate": "2020-11-21",
+      "citations": 307,
+      "doi": "https://doi.org/10.1007/s00213-020-05712-8",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7796924",
+      "type": "review",
+      "source": "Psychopharmacology",
+      "authors": [
+        "Stevie C. Britch",
+        "Shanna L. Babalonis",
+        "SHARON L. WALSH"
+      ],
+      "institutions": [
+        "University of Kentucky"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3101299715",
+      "title": "Cannabidiol: A Potential New Alternative for the Treatment of Anxiety, Depression, and Psychotic Disorders",
+      "year": 2020,
+      "publicationDate": "2020-11-19",
+      "citations": 306,
+      "doi": "https://doi.org/10.3390/biom10111575",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/2218-273X/10/11/1575/pdf?version=1605860901",
+      "type": "review",
+      "source": "Biomolecules",
+      "authors": [
+        "María S. García‐Gutiérrez",
+        "Francisco Navarrete",
+        "Ani Gasparyan",
+        "Amaya Austrich-Olivares",
+        "Francisco Sala",
+        "Jorge Manzanares"
+      ],
+      "institutions": [
+        "Consejo Superior de Investigaciones Científicas",
+        "Instituto de Salud Carlos III",
+        "Instituto de Neurociencias",
+        "Federación Española de Enfermedades Raras"
+      ],
+      "countries": [
+        "ES"
+      ]
+    },
+    {
+      "id": "W3198254215",
+      "title": "Medical cannabis or cannabinoids for chronic non-cancer and cancer related pain: a systematic review and meta-analysis of randomised clinical trials",
+      "year": 2021,
+      "publicationDate": "2021-09-08",
+      "citations": 303,
+      "doi": "https://doi.org/10.1136/bmj.n1034",
+      "openAccess": true,
+      "openAccessUrl": "https://archive-ouverte.unige.ch/unige:185788",
+      "type": "review",
+      "source": "BMJ",
+      "authors": [
+        "Li Wang",
+        "Patrick Jiho Hong",
+        "Curtis May",
+        "Yasir Rehman",
+        "Yvgeniy Oparin",
+        "Chris Joon Ho Hong",
+        "Brian Younho Hong",
+        "Mahmood AminiLari"
+      ],
+      "institutions": [
+        "Twitter (United States)",
+        "McMaster University",
+        "University of Toronto",
+        "University of British Columbia",
+        "University of Manitoba",
+        "McGill University Health Centre",
+        "McGill University",
+        "Hospital for Sick Children",
+        "Cabrini Hospital",
+        "Monash University",
+        "University Hospital of Geneva",
+        "Chronic Pain Centre of Excellence for Canadian Veterans"
+      ],
+      "countries": [
+        "US",
+        "CA",
+        "AU",
+        "CH"
+      ]
+    },
+    {
+      "id": "W3196785030",
+      "title": "The Endocannabinoid System: A Potential Target for the Treatment of Various Diseases",
+      "year": 2021,
+      "publicationDate": "2021-08-31",
+      "citations": 303,
+      "doi": "https://doi.org/10.3390/ijms22179472",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/22/17/9472/pdf",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Henry I. C. Lowe",
+        "Ngeh J. Toyang",
+        "Blair Steele",
+        "Joseph Bryant",
+        "Wilfred F. Ngwa"
+      ],
+      "institutions": [
+        "University of Maryland, Baltimore",
+        "University of the West Indies",
+        "Brigham and Women's Hospital",
+        "Harvard University",
+        "Johns Hopkins University",
+        "Dana-Farber Cancer Institute",
+        "Dana-Farber Brigham Cancer Center"
+      ],
+      "countries": [
+        "US",
+        "JM"
+      ]
+    },
+    {
+      "id": "W3025423907",
+      "title": "Assessing the public health impacts of legalizing recreational cannabis use: the US experience",
+      "year": 2020,
+      "publicationDate": "2020-05-11",
+      "citations": 296,
+      "doi": "https://doi.org/10.1002/wps.20735",
+      "openAccess": true,
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wps.20735",
+      "type": "article",
+      "source": "World Psychiatry",
+      "authors": [
+        "Wayne Hall",
+        "Michael T. Lynskey"
+      ],
+      "institutions": [
+        "The University of Queensland",
+        "King's College London"
+      ],
+      "countries": [
+        "AU",
+        "GB"
+      ]
+    },
+    {
+      "id": "W3014777574",
+      "title": "Adverse effects of cannabidiol: a systematic review and meta-analysis of randomized clinical trials",
+      "year": 2020,
+      "publicationDate": "2020-04-08",
+      "citations": 296,
+      "doi": "https://doi.org/10.1038/s41386-020-0667-2",
+      "openAccess": true,
+      "openAccessUrl": "https://www.nature.com/articles/s41386-020-0667-2.pdf",
+      "type": "review",
+      "source": "Neuropsychopharmacology",
+      "authors": [
+        "Edward Chesney",
+        "Dominic Oliver",
+        "Alastair Green",
+        "Simina Sovi",
+        "Jack Wilson",
+        "Amir Englund",
+        "Tom P. Freeman",
+        "Philip K. McGuire"
+      ],
+      "institutions": [
+        "King's College London",
+        "The University of Sydney",
+        "University of Bath",
+        "NIHR Maudsley Biomedical Research Centre"
+      ],
+      "countries": [
+        "GB",
+        "AU"
+      ]
+    },
+    {
+      "id": "W4210607766",
+      "title": "A narrative review of molecular mechanism and therapeutic effect of cannabidiol (CBD)",
+      "year": 2022,
+      "publicationDate": "2022-01-26",
+      "citations": 288,
+      "doi": "https://doi.org/10.1111/bcpt.13710",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "review",
+      "source": "Basic & Clinical Pharmacology & Toxicology",
+      "authors": [
+        "Jiangling Peng",
+        "Mingjie Fan",
+        "Chelsea An",
+        "Feng Ni",
+        "Wendong Huang",
+        "Jiankang Luo"
+      ],
+      "institutions": [
+        "City Of Hope National Medical Center",
+        "Beckman Research Institute",
+        "Ningbo University"
+      ],
+      "countries": [
+        "US",
+        "CN"
+      ]
+    },
+    {
+      "id": "W3107035738",
+      "title": "Cannabidiol for Pain Treatment: Focus on Pharmacology and Mechanism of Action",
+      "year": 2020,
+      "publicationDate": "2020-11-23",
+      "citations": 288,
+      "doi": "https://doi.org/10.3390/ijms21228870",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/21/22/8870/pdf?version=1606187582",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Jakub Mlost",
+        "Marta Bryk",
+        "Katarzyna Starowicz"
+      ],
+      "institutions": [
+        "Maj Institute of Pharmacology",
+        "Polish Academy of Sciences"
+      ],
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": "W3124203334",
+      "title": "The antimicrobial potential of cannabidiol",
+      "year": 2021,
+      "publicationDate": "2021-01-19",
+      "citations": 286,
+      "doi": "https://doi.org/10.1038/s42003-020-01530-y",
+      "openAccess": true,
+      "openAccessUrl": "https://www.nature.com/articles/s42003-020-01530-y.pdf",
+      "type": "article",
+      "source": "Communications Biology",
+      "authors": [
+        "Mark A. T. Blaskovich",
+        "Angela M. Kavanagh",
+        "Alysha G. Elliott",
+        "Bing Zhang",
+        "Soumya Ramu",
+        "Maite Amado",
+        "Gabrielle J. Lowe",
+        "Alexandra O. Hinton"
+      ],
+      "institutions": [
+        "The University of Queensland",
+        "Institute for Molecular Bioscience",
+        "Wellington Free Ambulance",
+        "Centre d'Anthropologie Culturelle",
+        "University of California San Diego",
+        "Monash University"
+      ],
+      "countries": [
+        "AU",
+        "NZ",
+        "FR",
+        "US"
+      ]
+    },
+    {
+      "id": "W4311472830",
+      "title": "A microbiome-dependent gut–brain pathway regulates motivation for exercise",
+      "year": 2022,
+      "publicationDate": "2022-12-14",
+      "citations": 283,
+      "doi": "https://doi.org/10.1038/s41586-022-05525-z",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/11162758",
+      "type": "article",
+      "source": "Nature",
+      "authors": [
+        "Lenka Dohnalová",
+        "Patrick Lundgren",
+        "Jamie R. E. Carty",
+        "Nitsan Goldstein",
+        "Sebastian L. Wenski",
+        "Pakjira Nanudorn",
+        "Sirinthra Thiengmag",
+        "Kuei-Pin Huang"
+      ],
+      "institutions": [
+        "Goethe University Frankfurt",
+        "LOEWE Centre for Translational Biodiversity Genomics",
+        "University of Pennsylvania",
+        "Monell Chemical Senses Center",
+        "Pennsylvania State University",
+        "Jackson Laboratory"
+      ],
+      "countries": [
+        "DE",
+        "US"
+      ]
+    },
+    {
+      "id": "W4210771126",
+      "title": "Therapeutic Potential of Cannabis, Cannabidiol, and Cannabinoid-Based Pharmaceuticals",
+      "year": 2022,
+      "publicationDate": "2022-01-01",
+      "citations": 280,
+      "doi": "https://doi.org/10.1159/000521683",
+      "openAccess": true,
+      "openAccessUrl": "https://www.karger.com/Article/Pdf/521683",
+      "type": "review",
+      "source": "Pharmacology",
+      "authors": [
+        "Christopher A. Legare",
+        "Wesley M. Raup‐Konsavage",
+        "Kent E. Vrana"
+      ],
+      "institutions": [
+        "Pennsylvania State University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3115167315",
+      "title": "Add-on Cannabidiol Treatment for Drug-Resistant Seizures in Tuberous Sclerosis Complex",
+      "year": 2020,
+      "publicationDate": "2020-12-21",
+      "citations": 279,
+      "doi": "https://doi.org/10.1001/jamaneurol.2020.4607",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamaneurology/articlepdf/2774314/jamaneurology_thiele_2020_oi_200090_1614894397.12833.pdf",
+      "type": "article",
+      "source": "JAMA Neurology",
+      "authors": [
+        "Elizabeth Anne Thiele",
+        "Elizabeth Martina Bebin",
+        "Hari Bhathal",
+        "Floor E. Jansen",
+        "Katarzyna Kotulska",
+        "John A. Lawson",
+        "Finbar J. O'Callaghan",
+        "Michael Wong"
+      ],
+      "institutions": [
+        "Massachusetts General Hospital",
+        "University of Alabama",
+        "University of Alabama at Birmingham",
+        "UAB Medicine",
+        "Hospital Quirón Teknon",
+        "University Medical Center Utrecht",
+        "Children's Memorial Health Institute",
+        "ERN EpiCARE",
+        "Sydney Children's Hospital",
+        "Sydney Children’s Hospitals Network",
+        "University College London",
+        "Washington University in St. Louis",
+        "Greenwich Biosciences (United States)",
+        "GW Pharmaceuticals (United Kingdom)"
+      ],
+      "countries": [
+        "US",
+        "ES",
+        "NL",
+        "PL",
+        "FR",
+        "AU",
+        "GB"
+      ]
+    },
+    {
+      "id": "W4386278385",
+      "title": "Balancing risks and benefits of cannabis use: umbrella review of meta-analyses of randomised controlled trials and observational studies",
+      "year": 2023,
+      "publicationDate": "2023-08-30",
+      "citations": 277,
+      "doi": "https://doi.org/10.1136/bmj-2022-072348",
+      "openAccess": true,
+      "openAccessUrl": "https://www.bmj.com/content/bmj/382/bmj-2022-072348.full.pdf",
+      "type": "article",
+      "source": "BMJ",
+      "authors": [
+        "Marco Solmi",
+        "Marco De Toffol",
+        "Jong Yeob Kim",
+        "Min Choi",
+        "Brendon Stubbs",
+        "Trevor Thompson",
+        "Joseph Firth",
+        "Alessandro Miola"
+      ],
+      "institutions": [
+        "University of Ottawa",
+        "King's College London",
+        "Ottawa Hospital",
+        "University of Southampton",
+        "Ottawa Hospital Research Institute",
+        "Charité – Universitätsmedizin Berlin",
+        "Ospedale Veris Delli Ponti Scorrano",
+        "Yonsei University",
+        "South London and Maudsley NHS Foundation Trust",
+        "Maudsley Hospital",
+        "University of Greenwich",
+        "Greater Manchester Mental Health NHS Foundation Trust",
+        "Manchester Academic Health Science Centre",
+        "University of Manchester",
+        "University of Padua",
+        "Linköping University",
+        "European Biomedical Research Institute of Salerno",
+        "Azienda Sanitaria Locale Salerno",
+        "University of Hertfordshire",
+        "University of Florence",
+        "Federico II University Hospital",
+        "University of Naples Federico II",
+        "Centro de Investigación Biomédica en Red de Salud Mental",
+        "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+        "Universitat de Barcelona",
+        "University of Pavia",
+        "University of Verona",
+        "Berlin Institute of Health at Charité - Universitätsmedizin Berlin",
+        "Stanford University",
+        "Barwon Health",
+        "Deakin University",
+        "Instituto de Salud Carlos III",
+        "Northwell Health",
+        "Donald & Barbara Zucker School of Medicine at Hofstra/Northwell",
+        "Zucker Hillside Hospital",
+        "University of Nottingham",
+        "Solent NHS Trust",
+        "NYU Langone Health",
+        "New York University",
+        "University of Tasmania",
+        "Tasmanian Department of Health",
+        "Yonsei University Health System",
+        "University of Ioannina"
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "DE",
+        "IT",
+        "KR",
+        "SE",
+        "ES",
+        "US",
+        "AU",
+        "GR"
+      ]
+    },
+    {
+      "id": "W3041337213",
+      "title": "Glucose metabolism links astroglial mitochondria to cannabinoid effects",
+      "year": 2020,
+      "publicationDate": "2020-07-08",
+      "citations": 275,
+      "doi": "https://doi.org/10.1038/s41586-020-2470-y",
+      "openAccess": true,
+      "openAccessUrl": "https://doi.org/10.1038/S41586-020-2470-Y",
+      "type": "article",
+      "source": "Nature",
+      "authors": [
+        "Daniel Jiménez-Blasco",
+        "Arnau Busquets-García",
+        "Étienne Hébert-Chatelain",
+        "Román Serrat",
+        "Carlos Vicente‐Gutiérrez",
+        "Christina Ioannidou",
+        "Paula Gómez-Sotres",
+        "Irene López-Fabuel"
+      ],
+      "institutions": [
+        "Consejo Superior de Investigaciones Científicas",
+        "Universidad de Salamanca",
+        "Instituto de Salud Carlos III",
+        "Instituto de Investigación Biomédica de Salamanca",
+        "Centro de Investigación Biomédica en Red de Fragilidad y Envejecimiento Saludable",
+        "Instituto de Biología Funcional y Genómica",
+        "Université de Bordeaux",
+        "Inserm",
+        "Neurocentre Magendie",
+        "Municipal Institute for Medical Research",
+        "Hospital del Mar Research Institute",
+        "Université de Moncton",
+        "Universidad Complutense de Madrid",
+        "Biomedical Research Networking Center on Neurodegenerative Diseases",
+        "Centro de Investigación Biomédica en Red",
+        "Instituto Ramón y Cajal de Investigación Sanitaria",
+        "University of the Basque Country",
+        "Achucarro Basque Center for Neuroscience",
+        "University of Lausanne",
+        "Centre National de la Recherche Scientifique",
+        "Université de Poitiers",
+        "Centre de Résonance Magnétique des Systèmes Biologiques",
+        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "Université Paris-Saclay",
+        "Laboratoire des Maladies Neurodégénératives",
+        "Molecular Imaging Research Center",
+        "Institut d'Imagerie Biomédicale",
+        "Leibniz Institute for Resilience Research",
+        "University Medical Center of the Johannes Gutenberg University Mainz",
+        "Aelis Farma (France)",
+        "University of Victoria"
+      ],
+      "countries": [
+        "ES",
+        "FR",
+        "CA",
+        "CH",
+        "DE"
+      ]
+    },
+    {
+      "id": "W3009130471",
+      "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on Convulsive Seizure Frequency in Dravet Syndrome",
+      "year": 2020,
+      "publicationDate": "2020-03-02",
+      "citations": 273,
+      "doi": "https://doi.org/10.1001/jamaneurol.2020.0073",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamaneurology/articlepdf/2762458/jamaneurology_miller_2020_oi_200003.pdf",
+      "type": "article",
+      "source": "JAMA Neurology",
+      "authors": [
+        "Ian Miller",
+        "Ingrid Eileen Scheffer",
+        "Boudewijn W. Gunning",
+        "Rocı́o Sánchez-Carpintero",
+        "António Gil‐Nagel",
+        "Michael Scott Perry",
+        "Russell P. Saneto",
+        "Daniel Checketts"
+      ],
+      "institutions": [
+        "Miami Children's Hospital",
+        "Royal Children's Hospital",
+        "The University of Melbourne",
+        "Florey Institute of Neuroscience and Mental Health",
+        "Austin Hospital",
+        "Murdoch Children's Research Institute",
+        "Austin Health",
+        "Stichting Epilepsie Instellingen Nederland",
+        "Navarre Institute of Health Research",
+        "Clinica Universidad de Navarra",
+        "Hospital Ruber Internacional",
+        "Cook Children's Medical Center",
+        "Seattle Children's Hospital",
+        "University of Washington",
+        "GW Pharmaceuticals (United Kingdom)",
+        "Greenwich Biosciences (United States)"
+      ],
+      "countries": [
+        "US",
+        "AU",
+        "NL",
+        "ES",
+        "GB"
+      ]
+    },
+    {
+      "id": "W3047432439",
+      "title": "Medical Marijuana, Recreational Cannabis, and Cardiovascular Health: A Scientific Statement From the American Heart Association",
+      "year": 2020,
+      "publicationDate": "2020-08-05",
+      "citations": 262,
+      "doi": "https://doi.org/10.1161/cir.0000000000000883",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "review",
+      "source": "Circulation",
+      "authors": [
+        "Robert Lee Page II",
+        "Larry A. Allen",
+        "Robert Alan Kloner",
+        "Colin R. Carriker",
+        "Catherine Martel",
+        "Alanna A. Morris",
+        "Mariann R. Piano",
+        "Jamal S. Rana"
+      ],
+      "institutions": [
+        "Martel"
+      ],
+      "countries": [
+        "CH"
+      ]
+    },
+    {
+      "id": "W3103002655",
+      "title": "Diversity of molecular targets and signaling pathways for CBD",
+      "year": 2020,
+      "publicationDate": "2020-11-09",
+      "citations": 260,
+      "doi": "https://doi.org/10.1002/prp2.682",
+      "openAccess": true,
+      "openAccessUrl": "https://bpspubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prp2.682",
+      "type": "review",
+      "source": "Pharmacology Research & Perspectives",
+      "authors": [
+        "Douglas Lamounier de Almeida",
+        "Lakshmi A. Devi"
+      ],
+      "institutions": [
+        "Universidade Federal de Minas Gerais",
+        "Icahn School of Medicine at Mount Sinai"
+      ],
+      "countries": [
+        "BR",
+        "US"
+      ]
+    },
+    {
+      "id": "W3083248748",
+      "title": "Industrial Hemp (Cannabis sativa subsp. sativa) as an Emerging Source for Value-Added Functional Food Ingredients and Nutraceuticals",
+      "year": 2020,
+      "publicationDate": "2020-09-07",
+      "citations": 260,
+      "doi": "https://doi.org/10.3390/molecules25184078",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1420-3049/25/18/4078/pdf?version=1599465250",
+      "type": "review",
+      "source": "Molecules",
+      "authors": [
+        "H.P. Vasantha Rupasinghe",
+        "Amy Davis",
+        "Shanthanu Krishna Kumar",
+        "Beth J. Murray",
+        "Valtcho D. Zheljazkov"
+      ],
+      "institutions": [
+        "Dalhousie University",
+        "Cornell University",
+        "New York State College of Agriculture & Life Sciences",
+        "Oregon State University"
+      ],
+      "countries": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "id": "W3139147219",
+      "title": "Cannabinoids, the endocannabinoid system, and pain: a review of preclinical studies",
+      "year": 2021,
+      "publicationDate": "2021-03-15",
+      "citations": 257,
+      "doi": "https://doi.org/10.1097/j.pain.0000000000002268",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8819673",
+      "type": "review",
+      "source": "Pain",
+      "authors": [
+        "David P. Finn",
+        "Simon Haroutounian",
+        "Andrea G. Hohmann",
+        "Elliot J. Krane",
+        "Nadia Soliman",
+        "Andrew S.C. Rice"
+      ],
+      "institutions": [
+        "Ollscoil na Gaillimhe – University of Galway",
+        "Washington University in St. Louis",
+        "Indiana University Bloomington",
+        "Indiana University",
+        "Stanford Medicine",
+        "Stanford University",
+        "Imperial College London"
+      ],
+      "countries": [
+        "IE",
+        "US",
+        "GB"
+      ]
+    },
+    {
+      "id": "W3186322388",
+      "title": "Myrcene—What Are the Potential Health Benefits of This Flavouring and Aroma Agent?",
+      "year": 2021,
+      "publicationDate": "2021-07-19",
+      "citations": 255,
+      "doi": "https://doi.org/10.3389/fnut.2021.699666",
+      "openAccess": true,
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fnut.2021.699666/pdf",
+      "type": "review",
+      "source": "Frontiers in Nutrition",
+      "authors": [
+        "Shelini Surendran",
+        "Fatimah I. Qassadi",
+        "Geyan Surendran",
+        "Dash Lilley",
+        "Michael Heinrich"
+      ],
+      "institutions": [
+        "University of Surrey",
+        "China Medical University",
+        "UCL School of Pharmacy",
+        "University College London"
+      ],
+      "countries": [
+        "GB",
+        "TW"
+      ]
+    },
+    {
+      "id": "W3004703759",
+      "title": "Medicinal cannabis for psychiatric disorders: a clinically-focused systematic review",
+      "year": 2020,
+      "publicationDate": "2020-01-16",
+      "citations": 253,
+      "doi": "https://doi.org/10.1186/s12888-019-2409-8",
+      "openAccess": true,
+      "openAccessUrl": "https://bmcpsychiatry.biomedcentral.com/track/pdf/10.1186/s12888-019-2409-8",
+      "type": "review",
+      "source": "BMC Psychiatry",
+      "authors": [
+        "Jerome J. Sarris",
+        "Justin Sinclair",
+        "Diana Karamacoska",
+        "Maggie Davidson",
+        "Joseph Firth"
+      ],
+      "institutions": [
+        "The University of Melbourne",
+        "Melbourne Clinic",
+        "Western Sydney University",
+        "University of Manchester"
+      ],
+      "countries": [
+        "AU",
+        "GB"
+      ]
+    },
+    {
+      "id": "W3097411329",
+      "title": "Cannabidiol (CBD) as a Promising Anti-Cancer Drug",
+      "year": 2020,
+      "publicationDate": "2020-10-30",
+      "citations": 250,
+      "doi": "https://doi.org/10.3390/cancers12113203",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/2072-6694/12/11/3203/pdf",
+      "type": "review",
+      "source": "Cancers",
+      "authors": [
+        "Emily S. Seltzer",
+        "Andrea K. Watters",
+        "Danny MacKenzie",
+        "Lauren M. Granat",
+        "Dong Zhang"
+      ],
+      "institutions": [
+        "New York Institute of Technology",
+        "Cleveland Clinic"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3008075220",
+      "title": "Trends in Cannabis Use Among Older Adults in the United States, 2015-2018",
+      "year": 2020,
+      "publicationDate": "2020-02-24",
+      "citations": 250,
+      "doi": "https://doi.org/10.1001/jamainternmed.2019.7517",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamainternalmedicine/articlepdf/2761271/jamainternal_han_2020_ld_190073.pdf",
+      "type": "article",
+      "source": "JAMA Internal Medicine",
+      "authors": [
+        "Benjamin H. Han",
+        "Joseph J. Palamar"
+      ],
+      "institutions": [
+        "Center for Drug Use and HIV Research",
+        "New York University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3003713259",
+      "title": "Cryo-EM Structure of the Human Cannabinoid Receptor CB2-Gi Signaling Complex",
+      "year": 2020,
+      "publicationDate": "2020-01-30",
+      "citations": 245,
+      "doi": "https://doi.org/10.1016/j.cell.2020.01.007",
+      "openAccess": true,
+      "openAccessUrl": "http://www.cell.com/article/S0092867420300544/pdf",
+      "type": "article",
+      "source": "Cell",
+      "authors": [
+        "Changrui Xing",
+        "Youwen Zhuang",
+        "Ting-Hai Xu",
+        "Zhiwei Feng",
+        "X. Edward Zhou",
+        "Maozi Chen",
+        "Lei Wang",
+        "Xing Min Meng"
+      ],
+      "institutions": [
+        "National Institute on Drug Abuse",
+        "University of Pittsburgh",
+        "Van Andel Institute",
+        "Chinese Academy of Sciences",
+        "Shanghai Institute of Materia Medica",
+        "University of Chinese Academy of Sciences"
+      ],
+      "countries": [
+        "US",
+        "CN"
+      ]
+    },
+    {
+      "id": "W4287733275",
+      "title": "Association of cannabis potency with mental ill health and addiction: a systematic review",
+      "year": 2022,
+      "publicationDate": "2022-07-25",
+      "citations": 241,
+      "doi": "https://doi.org/10.1016/s2215-0366(22)00161-4",
+      "openAccess": true,
+      "openAccessUrl": "https://research-information.bris.ac.uk/en/publications/da6e1249-5b2c-4f4f-9acb-fffcfedfb28e",
+      "type": "review",
+      "source": "The Lancet Psychiatry",
+      "authors": [
+        "Kat Petrilli",
+        "Shelan Ofori",
+        "Lindsey A. Hines",
+        "Gemma M. J. Taylor",
+        "Sally H. Adams",
+        "Tom P. Freeman"
+      ],
+      "institutions": [
+        "University of Bath",
+        "University College London",
+        "University of Bristol",
+        "University of Birmingham"
+      ],
+      "countries": [
+        "GB"
+      ]
+    },
+    {
+      "id": "W4221056777",
+      "title": "Cannabinoids: Therapeutic Use in Clinical Practice",
+      "year": 2022,
+      "publicationDate": "2022-03-19",
+      "citations": 241,
+      "doi": "https://doi.org/10.3390/ijms23063344",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/23/6/3344/pdf?version=1647835593",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Cristina Pagano",
+        "Giovanna Navarra",
+        "Laura Coppola",
+        "Giorgio Avilia",
+        "Maurizio Bifulco",
+        "Chiara Laezza"
+      ],
+      "institutions": [
+        "University of Naples Federico II",
+        "Institute for Experimental Endocrinology and Oncology"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "id": "W3196591394",
+      "title": "Lower-Risk Cannabis Use Guidelines (LRCUG) for reducing health harms from non-medical cannabis use: A comprehensive evidence and recommendations update",
+      "year": 2021,
+      "publicationDate": "2021-08-28",
+      "citations": 236,
+      "doi": "https://doi.org/10.1016/j.drugpo.2021.103381",
+      "openAccess": true,
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S0955395921002863/pdf",
+      "type": "review",
+      "source": "International Journal of Drug Policy",
+      "authors": [
+        "Benedikt Fischer",
+        "Tessa Robinson",
+        "Chris Bullen",
+        "Valerie H. Curran",
+        "Didier Jutras‐Aswad",
+        "María Elena Medina‐Mora",
+        "Rosalie Liccardo Pacula",
+        "Jürgen T. Rehm"
+      ],
+      "institutions": [
+        "University of Auckland",
+        "Simon Fraser University",
+        "Universidade Federal de São Paulo",
+        "McMaster University",
+        "National Institute for Health and Care Research",
+        "UCL Biomedical Research Centre",
+        "University College London",
+        "Centre Hospitalier de l’Université de Montréal",
+        "Université de Montréal",
+        "Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz",
+        "Universidad Nacional Autónoma de México",
+        "University of Southern California",
+        "Centre for Addiction and Mental Health",
+        "University of Toronto",
+        "Stockholm University",
+        "La Trobe University",
+        "Amsterdam University Medical Centers",
+        "University of Amsterdam",
+        "The University of Queensland",
+        "King's College London"
+      ],
+      "countries": [
+        "NZ",
+        "CA",
+        "BR",
+        "GB",
+        "MX",
+        "US",
+        "SE",
+        "AU",
+        "NL"
+      ]
+    },
+    {
+      "id": "W3123573259",
+      "title": "A Comprehensive Review of Cannabis Potency in the United States in the Last Decade",
+      "year": 2021,
+      "publicationDate": "2021-01-25",
+      "citations": 232,
+      "doi": "https://doi.org/10.1016/j.bpsc.2020.12.016",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "article",
+      "source": "Biological Psychiatry Cognitive Neuroscience and Neuroimaging",
+      "authors": [
+        "Mahmoud A. ElSohly",
+        "Suman Chandra",
+        "Mohamed M. Radwan",
+        "Chandrani Gon Majumdar",
+        "James C. Church"
+      ],
+      "institutions": [
+        "University of Mississippi",
+        "Austin Peay State University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3036613248",
+      "title": "Cannabinoids and Cannabinoid Receptors: The Story so Far",
+      "year": 2020,
+      "publicationDate": "2020-06-20",
+      "citations": 231,
+      "doi": "https://doi.org/10.1016/j.isci.2020.101301",
+      "openAccess": true,
+      "openAccessUrl": "http://www.cell.com/article/S2589004220304880/pdf",
+      "type": "review",
+      "source": "iScience",
+      "authors": [
+        "Fred Shahbazi",
+        "Victoria Grandi",
+        "Abhinandan Banerjee",
+        "John Frederick Trant"
+      ],
+      "institutions": [
+        "University of Windsor"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W3045475100",
+      "title": "Anti-Cancer Potential of Cannabinoids, Terpenes, and Flavonoids Present in Cannabis",
+      "year": 2020,
+      "publicationDate": "2020-07-21",
+      "citations": 230,
+      "doi": "https://doi.org/10.3390/cancers12071985",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/2072-6694/12/7/1985/pdf?version=1595466446",
+      "type": "review",
+      "source": "Cancers",
+      "authors": [
+        "Andrea M. Tomko",
+        "Erin G. Whynot",
+        "Lee D. Ellis",
+        "Denis J. Dupré"
+      ],
+      "institutions": [
+        "Dalhousie University",
+        "National Research Council Canada"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W3012161732",
+      "title": "Psychiatric symptoms caused by cannabis constituents: a systematic review and meta-analysis",
+      "year": 2020,
+      "publicationDate": "2020-03-17",
+      "citations": 229,
+      "doi": "https://doi.org/10.1016/s2215-0366(20)30074-2",
+      "openAccess": true,
+      "openAccessUrl": "http://www.thelancet.com/article/S2215036620300742/pdf",
+      "type": "review",
+      "source": "The Lancet Psychiatry",
+      "authors": [
+        "Guy Hindley",
+        "Katherine Beck",
+        "Faith Borgan",
+        "Cedric E. Ginestet",
+        "Robert Ali McCutcheon",
+        "Daniël Kleinloog",
+        "Suhas Ganesh",
+        "Rajiv Radhakrishnan"
+      ],
+      "institutions": [
+        "King's College London",
+        "South London and Maudsley NHS Foundation Trust",
+        "Hammersmith Hospital",
+        "MRC London Institute of Medical Sciences",
+        "Imperial College London",
+        "Leiden University",
+        "Leiden University Medical Center",
+        "Yale University",
+        "VA Connecticut Healthcare System",
+        "Connecticut Mental Health Center"
+      ],
+      "countries": [
+        "GB",
+        "NL",
+        "US"
+      ]
+    },
+    {
+      "id": "W3016140712",
+      "title": "A Review of Hemp as Food and Nutritional Supplement",
+      "year": 2020,
+      "publicationDate": "2020-04-09",
+      "citations": 226,
+      "doi": "https://doi.org/10.1089/can.2020.0001",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7891210",
+      "type": "review",
+      "source": "Cannabis and Cannabinoid Research",
+      "authors": [
+        "Pellegrino Cerino",
+        "Carlo Buonerba",
+        "Giuseppe Cannazza",
+        "Luigi Jacopo D’Auria",
+        "Ermete Ottoni",
+        "Andrea Fulgione",
+        "Antonio Di Stasio",
+        "Biancamaria Pierri"
+      ],
+      "institutions": [
+        "Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale\"",
+        "Istituto Zooprofilattico Sperimentale del Mezzogiorno",
+        "University of Naples Federico II",
+        "Federico II University Hospital",
+        "University of Modena and Reggio Emilia",
+        "University of Salento",
+        "Istituto di Nanotecnologia",
+        "University of Salerno"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "id": "W3130578067",
+      "title": "Cannabidiol inhibits human glioma by induction of lethal mitophagy through activating TRPV4",
+      "year": 2021,
+      "publicationDate": "2021-02-25",
+      "citations": 223,
+      "doi": "https://doi.org/10.1080/15548627.2021.1885203",
+      "openAccess": true,
+      "openAccessUrl": "https://www.tandfonline.com/doi/pdf/10.1080/15548627.2021.1885203?needAccess=true&role=button",
+      "type": "article",
+      "source": "Autophagy",
+      "authors": [
+        "Tengfei Huang",
+        "Tianqi Xu",
+        "Yangfan Wang",
+        "Yan Zhou",
+        "Dandan Yu",
+        "Zhiyuan Wang",
+        "Linfang He",
+        "Zhang‐Peng Chen"
+      ],
+      "institutions": [
+        "State Key Laboratory of Pharmaceutical Biotechnology",
+        "Nanjing University",
+        "Model Animal Research Center",
+        "Nanjing Drum Tower Hospital"
+      ],
+      "countries": [
+        "CN"
+      ]
+    },
+    {
+      "id": "W3126959679",
+      "title": "Cannabinoid treatment for autism: a proof-of-concept randomized trial",
+      "year": 2021,
+      "publicationDate": "2021-02-03",
+      "citations": 223,
+      "doi": "https://doi.org/10.1186/s13229-021-00420-2",
+      "openAccess": true,
+      "openAccessUrl": "https://molecularautism.biomedcentral.com/track/pdf/10.1186/s13229-021-00420-2",
+      "type": "article",
+      "source": "Molecular Autism",
+      "authors": [
+        "Adi Avniel Aran",
+        "Moria Harel",
+        "Hanoch Cassuto",
+        "Lola Polyansky",
+        "Aviad Schnapp",
+        "Nadia Wattad",
+        "Dorit Shmueli",
+        "Daphna Golan"
+      ],
+      "institutions": [
+        "Shaare Zedek Medical Center",
+        "Bikur Cholim Hospital",
+        "Clalit Health Services",
+        "Maccabi Healthcare Services",
+        "New York University"
+      ],
+      "countries": [
+        "IL",
+        "US"
+      ]
+    },
+    {
+      "id": "W3107716656",
+      "title": "Analgesic Effect of Acetaminophen: A Review of Known and Novel Mechanisms of Action",
+      "year": 2020,
+      "publicationDate": "2020-11-30",
+      "citations": 223,
+      "doi": "https://doi.org/10.3389/fphar.2020.580289",
+      "openAccess": true,
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fphar.2020.580289/pdf",
+      "type": "review",
+      "source": "Frontiers in Pharmacology",
+      "authors": [
+        "Nobuko Ohashi",
+        "Tatsuro Kohno"
+      ],
+      "institutions": [
+        "Niigata University",
+        "International University of Health and Welfare"
+      ],
+      "countries": [
+        "JP"
+      ]
+    },
+    {
+      "id": "W3018838240",
+      "title": "A randomized, double-blind, placebo-controlled study of daily cannabidiol for the treatment of canine osteoarthritis pain",
+      "year": 2020,
+      "publicationDate": "2020-04-24",
+      "citations": 222,
+      "doi": "https://doi.org/10.1097/j.pain.0000000000001896",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7584779",
+      "type": "article",
+      "source": "Pain",
+      "authors": [
+        "Christopher D. Verrico",
+        "Shonda Wesson",
+        "Vanaja Konduri",
+        "Colby J. Hofferek",
+        "Jonathan Vazquez‐Perez",
+        "Emek Blair",
+        "Kenneth Dunner",
+        "Pedram Salimpour"
+      ],
+      "institutions": [
+        "Baylor College of Medicine",
+        "The University of Texas MD Anderson Cancer Center",
+        "Boston University",
+        "Dan L Duncan Comprehensive Cancer Center"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W4389309797",
+      "title": "Potential of dietary hemp and cannabinoids to modulate immune response to enhance health and performance in animals: opportunities and challenges",
+      "year": 2023,
+      "publicationDate": "2023-12-04",
+      "citations": 220,
+      "doi": "https://doi.org/10.3389/fimmu.2023.1285052",
+      "openAccess": true,
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fimmu.2023.1285052/pdf?isPublishedV2=False",
+      "type": "review",
+      "source": "Frontiers in Immunology",
+      "authors": [
+        "Faiz‐ul Hassan",
+        "Chunjie Liu",
+        "Maryam Mehboob",
+        "Rana Muhammad Bilal",
+        "Muhammad Asif Arain",
+        "Faisal Siddique",
+        "Fengming Chen",
+        "Yuying Li"
+      ],
+      "institutions": [
+        "Institute of Bast Fiber Crops",
+        "Chinese Academy of Agricultural Sciences",
+        "University of Veterinary and Animal Sciences",
+        "University of Agriculture Faisalabad",
+        "Lasbela University of Agriculture Water and Marine Science",
+        "Changsha Medical University"
+      ],
+      "countries": [
+        "CN",
+        "PK"
+      ]
+    },
+    {
+      "id": "W3033784208",
+      "title": "Cannabinoids, cannabis, and cannabis-based medicine for pain management: a systematic review of randomised controlled trials",
+      "year": 2020,
+      "publicationDate": "2020-08-12",
+      "citations": 219,
+      "doi": "https://doi.org/10.1097/j.pain.0000000000001929",
+      "openAccess": true,
+      "openAccessUrl": "https://www.scopus.com/pages/publications/85108583097",
+      "type": "review",
+      "source": "Pain",
+      "authors": [
+        "Emma Fisher",
+        "Andrew Moore",
+        "Alexandra E.C. Fogarty",
+        "David P. Finn",
+        "Nanna Brix Finnerup",
+        "Ian Gilron",
+        "Simon Haroutounian",
+        "Elliot J. Krane"
+      ],
+      "institutions": [
+        "University of Oxford",
+        "Oxford University Hospitals NHS Trust",
+        "University of Bath",
+        "Cochrane",
+        "Washington University in St. Louis",
+        "Ollscoil na Gaillimhe – University of Galway",
+        "Aarhus University",
+        "Aarhus University Hospital",
+        "Danish Pain Research Center",
+        "Queen's University",
+        "Kingston General Hospital",
+        "Stanford Medicine",
+        "Stanford University",
+        "Imperial College London",
+        "Sutter Health",
+        "University of California, San Francisco",
+        "California Pacific Medical Center",
+        "Ghent University"
+      ],
+      "countries": [
+        "GB",
+        "US",
+        "IE",
+        "DK",
+        "CA",
+        "BE"
+      ]
+    },
+    {
+      "id": "W3007463076",
+      "title": "The proposed mechanisms of action of CBD in epilepsy",
+      "year": 2020,
+      "publicationDate": "2020-01-01",
+      "citations": 218,
+      "doi": "https://doi.org/10.1684/epd.2020.1135",
+      "openAccess": true,
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1684/epd.2020.1135",
+      "type": "article",
+      "source": "Epileptic Disorders",
+      "authors": [
+        "Royston A. Gray",
+        "Benjamin J. Whalley"
+      ],
+      "institutions": [
+        "GW Pharmaceuticals (United Kingdom)"
+      ],
+      "countries": [
+        "GB"
+      ]
+    },
+    {
+      "id": "W3160286893",
+      "title": "Cannabis and synaptic reprogramming of the developing brain",
+      "year": 2021,
+      "publicationDate": "2021-05-21",
+      "citations": 217,
+      "doi": "https://doi.org/10.1038/s41583-021-00465-5",
+      "openAccess": true,
+      "openAccessUrl": "http://europepmc.org/pmc/articles/PMC8445589",
+      "type": "review",
+      "source": "Nature reviews. Neuroscience",
+      "authors": [
+        "Anissa Bara",
+        "Jacqueline‐Marie N. Ferland",
+        "Gregory R. Rompala",
+        "Henrietta Szutorisz",
+        "Yasmin L. Hurd"
+      ],
+      "institutions": [
+        "Icahn School of Medicine at Mount Sinai"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3217243571",
+      "title": "Sociodemographic Characteristics Associated With and Prevalence and Frequency of Cannabis Use Among Adults in the US",
+      "year": 2021,
+      "publicationDate": "2021-11-30",
+      "citations": 214,
+      "doi": "https://doi.org/10.1001/jamanetworkopen.2021.36571",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2786687/jeffers_2021_oi_211032_1637393942.71285.pdf",
+      "type": "article",
+      "source": "JAMA Network Open",
+      "authors": [
+        "Abra Marie Jeffers",
+        "Stanton A. Glantz",
+        "Amy L. Byers",
+        "Salomeh Keyhani"
+      ],
+      "institutions": [
+        "University of California, San Francisco",
+        "San Francisco VA Medical Center"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3082866670",
+      "title": "Towards Better Delivery of Cannabidiol (CBD)",
+      "year": 2020,
+      "publicationDate": "2020-08-28",
+      "citations": 214,
+      "doi": "https://doi.org/10.3390/ph13090219",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1424-8247/13/9/219/pdf",
+      "type": "review",
+      "source": "Pharmaceuticals",
+      "authors": [
+        "Sophie Millar",
+        "Ryan Maguire",
+        "Andrew Stephen Yates",
+        "Saoirse Elizabeth O’Sullivan"
+      ],
+      "institutions": [
+        "University of Nottingham",
+        "Royal Derby Hospital"
+      ],
+      "countries": [
+        "GB"
+      ]
+    },
+    {
+      "id": "W3035261227",
+      "title": "The synthetic cannabinoids phenomenon: from structure to toxicological properties. A review",
+      "year": 2020,
+      "publicationDate": "2020-05-27",
+      "citations": 214,
+      "doi": "https://doi.org/10.1080/10408444.2020.1762539",
+      "openAccess": true,
+      "openAccessUrl": "http://hdl.handle.net/10400.13/4690",
+      "type": "review",
+      "source": "Critical Reviews in Toxicology",
+      "authors": [
+        "Vera L. Alves",
+        "João L. Gonçalves",
+        "Joselin Aguiar",
+        "Helena M. Teixeira",
+        "José S. Câmara"
+      ],
+      "institutions": [
+        "Centro de Química da Madeira",
+        "Universidade da Madeira",
+        "National Legal Medicine Institute",
+        "University of Coimbra"
+      ],
+      "countries": [
+        "PT"
+      ]
+    },
+    {
+      "id": "W3117130583",
+      "title": "Mechanisms of Action and Pharmacokinetics of Cannabis",
+      "year": 2020,
+      "publicationDate": "2020-12-21",
+      "citations": 212,
+      "doi": "https://doi.org/10.7812/tpp/19.200",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8803256",
+      "type": "article",
+      "source": "The Permanente Journal",
+      "authors": [
+        "Sirichai Chayasirisobhon"
+      ],
+      "institutions": [
+        "Kaiser Permanente"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3030750231",
+      "title": "Association of High-Potency Cannabis Use With Mental Health and Substance Use in Adolescence",
+      "year": 2020,
+      "publicationDate": "2020-05-27",
+      "citations": 208,
+      "doi": "https://doi.org/10.1001/jamapsychiatry.2020.1035",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2765973/jamapsychiatry_hines_2020_oi_200026_1601309834.63439.pdf",
+      "type": "article",
+      "source": "JAMA Psychiatry",
+      "authors": [
+        "Lindsey A. Hines",
+        "Tom P. Freeman",
+        "Suzanne Helen Gage",
+        "Stanley Zammit",
+        "Matthew Hickman",
+        "Mary D Cannon",
+        "Marcus Robert Munafo",
+        "John Macleod"
+      ],
+      "institutions": [
+        "University of Bristol",
+        "University College London",
+        "University of Bath",
+        "University of Liverpool",
+        "Cardiff University",
+        "Medical Research Council",
+        "Royal College of Surgeons in Ireland"
+      ],
+      "countries": [
+        "GB",
+        "IE"
+      ]
+    },
+    {
+      "id": "W3101760808",
+      "title": "The Pharmacological Case for Cannabigerol",
+      "year": 2020,
+      "publicationDate": "2020-11-10",
+      "citations": 207,
+      "doi": "https://doi.org/10.1124/jpet.120.000340",
+      "openAccess": true,
+      "openAccessUrl": "https://jpet.aspetjournals.org/content/jpet/376/2/204.full.pdf",
+      "type": "article",
+      "source": "Journal of Pharmacology and Experimental Therapeutics",
+      "authors": [
+        "Rahul Nachnani",
+        "Wesley M. Raup‐Konsavage",
+        "Kent E. Vrana"
+      ],
+      "institutions": [
+        "Pennsylvania State University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3046002454",
+      "title": "Cannabidiol for the treatment of cannabis use disorder: a phase 2a, double-blind, placebo-controlled, randomised, adaptive Bayesian trial",
+      "year": 2020,
+      "publicationDate": "2020-07-28",
+      "citations": 204,
+      "doi": "https://doi.org/10.1016/s2215-0366(20)30290-x",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7116091",
+      "type": "article",
+      "source": "The Lancet Psychiatry",
+      "authors": [
+        "Tom P. Freeman",
+        "Chandni Hindocha",
+        "Gianluca Baio",
+        "Natacha D. C. Shaban",
+        "Emily M Thomas",
+        "Danica Astbury",
+        "Abigail M. Freeman",
+        "Rachel Lees"
+      ],
+      "institutions": [
+        "King's College London",
+        "University College London",
+        "University of Bath",
+        "National Institute for Health and Care Research",
+        "UCL Biomedical Research Centre",
+        "National Health Service",
+        "St Pancras Hospital",
+        "National Hospital for Neurology and Neurosurgery",
+        "Camden and Islington NHS Foundation Trust",
+        "University of Exeter"
+      ],
+      "countries": [
+        "GB"
+      ]
+    },
+    {
+      "id": "W4353069566",
+      "title": "Industrial Hemp (Cannabis sativa L.) Agronomy and Utilization: A Review",
+      "year": 2023,
+      "publicationDate": "2023-03-21",
+      "citations": 202,
+      "doi": "https://doi.org/10.3390/agronomy13030931",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/2073-4395/13/3/931/pdf?version=1679478279",
+      "type": "article",
+      "source": "Agronomy",
+      "authors": [
+        "Jelena Visković",
+        "Valtcho D. Zheljazkov",
+        "Vladimir Š. Sikora",
+        "Jay Stratton Noller",
+        "Dragana S. Latković",
+        "Cynthia M. Ocamb",
+        "Anamarija Koren"
+      ],
+      "institutions": [
+        "Oregon State University",
+        "Institute of Field and Vegetable Crops",
+        "University of Novi Sad"
+      ],
+      "countries": [
+        "US",
+        "RS"
+      ]
+    },
+    {
+      "id": "W2999251666",
+      "title": "Prevalence and forms of cannabis use in legal vs. illegal recreational cannabis markets",
+      "year": 2020,
+      "publicationDate": "2020-01-09",
+      "citations": 202,
+      "doi": "https://doi.org/10.1016/j.drugpo.2019.102658",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "article",
+      "source": "International Journal of Drug Policy",
+      "authors": [
+        "Samantha Erin Goodman",
+        "Elle Wadsworth",
+        "Cesar Leos‐Toro",
+        "David G. Hammond"
+      ],
+      "institutions": [
+        "University of Waterloo"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W3197380342",
+      "title": "Evaluation of hemp (Cannabis sativa L.) as an industrial crop: a review",
+      "year": 2021,
+      "publicationDate": "2021-09-02",
+      "citations": 199,
+      "doi": "https://doi.org/10.1007/s11356-021-16264-5",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "review",
+      "source": "Environmental Science and Pollution Research",
+      "authors": [
+        "Muzammal Rehman",
+        "Shah Fahad",
+        "Guanghui Du",
+        "Xia Cheng",
+        "Yang Yang",
+        "Kailei Tang",
+        "Lijun Liu",
+        "Feihu Liu"
+      ],
+      "institutions": [
+        "Yunnan University",
+        "Hainan University",
+        "University of Haripur",
+        "Kunming University",
+        "Huazhong Agricultural University"
+      ],
+      "countries": [
+        "CN",
+        "PK"
+      ]
+    },
+    {
+      "id": "W3004701357",
+      "title": "Cannabis use among U.S. adolescents in the era of marijuana legalization: a review of changing use patterns, comorbidity, and health correlates",
+      "year": 2020,
+      "publicationDate": "2020-02-06",
+      "citations": 199,
+      "doi": "https://doi.org/10.1080/09540261.2020.1713056",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7588219",
+      "type": "review",
+      "source": "International Review of Psychiatry",
+      "authors": [
+        "Christopher Joseph Hammond",
+        "Aldorian Chaney",
+        "Brian P. Hendrickson",
+        "Pravesh Sharma"
+      ],
+      "institutions": [
+        "Johns Hopkins University",
+        "Johns Hopkins Medicine",
+        "University of Wisconsin–Eau Claire",
+        "Mayo Clinic Health System"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3048107445",
+      "title": "Maternal cannabis use in pregnancy and child neurodevelopmental outcomes",
+      "year": 2020,
+      "publicationDate": "2020-08-10",
+      "citations": 197,
+      "doi": "https://doi.org/10.1038/s41591-020-1002-5",
+      "openAccess": true,
+      "openAccessUrl": "http://eprints.usm.my/32677/1/USM_News_Portal_%2D_USM_COMMITTED_TOWARDS_PRODUCING_MORE_GRADUATES_IN_TRANSLATION_AND_INTERPRETATION.pdf",
+      "type": "article",
+      "source": "Nature Medicine",
+      "authors": [
+        "Daniel J. Corsi",
+        "Jessy Donelle",
+        "Ewa Sucha",
+        "Steven Hawken",
+        "Helen Hsu",
+        "Darine El‐Chaâr",
+        "Lise Bisnaire",
+        "Deshayne B. Fell"
+      ],
+      "institutions": [
+        "University of Ottawa",
+        "Children's Hospital of Eastern Ontario",
+        "Ottawa Hospital Research Institute",
+        "CHEO Research Institute",
+        "BORN Ontario"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W3178397890",
+      "title": "Large-scale whole-genome resequencing unravels the domestication history of Cannabis sativa",
+      "year": 2021,
+      "publicationDate": "2021-07-01",
+      "citations": 195,
+      "doi": "https://doi.org/10.1126/sciadv.abg2286",
+      "openAccess": true,
+      "openAccessUrl": "https://www.science.org/doi/pdf/10.1126/sciadv.abg2286?download=true",
+      "type": "article",
+      "source": "Science Advances",
+      "authors": [
+        "Guangpeng Ren",
+        "Xu Zhang",
+        "Ying Li",
+        "Kate E. Ridout",
+        "Martha L. Serrano‐Serrano",
+        "Yongzhi Peter Yang",
+        "Liu Ai",
+        "Gudasalamani Ravikanth"
+      ],
+      "institutions": [
+        "State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems",
+        "Lanzhou University",
+        "University of Lausanne",
+        "University of Oxford",
+        "Ashoka Trust for Research in Ecology and the Environment",
+        "Quaid-i-Azam University",
+        "Qatar University",
+        "Centre Hospitalier Universitaire Vaudois"
+      ],
+      "countries": [
+        "CN",
+        "CH",
+        "GB",
+        "IN",
+        "PK",
+        "QA"
+      ]
+    },
+    {
+      "id": "W3043020437",
+      "title": "Targeting Cannabinoid Receptors: Current Status and Prospects of Natural Products",
+      "year": 2020,
+      "publicationDate": "2020-07-17",
+      "citations": 195,
+      "doi": "https://doi.org/10.3390/ijms21145064",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/21/14/5064/pdf?version=1595386581",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Dongchen An",
+        "Steve Peigneur",
+        "Louise Antonia Hendrickx",
+        "Jan Tytgat"
+      ],
+      "institutions": [
+        "KU Leuven"
+      ],
+      "countries": [
+        "BE"
+      ]
+    },
+    {
+      "id": "W3033467413",
+      "title": "Critical Aspects Affecting Cannabidiol Oral Bioavailability and Metabolic Elimination, and Related Clinical Implications",
+      "year": 2020,
+      "publicationDate": "2020-06-05",
+      "citations": 195,
+      "doi": "https://doi.org/10.1007/s40263-020-00741-5",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "review",
+      "source": "CNS Drugs",
+      "authors": [
+        "Emilio Perucca",
+        "Meir Bialer"
+      ],
+      "institutions": [
+        "University of Pavia",
+        "Hebrew University of Jerusalem"
+      ],
+      "countries": [
+        "IT",
+        "IL"
+      ]
+    },
+    {
+      "id": "W3139079540",
+      "title": "The biosynthesis of the cannabinoids",
+      "year": 2021,
+      "publicationDate": "2021-03-15",
+      "citations": 194,
+      "doi": "https://doi.org/10.1186/s42238-021-00062-4",
+      "openAccess": true,
+      "openAccessUrl": "https://jcannabisresearch.biomedcentral.com/track/pdf/10.1186/s42238-021-00062-4",
+      "type": "review",
+      "source": "Journal of Cannabis Research",
+      "authors": [
+        "M. Nazir Tahir",
+        "Farsheed Shahbazi‐Raz",
+        "Simon Rondeau‐Gagné",
+        "John Frederick Trant"
+      ],
+      "institutions": [
+        "University of Windsor"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W3112625723",
+      "title": "The Cannabis Terpenes",
+      "year": 2020,
+      "publicationDate": "2020-12-08",
+      "citations": 194,
+      "doi": "https://doi.org/10.3390/molecules25245792",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1420-3049/25/24/5792/pdf?version=1607594403",
+      "type": "review",
+      "source": "Molecules",
+      "authors": [
+        "Sarana Rose Sommano",
+        "Chuda Chittasupho",
+        "Warintorn Ruksiriwanich",
+        "Pensak Jantrawut"
+      ],
+      "institutions": [
+        "Chiang Mai University"
+      ],
+      "countries": [
+        "TH"
+      ]
+    },
+    {
+      "id": "W3111911269",
+      "title": "Therapeutic Potential of Cannabidiol (CBD) for Skin Health and Disorders",
+      "year": 2020,
+      "publicationDate": "2020-12-01",
+      "citations": 194,
+      "doi": "https://doi.org/10.2147/ccid.s286411",
+      "openAccess": true,
+      "openAccessUrl": "https://www.dovepress.com/getfile.php?fileID=64615",
+      "type": "review",
+      "source": "Clinical Cosmetic and Investigational Dermatology",
+      "authors": [
+        "Sudhir M. Baswan",
+        "Allison E. Klosner",
+        "Kelly M. Glynn",
+        "Arun Rajgopal",
+        "Kausar A. Malik",
+        "Sunghan Yim",
+        "Nathan Stern"
+      ],
+      "institutions": [
+        "Amway (United States)"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3136446667",
+      "title": "Trends over time in adult cannabis use: A review of recent findings",
+      "year": 2021,
+      "publicationDate": "2021-03-20",
+      "citations": 187,
+      "doi": "https://doi.org/10.1016/j.copsyc.2021.03.005",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8905582",
+      "type": "review",
+      "source": "Current Opinion in Psychology",
+      "authors": [
+        "Deborah S. Hasin",
+        "Claire A. Walsh"
+      ],
+      "institutions": [
+        "New York State Psychiatric Institute",
+        "Columbia University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3214293964",
+      "title": "A fluorescent sensor for spatiotemporally resolved imaging of endocannabinoid dynamics in vivo",
+      "year": 2021,
+      "publicationDate": "2021-11-11",
+      "citations": 186,
+      "doi": "https://doi.org/10.1038/s41587-021-01074-4",
+      "openAccess": true,
+      "openAccessUrl": "https://www.biorxiv.org/content/biorxiv/early/2020/10/20/2020.10.08.329169.full.pdf",
+      "type": "article",
+      "source": "Nature Biotechnology",
+      "authors": [
+        "Ao Dong",
+        "Kaikai He",
+        "Barna Dudok",
+        "Jordan S. Farrell",
+        "Wuqiang Guan",
+        "Daniel J. Liput",
+        "Henry L. Puhl",
+        "Ruyi Cai"
+      ],
+      "institutions": [
+        "Peking University",
+        "Center for Life Sciences",
+        "State Key Laboratory of Membrane Biology",
+        "Stanford University",
+        "Cold Spring Harbor Laboratory",
+        "National Institute on Alcohol Abuse and Alcoholism",
+        "Stanford Medicine",
+        "Chinese Institute for Brain Research"
+      ],
+      "countries": [
+        "CN",
+        "US"
+      ]
+    },
+    {
+      "id": "W4392233605",
+      "title": "Association of Cannabis Use With Cardiovascular Outcomes Among US Adults",
+      "year": 2024,
+      "publicationDate": "2024-02-28",
+      "citations": 185,
+      "doi": "https://doi.org/10.1161/jaha.123.030178",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ahajournals.org/doi/pdf/10.1161/JAHA.123.030178",
+      "type": "article",
+      "source": "Journal of the American Heart Association",
+      "authors": [
+        "Abra Marie Jeffers",
+        "Stanton A. Glantz",
+        "Amy L. Byers",
+        "Salomeh Keyhani"
+      ],
+      "institutions": [
+        "University of California, San Francisco",
+        "Massachusetts General Hospital",
+        "San Francisco VA Medical Center"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W4309633691",
+      "title": "Disorders of cancer metabolism: The therapeutic potential of cannabinoids",
+      "year": 2022,
+      "publicationDate": "2022-11-12",
+      "citations": 184,
+      "doi": "https://doi.org/10.1016/j.biopha.2022.113993",
+      "openAccess": true,
+      "openAccessUrl": "https://doi.org/10.1016/j.biopha.2022.113993",
+      "type": "review",
+      "source": "Biomedicine & Pharmacotherapy",
+      "authors": [
+        "Dingya Sun",
+        "Xin Li",
+        "Shengdan Nie",
+        "Jiajia Liu",
+        "Shan Wang"
+      ],
+      "institutions": [
+        "Central South University",
+        "Changsha Medical University",
+        "Hunan Normal University",
+        "Hunan Provincial People's Hospital"
+      ],
+      "countries": [
+        "CN"
+      ]
+    },
+    {
+      "id": "W3201396326",
+      "title": "Public health monitoring of cannabis use in Europe: prevalence of use, cannabis potency, and treatment rates",
+      "year": 2021,
+      "publicationDate": "2021-09-24",
+      "citations": 184,
+      "doi": "https://doi.org/10.1016/j.lanepe.2021.100227",
+      "openAccess": true,
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S2666776221002131/pdf",
+      "type": "article",
+      "source": "The Lancet Regional Health - Europe",
+      "authors": [
+        "Jakob Manthey",
+        "Tom P. Freeman",
+        "Carolin Kilian",
+        "Hugo López‐Pelayo",
+        "Jürgen T. Rehm"
+      ],
+      "institutions": [
+        "University Medical Center Hamburg-Eppendorf",
+        "Technische Universität Dresden",
+        "Leipzig University",
+        "University of Bath",
+        "Hospital Clínic de Barcelona",
+        "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+        "Centre for Addiction and Mental Health",
+        "Sechenov University",
+        "University of Toronto",
+        "Agència de Salut Pública de Catalunya",
+        "Campbell Family Mental Health Research Institute"
+      ],
+      "countries": [
+        "DE",
+        "GB",
+        "ES",
+        "CA",
+        "RU"
+      ]
+    },
+    {
+      "id": "W4376112785",
+      "title": "Goods and Bads of the Endocannabinoid System as a Therapeutic Target: Lessons Learned after 30 Years",
+      "year": 2023,
+      "publicationDate": "2023-05-10",
+      "citations": 183,
+      "doi": "https://doi.org/10.1124/pharmrev.122.000600",
+      "openAccess": true,
+      "openAccessUrl": "https://pharmrev.aspetjournals.org/content/pharmrev/early/2023/05/09/pharmrev.122.000600.full.pdf",
+      "type": "review",
+      "source": "Pharmacological Reviews",
+      "authors": [
+        "Mauro Maccarrone",
+        "Vincenzo Di Marzo",
+        "Jürg Gertsch",
+        "Uwe Grether",
+        "A­llyn C. Howlett",
+        "Tian Hua",
+        "Alexandros Makriyannis",
+        "Daniele Piomelli"
+      ],
+      "institutions": [
+        "F. Hoffmann-La Roche AG",
+        "University of Bern",
+        "Northeastern University",
+        "University of California, Irvine",
+        "University of L'Aquila",
+        "Université Laval",
+        "Wake Forest University",
+        "ShanghaiTech University",
+        "Kagawa University",
+        "Kagawa University Hospital",
+        "Leiden University"
+      ],
+      "countries": [
+        "CH",
+        "US",
+        "IT",
+        "CA",
+        "CN",
+        "JP",
+        "NL"
+      ]
+    },
+    {
+      "id": "W4210469359",
+      "title": "Birth Outcomes of Neonates Exposed to Marijuana in Utero",
+      "year": 2022,
+      "publicationDate": "2022-01-27",
+      "citations": 183,
+      "doi": "https://doi.org/10.1001/jamanetworkopen.2021.45653",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2788451/marchand_2022_oi_211257_1643157281.67316.pdf",
+      "type": "review",
+      "source": "JAMA Network Open",
+      "authors": [
+        "Greg J. Marchand",
+        "Ahmed Taher Masoud",
+        "Malini Govindan",
+        "Kelly Ware",
+        "Alexa King",
+        "Stacy Ruther",
+        "Giovanna Brazil",
+        "Hollie Ulibarri"
+      ],
+      "institutions": [
+        "Marchand Institute for Minimally Invasive Surgery",
+        "Fayoum University",
+        "University of Medicine and Health Sciences",
+        "Midwestern University",
+        "Tucson Medical Center"
+      ],
+      "countries": [
+        "US",
+        "EG",
+        "KN"
+      ]
+    },
+    {
+      "id": "W3008382257",
+      "title": "Evaluating the impacts of cannabis legalization: The International Cannabis Policy Study",
+      "year": 2020,
+      "publicationDate": "2020-02-26",
+      "citations": 183,
+      "doi": "https://doi.org/10.1016/j.drugpo.2020.102698",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "article",
+      "source": "International Journal of Drug Policy",
+      "authors": [
+        "David G. Hammond",
+        "Samantha Erin Goodman",
+        "Elle Wadsworth",
+        "Vicki L. Rynard",
+        "Christian Boudreau",
+        "Wayne Hall"
+      ],
+      "institutions": [
+        "University of Waterloo",
+        "The University of Queensland"
+      ],
+      "countries": [
+        "CA",
+        "AU"
+      ]
+    },
+    {
+      "id": "W3109480914",
+      "title": "In vitro and in vivo pharmacological activity of minor cannabinoids isolated from Cannabis sativa",
+      "year": 2020,
+      "publicationDate": "2020-11-23",
+      "citations": 182,
+      "doi": "https://doi.org/10.1038/s41598-020-77175-y",
+      "openAccess": true,
+      "openAccessUrl": "https://www.nature.com/articles/s41598-020-77175-y.pdf",
+      "type": "article",
+      "source": "Scientific Reports",
+      "authors": [
+        "Ayat Zagzoog",
+        "Kawthar A. Mohamed",
+        "Hye Ji J. Kim",
+        "Eunhyun D. Kim",
+        "Connor Frank",
+        "Tallan Black",
+        "Pramodkumar D. Jadhav",
+        "Larry A. Holbrook"
+      ],
+      "institutions": [
+        "University of Saskatchewan",
+        "Dalhousie University"
+      ],
+      "countries": [
+        "CA"
+      ]
+    },
+    {
+      "id": "W4292508586",
+      "title": "Medical cannabinoids: a pharmacology-based systematic review and meta-analysis for all relevant medical indications",
+      "year": 2022,
+      "publicationDate": "2022-08-18",
+      "citations": 181,
+      "doi": "https://doi.org/10.1186/s12916-022-02459-1",
+      "openAccess": true,
+      "openAccessUrl": "https://bmcmedicine.biomedcentral.com/counter/pdf/10.1186/s12916-022-02459-1",
+      "type": "review",
+      "source": "BMC Medicine",
+      "authors": [
+        "Ainhoa Bilbao",
+        "Rainer Spanagel"
+      ],
+      "institutions": [
+        "Heidelberg University",
+        "Central Institute of Mental Health",
+        "Medizinische Fakultät Mannheim"
+      ],
+      "countries": [
+        "DE"
+      ]
+    },
+    {
+      "id": "W3019448405",
+      "title": "Cannabidiol and Other Non-Psychoactive Cannabinoids for Prevention and Treatment of Gastrointestinal Disorders: Useful Nutraceuticals?",
+      "year": 2020,
+      "publicationDate": "2020-04-26",
+      "citations": 180,
+      "doi": "https://doi.org/10.3390/ijms21093067",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/21/9/3067/pdf?version=1588055566",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Vicente Martı́nez",
+        "Amaia Iriondo‐DeHond",
+        "Francesca Borrelli",
+        "Raffaele Capasso",
+        "M. Dolores del Castillo",
+        "Raquel Abalo"
+      ],
+      "institutions": [
+        "Universitat Autònoma de Barcelona",
+        "Instituto de Salud Carlos III",
+        "Centro de Investigación Biomédica en Red de Enfermedades Hepáticas y Digestivas",
+        "Consejo Superior de Investigaciones Científicas",
+        "Instituto de Investigación en Ciencias de la Alimentación",
+        "Universidad Autónoma de Madrid",
+        "University of Naples Federico II",
+        "Universidad Rey Juan Carlos",
+        "Instituto de Química Médica"
+      ],
+      "countries": [
+        "ES",
+        "IT"
+      ]
+    },
+    {
+      "id": "W3174330972",
+      "title": "Consensus recommendations on dosing and administration of medical cannabis to treat chronic pain: results of a modified Delphi process",
+      "year": 2021,
+      "publicationDate": "2021-07-02",
+      "citations": 179,
+      "doi": "https://doi.org/10.1186/s42238-021-00073-1",
+      "openAccess": true,
+      "openAccessUrl": "https://jcannabisresearch.biomedcentral.com/counter/pdf/10.1186/s42238-021-00073-1",
+      "type": "article",
+      "source": "Journal of Cannabis Research",
+      "authors": [
+        "Arun Bhaskar",
+        "Alan Bell",
+        "Michael R. Boivin",
+        "Wellington Briques",
+        "Matthew R. D. Brown",
+        "Hance A. Clarke",
+        "Claude Cyr",
+        "Elon Eisenberg"
+      ],
+      "institutions": [
+        "Imperial College Healthcare NHS Trust",
+        "University of Toronto",
+        "Centro Universitário Paulistano",
+        "Institute of Cancer Research",
+        "Royal Marsden Hospital",
+        "University Health Network",
+        "Toronto General Hospital",
+        "McGill University",
+        "Technion – Israel Institute of Technology",
+        "Rambam Health Care Campus",
+        "Helen Joseph Hospital",
+        "Noosa Hospital",
+        "The Royal Melbourne Hospital",
+        "The University of Melbourne",
+        "University of British Columbia",
+        "Medizinische Hochschule Hannover",
+        "Stan Cassidy Foundation",
+        "Western University"
+      ],
+      "countries": [
+        "GB",
+        "CA",
+        "BR",
+        "IL",
+        "ZA",
+        "AU",
+        "DE"
+      ]
+    },
+    {
+      "id": "W3128591147",
+      "title": "A new Cannabis genome assembly associates elevated cannabidiol (CBD) with hemp introgressed into marijuana",
+      "year": 2021,
+      "publicationDate": "2021-02-01",
+      "citations": 179,
+      "doi": "https://doi.org/10.1111/nph.17243",
+      "openAccess": true,
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nph.17243",
+      "type": "article",
+      "source": "New Phytologist",
+      "authors": [
+        "Christopher J. Grassa",
+        "George D. Weiblen",
+        "Jonathan P. Wenger",
+        "Clemon J. Dabney",
+        "Shane G. Poplawski",
+        "S. Timothy Motley",
+        "Todd P. Michael",
+        "Christopher J. Schwartz"
+      ],
+      "institutions": [
+        "University of Minnesota",
+        "J. Craig Venter Institute"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3096485642",
+      "title": "Protective Effects of (E)-β-Caryophyllene (BCP) in Chronic Inflammation",
+      "year": 2020,
+      "publicationDate": "2020-10-26",
+      "citations": 179,
+      "doi": "https://doi.org/10.3390/nu12113273",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/2072-6643/12/11/3273/pdf?version=1604362326",
+      "type": "review",
+      "source": "Nutrients",
+      "authors": [
+        "Rosaria Scandiffio",
+        "Federica Geddo",
+        "Erika Cottone",
+        "Giulia Querio",
+        "Susanna Antoniotti",
+        "Maria Pia Gallo",
+        "Massimo Emilio Maffei",
+        "Patrizia Bovolin"
+      ],
+      "institutions": [
+        "University of Turin"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "id": "W3167787546",
+      "title": "Association of Cannabis Use During Adolescence With Neurodevelopment",
+      "year": 2021,
+      "publicationDate": "2021-06-16",
+      "citations": 176,
+      "doi": "https://doi.org/10.1001/jamapsychiatry.2021.1258",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2781289/jamapsychiatry_albaugh_2021_oi_210030_1630451601.18224.pdf",
+      "type": "article",
+      "source": "JAMA Psychiatry",
+      "authors": [
+        "Matthew D. Albaugh",
+        "Jonatan Ottino‐González",
+        "Amanda B. Sidwell",
+        "Claude Lepage",
+        "Anthony Juliano",
+        "Max M. Owens",
+        "Bader Chaarani",
+        "Philip A. Spechler"
+      ],
+      "institutions": [
+        "University of Vermont",
+        "McGill University",
+        "Yale University",
+        "Heidelberg University",
+        "Central Institute of Mental Health",
+        "Medizinische Fakultät Mannheim",
+        "Trinity College Dublin",
+        "King's College London",
+        "Université de Montréal",
+        "University of Mannheim",
+        "Université Paris-Saclay",
+        "University of Nottingham",
+        "Humboldt-Universität zu Berlin",
+        "Berlin Institute of Health at Charité - Universitätsmedizin Berlin",
+        "Freie Universität Berlin",
+        "Charité – Universitätsmedizin Berlin",
+        "Physikalisch-Technische Bundesanstalt",
+        "École Normale Supérieure Paris-Saclay",
+        "Centre National de la Recherche Scientifique",
+        "Inserm",
+        "Trajectoires développementales & psychiatrie",
+        "Centre Borelli",
+        "Sorbonne Université",
+        "Assistance Publique – Hôpitaux de Paris",
+        "Pitié-Salpêtrière Hospital",
+        "Christian-Albrechts-Universität zu Kiel",
+        "University Hospital Schleswig-Holstein",
+        "University of Toronto",
+        "Holland Bloorview Kids Rehabilitation Hospital",
+        "Bloorview Research Institute",
+        "Universitätsmedizin Göttingen",
+        "Neuroimaging Center",
+        "Technische Universität Dresden",
+        "Fudan University",
+        "Leibniz Institute for Neurobiology"
+      ],
+      "countries": [
+        "US",
+        "CA",
+        "DE",
+        "IE",
+        "GB",
+        "FR",
+        "CN"
+      ]
+    },
+    {
+      "id": "W3159016157",
+      "title": "The Effects of Cannabinoids on Pro- and Anti-Inflammatory Cytokines: A Systematic Review of In Vivo Studies",
+      "year": 2021,
+      "publicationDate": "2021-04-29",
+      "citations": 176,
+      "doi": "https://doi.org/10.1089/can.2020.0105",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8266561",
+      "type": "review",
+      "source": "Cannabis and Cannabinoid Research",
+      "authors": [
+        "Frances R. Henshaw",
+        "Lauren S. Dewsbury",
+        "Chai K. Lim",
+        "Genevieve Z. Steiner"
+      ],
+      "institutions": [
+        "Western Sydney University",
+        "Macquarie University"
+      ],
+      "countries": [
+        "AU"
+      ]
+    },
+    {
+      "id": "W3010046988",
+      "title": "Dosage, Efficacy and Safety of Cannabidiol Administration in Adults: A Systematic Review of Human Trials",
+      "year": 2020,
+      "publicationDate": "2020-01-01",
+      "citations": 171,
+      "doi": "https://doi.org/10.14740/jocmr4090",
+      "openAccess": true,
+      "openAccessUrl": "https://www.jocmr.org/index.php/JOCMR/article/download/4090/25893084",
+      "type": "review",
+      "source": "Journal of Clinical Medicine Research",
+      "authors": [
+        "Christian Larsen",
+        "Jorida Shahinas"
+      ],
+      "institutions": [
+        "Nordic Institute of Asian Studies"
+      ],
+      "countries": [
+        "DK"
+      ]
+    },
+    {
+      "id": "W3134499762",
+      "title": "Modulating the Neuromodulators: Dopamine, Serotonin, and the Endocannabinoid System",
+      "year": 2021,
+      "publicationDate": "2021-03-03",
+      "citations": 170,
+      "doi": "https://doi.org/10.1016/j.tins.2021.02.001",
+      "openAccess": true,
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8159866",
+      "type": "review",
+      "source": "Trends in Neurosciences",
+      "authors": [
+        "Kate Zara Peters",
+        "Joseph F. Cheer",
+        "Raffaella Tonini"
+      ],
+      "institutions": [
+        "University of Maryland, Baltimore",
+        "Italian Institute of Technology"
+      ],
+      "countries": [
+        "US",
+        "IT"
+      ]
+    },
+    {
+      "id": "W3121363966",
+      "title": "Determining the magnitude and duration of acute Δ9-tetrahydrocannabinol (Δ9-THC)-induced driving and cognitive impairment: A systematic and meta-analytic review",
+      "year": 2021,
+      "publicationDate": "2021-01-23",
+      "citations": 170,
+      "doi": "https://doi.org/10.1016/j.neubiorev.2021.01.003",
+      "openAccess": true,
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S0149763421000178/pdf",
+      "type": "review",
+      "source": "Neuroscience & Biobehavioral Reviews",
+      "authors": [
+        "Danielle McCartney",
+        "Thomas R. Arkell",
+        "Christopher G. Irwin",
+        "Iain S. McGregor"
+      ],
+      "institutions": [
+        "The University of Sydney",
+        "Griffith University"
+      ],
+      "countries": [
+        "AU"
+      ]
+    },
+    {
+      "id": "W3108259929",
+      "title": "Effect of Cannabidiol and Δ 9 -Tetrahydrocannabinol on Driving Performance",
+      "year": 2020,
+      "publicationDate": "2020-12-01",
+      "citations": 169,
+      "doi": "https://doi.org/10.1001/jama.2020.21218",
+      "openAccess": true,
+      "openAccessUrl": "https://jamanetwork.com/journals/jama/articlepdf/2773562/jama_arkell_2020_oi_200117_1606767646.39214.pdf",
+      "type": "article",
+      "source": "JAMA",
+      "authors": [
+        "Thomas R. Arkell",
+        "Frederick R. J. Vinckenbosch",
+        "Richard C. Kevin",
+        "Eef Lien Theunissen",
+        "Iain S. McGregor",
+        "Johannes Gerardus Ramaekers"
+      ],
+      "institutions": [
+        "The University of Sydney",
+        "Maastricht University"
+      ],
+      "countries": [
+        "AU",
+        "NL"
+      ]
+    },
+    {
+      "id": "W3117097928",
+      "title": "CB2 Receptor in Microglia: The Guardian of Self-Control",
+      "year": 2020,
+      "publicationDate": "2020-12-22",
+      "citations": 167,
+      "doi": "https://doi.org/10.3390/ijms22010019",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/22/1/19/pdf?version=1608697708",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Joanna Agnieszka Komorowska‐Müller",
+        "Anne‐Caroline Schmöle"
+      ],
+      "institutions": [
+        "University of Bonn"
+      ],
+      "countries": [
+        "DE"
+      ]
+    },
+    {
+      "id": "W3197736345",
+      "title": "Cannabinoid Metabolites as Inhibitors of Major Hepatic CYP450 Enzymes, with Implications for Cannabis-Drug Interactions",
+      "year": 2021,
+      "publicationDate": "2021-09-07",
+      "citations": 166,
+      "doi": "https://doi.org/10.1124/dmd.121.000442",
+      "openAccess": true,
+      "openAccessUrl": "https://dmd.aspetjournals.org/article/S0090-9556(24)08016-4/pdf",
+      "type": "article",
+      "source": "Drug Metabolism and Disposition",
+      "authors": [
+        "Shamema Nasrin",
+        "Christy J.W. Watson",
+        "Yadira X. Pérez-Páramo",
+        "Philip J. Lazarus"
+      ],
+      "institutions": [
+        "Washington State University Spokane"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3014194898",
+      "title": "Adolescent cannabis use, cognition, brain health and educational outcomes: A review of the evidence",
+      "year": 2020,
+      "publicationDate": "2020-04-05",
+      "citations": 166,
+      "doi": "https://doi.org/10.1016/j.euroneuro.2020.03.012",
+      "openAccess": false,
+      "openAccessUrl": null,
+      "type": "review",
+      "source": "European Neuropsychopharmacology",
+      "authors": [
+        "Valentina Lorenzetti",
+        "Eva Hoch",
+        "Wayne Hall"
+      ],
+      "institutions": [
+        "Australian Catholic University",
+        "LMU Klinikum",
+        "Ludwig-Maximilians-Universität München",
+        "The University of Queensland"
+      ],
+      "countries": [
+        "AU",
+        "DE"
+      ]
+    },
+    {
+      "id": "W3197127499",
+      "title": "Cannabinoid Formulations and Delivery Systems: Current and Future Options to Treat Pain",
+      "year": 2021,
+      "publicationDate": "2021-09-01",
+      "citations": 165,
+      "doi": "https://doi.org/10.1007/s40265-021-01579-x",
+      "openAccess": true,
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s40265-021-01579-x.pdf",
+      "type": "review",
+      "source": "Drugs",
+      "authors": [
+        "Barbara Stella",
+        "Francesca Baratta",
+        "Carlo Della Pepa",
+        "Silvia Arpicco",
+        "Daniela Gastaldi",
+        "Franco Dosio"
+      ],
+      "institutions": [
+        "University of Turin"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "id": "W3118492427",
+      "title": "Oxidative Stress and Lipid Mediators Modulate Immune Cell Functions in Autoimmune Diseases",
+      "year": 2021,
+      "publicationDate": "2021-01-13",
+      "citations": 165,
+      "doi": "https://doi.org/10.3390/ijms22020723",
+      "openAccess": true,
+      "openAccessUrl": "https://www.mdpi.com/1422-0067/22/2/723/pdf",
+      "type": "review",
+      "source": "International Journal of Molecular Sciences",
+      "authors": [
+        "Piotr Wójcik",
+        "Agnieszka Gęgotek",
+        "Neven Žarković",
+        "Elźbieta Skrzydlewska"
+      ],
+      "institutions": [
+        "Medical University of Białystok",
+        "Ruđer Bošković Institute"
+      ],
+      "countries": [
+        "PL",
+        "HR"
+      ]
+    },
+    {
+      "id": "W3217383655",
+      "title": "Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses",
+      "year": 2021,
+      "publicationDate": "2021-11-29",
+      "citations": 163,
+      "doi": "https://doi.org/10.3389/fphar.2021.777804",
+      "openAccess": true,
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fphar.2021.777804/pdf",
+      "type": "review",
+      "source": "Frontiers in Pharmacology",
+      "authors": [
+        "Kenneth B. Walsh",
+        "Amanda E. McKinney",
+        "Andrea E. Holmes"
+      ],
+      "institutions": [
+        "University of South Carolina",
+        "Doane University"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "id": "W3048881461",
+      "title": "Oral THC:CBD cannabis extract for refractory chemotherapy-induced nausea and vomiting: a randomised, placebo-controlled, phase II crossover trial",
+      "year": 2020,
+      "publicationDate": "2020-08-12",
+      "citations": 162,
+      "doi": "https://doi.org/10.1016/j.annonc.2020.07.020",
+      "openAccess": true,
+      "openAccessUrl": "http://www.annalsofoncology.org/article/S0923753420399968/pdf",
+      "type": "article",
+      "source": "Annals of Oncology",
+      "authors": [
+        "Peter Grimison",
+        "Antony J. Mersiades",
+        "Adrienne C Kirby",
+        "Nicholas Lintzeris",
+        "Rachael Lisa Morton",
+        "Paul Haber",
+        "Ian Olver",
+        "A. Walsh"
+      ],
+      "institutions": [
+        "Chris O’Brien Lifehouse",
+        "National Health and Medical Research Council",
+        "South Eastern Sydney Local Health District",
+        "The University of Sydney",
+        "The University of Adelaide",
+        "Camden and Campbelltown Hospitals",
+        "Wollongong Hospital",
+        "Northern Cancer Institute",
+        "Nepean Hospital",
+        "Calvary Mater Newcastle Hospital"
+      ],
+      "countries": [
+        "AU"
+      ]
+    },
+    {
+      "id": "W3024783828",
+      "title": "Cannabinoid therapies in the management of sleep disorders: A systematic review of preclinical and clinical studies",
+      "year": 2020,
+      "publicationDate": "2020-05-16",
+      "citations": 162,
+      "doi": "https://doi.org/10.1016/j.smrv.2020.101339",
+      "openAccess": true,
+      "openAccessUrl": "http://hdl.handle.net/10072/404762",
+      "type": "review",
+      "source": "Sleep Medicine Reviews",
+      "authors": [
+        "Anastasia S. Suraev",
+        "Nathaniel S. Marshall",
+        "Ryan G. Vandrey",
+        "Danielle McCartney",
+        "Melissa J. Benson",
+        "Iain S. McGregor",
+        "Ronald R. Grunstein",
+        "Camilla M. Hoyos"
+      ],
+      "institutions": [
+        "The University of Sydney",
+        "Woolcock Institute of Medical Research",
+        "Johns Hopkins University",
+        "Royal Prince Alfred Hospital"
+      ],
+      "countries": [
+        "AU",
+        "US"
+      ]
+    }
+  ],
+  "countryCounts": [
+    {
+      "code": "US",
+      "name": "United States",
+      "count": 13461
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "count": 3574
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "count": 2275
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "count": 1894
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "count": 1733
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "count": 1509
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "count": 1455
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "count": 1389
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "count": 1332
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "count": 1018
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "count": 774
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "count": 674
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "count": 660
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "count": 639
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "count": 508
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "count": 493
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "count": 447
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "count": 438
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "count": 414
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "count": 387
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "count": 368
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "count": 335
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "count": 297
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "count": 289
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "count": 286
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "count": 268
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "count": 256
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "count": 251
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "count": 246
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "count": 224
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "count": 224
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "count": 218
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "count": 217
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "count": 214
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "count": 203
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "count": 199
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "count": 198
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "count": 189
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "count": 160
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "count": 157
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "count": 143
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "count": 141
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "count": 124
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "count": 118
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "count": 109
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "count": 108
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "count": 100
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "count": 89
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "count": 88
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "count": 68
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "count": 68
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "count": 64
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "count": 63
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "count": 61
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "count": 60
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "count": 59
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "count": 59
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "count": 57
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "count": 57
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "count": 55
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "count": 50
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "count": 48
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "count": 48
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "count": 45
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "count": 39
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "count": 34
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "count": 33
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "count": 30
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "count": 30
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "count": 29
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "count": 29
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "count": 28
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "count": 28
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "count": 27
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "count": 26
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "count": 25
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "count": 22
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "count": 22
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "count": 21
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "count": 19
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "count": 18
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "count": 18
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "count": 16
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "count": 15
+    },
+    {
+      "code": "PS",
+      "name": "Palestine",
+      "count": 14
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "count": 13
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "count": 13
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "count": 12
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "count": 12
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "count": 11
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "count": 11
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "count": 11
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "count": 11
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "count": 9
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "count": 9
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "count": 9
+    },
+    {
+      "code": "YT",
+      "name": "Mayotte",
+      "count": 9
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "count": 9
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "count": 8
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "count": 8
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "count": 8
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "count": 8
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "count": 7
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "count": 7
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "count": 7
+    },
+    {
+      "code": "MO",
+      "name": "Macao",
+      "count": 7
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad & Tobago",
+      "count": 7
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "count": 6
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "count": 6
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia & Herzegovina",
+      "count": 6
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "count": 6
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "count": 5
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "count": 5
+    },
+    {
+      "code": "CD",
+      "name": "DR Congo",
+      "count": 5
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "count": 5
+    },
+    {
+      "code": "CW",
+      "name": "Curaçao",
+      "count": 5
+    },
+    {
+      "code": "KN",
+      "name": "St. Kitts & Nevis",
+      "count": 5
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "count": 5
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "count": 4
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "count": 4
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "count": 4
+    },
+    {
+      "code": "NC",
+      "name": "New Caledonia",
+      "count": 4
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "count": 4
+    },
+    {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "count": 3
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "count": 3
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Rep.",
+      "count": 3
+    },
+    {
+      "code": "GP",
+      "name": "Guadeloupe",
+      "count": 3
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "count": 3
+    },
+    {
+      "code": "JE",
+      "name": "Jersey",
+      "count": 3
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "count": 3
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "count": 3
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "count": 3
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "count": 3
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten",
+      "count": 3
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "count": 3
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "count": 2
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "count": 2
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "count": 2
+    },
+    {
+      "code": "BQ",
+      "name": "Caribbean Netherlands",
+      "count": 2
+    },
+    {
+      "code": "CI",
+      "name": "Ivory Coast",
+      "count": 2
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "count": 2
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "count": 2
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "count": 2
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "count": 2
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "count": 2
+    },
+    {
+      "code": "RE",
+      "name": "Réunion",
+      "count": 2
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "count": 2
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "count": 1
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "count": 1
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "count": 1
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "count": 1
+    },
+    {
+      "code": "LC",
+      "name": "Saint Lucia",
+      "count": 1
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "count": 1
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "count": 1
+    },
+    {
+      "code": "MQ",
+      "name": "Martinique",
+      "count": 1
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "count": 1
+    },
+    {
+      "code": "PF",
+      "name": "French Polynesia",
+      "count": 1
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "count": 1
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "count": 1
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "count": 1
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "count": 1
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "count": 1
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "count": 1
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "count": 1
+    }
+  ],
+  "yearCounts": [
+    {
+      "year": 2020,
+      "count": 6879
+    },
+    {
+      "year": 2021,
+      "count": 6978
+    },
+    {
+      "year": 2022,
+      "count": 8390
+    },
+    {
+      "year": 2023,
+      "count": 6852
+    },
+    {
+      "year": 2024,
+      "count": 6750
+    },
+    {
+      "year": 2025,
+      "count": 7574
+    },
+    {
+      "year": 2026,
+      "count": 7262
+    }
+  ],
+  "institutions": [
+    {
+      "id": "I185261750",
+      "name": "University of Toronto",
+      "countryCode": "CA",
+      "city": "Toronto",
+      "lat": 43.70643,
+      "lon": -79.39864,
+      "works": 846
+    },
+    {
+      "id": "I36258959",
+      "name": "University of California San Diego",
+      "countryCode": "US",
+      "city": "San Diego",
+      "lat": 32.71571,
+      "lon": -117.16472,
+      "works": 648
+    },
+    {
+      "id": "I136199984",
+      "name": "Harvard University",
+      "countryCode": "US",
+      "city": "Cambridge",
+      "lat": 42.3751,
+      "lon": -71.10561,
+      "works": 509
+    },
+    {
+      "id": "I145311948",
+      "name": "Johns Hopkins University",
+      "countryCode": "US",
+      "city": "Baltimore",
+      "lat": 39.29038,
+      "lon": -76.61219,
+      "works": 497
+    },
+    {
+      "id": "I154526488",
+      "name": "Inserm",
+      "countryCode": "FR",
+      "city": "Paris",
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "works": 472
+    },
+    {
+      "id": "I183935753",
+      "name": "King's College London",
+      "countryCode": "GB",
+      "city": "London",
+      "lat": 51.50853,
+      "lon": -0.12574,
+      "works": 462
+    },
+    {
+      "id": "I17974374",
+      "name": "Universidade de São Paulo",
+      "countryCode": "BR",
+      "city": "São Paulo",
+      "lat": -23.5475,
+      "lon": -46.63611,
+      "works": 430
+    },
+    {
+      "id": "I32971472",
+      "name": "Yale University",
+      "countryCode": "US",
+      "city": "New Haven",
+      "lat": 41.30815,
+      "lon": -72.92816,
+      "works": 408
+    },
+    {
+      "id": "I51713134",
+      "name": "University of Colorado Anschutz",
+      "countryCode": "US",
+      "city": "Aurora",
+      "lat": 39.72943,
+      "lon": -104.83192,
+      "works": 388
+    },
+    {
+      "id": "I201448701",
+      "name": "University of Washington",
+      "countryCode": "US",
+      "city": "Seattle",
+      "lat": 47.60621,
+      "lon": -122.33207,
+      "works": 375
+    },
+    {
+      "id": "I1338135719",
+      "name": "Centre for Addiction and Mental Health",
+      "countryCode": "CA",
+      "city": "Toronto",
+      "lat": 43.70643,
+      "lon": -79.39864,
+      "works": 373
+    },
+    {
+      "id": "I180670191",
+      "name": "University of California, San Francisco",
+      "countryCode": "US",
+      "city": "San Francisco",
+      "lat": 37.77493,
+      "lon": -122.41942,
+      "works": 371
+    },
+    {
+      "id": "I141945490",
+      "name": "University of British Columbia",
+      "countryCode": "CA",
+      "city": "Vancouver",
+      "lat": 49.24966,
+      "lon": -123.11934,
+      "works": 334
+    },
+    {
+      "id": "I98251732",
+      "name": "McMaster University",
+      "countryCode": "CA",
+      "city": "Hamilton",
+      "lat": 43.25011,
+      "lon": -79.84963,
+      "works": 332
+    },
+    {
+      "id": "I129604602",
+      "name": "The University of Sydney",
+      "countryCode": "AU",
+      "city": "Sydney",
+      "lat": -33.86785,
+      "lon": 151.20732,
+      "works": 331
+    },
+    {
+      "id": "I27837315",
+      "name": "University of Michigan",
+      "countryCode": "US",
+      "city": "Ann Arbor",
+      "lat": 42.27756,
+      "lon": -83.74088,
+      "works": 309
+    },
+    {
+      "id": "I5023651",
+      "name": "McGill University",
+      "countryCode": "CA",
+      "city": "Montreal",
+      "lat": 45.50884,
+      "lon": -73.58781,
+      "works": 303
+    },
+    {
+      "id": "I168635309",
+      "name": "University of Calgary",
+      "countryCode": "CA",
+      "city": "Calgary",
+      "lat": 51.05011,
+      "lon": -114.08529,
+      "works": 301
+    },
+    {
+      "id": "I33213144",
+      "name": "University of Florida",
+      "countryCode": "US",
+      "city": "Gainesville",
+      "lat": 29.65163,
+      "lon": -82.32483,
+      "works": 300
+    },
+    {
+      "id": "I165143802",
+      "name": "The University of Queensland",
+      "countryCode": "AU",
+      "city": "Brisbane",
+      "lat": -27.46794,
+      "lon": 153.02809,
+      "works": 272
+    },
+    {
+      "id": "I1174212",
+      "name": "University of Southern California",
+      "countryCode": "US",
+      "city": "Los Angeles",
+      "lat": 34.05223,
+      "lon": -118.24368,
+      "works": 271
+    },
+    {
+      "id": "I4210155236",
+      "name": "National Research Council",
+      "countryCode": "IT",
+      "city": "Rome",
+      "lat": 41.89193,
+      "lon": 12.51133,
+      "works": 267
+    },
+    {
+      "id": "I70931966",
+      "name": "Université de Montréal",
+      "countryCode": "CA",
+      "city": "Montreal",
+      "lat": 45.50884,
+      "lon": -73.58781,
+      "works": 264
+    },
+    {
+      "id": "I78577930",
+      "name": "Columbia University",
+      "countryCode": "US",
+      "city": "New York",
+      "lat": 40.71427,
+      "lon": -74.00597,
+      "works": 263
+    },
+    {
+      "id": "I161318765",
+      "name": "University of California, Los Angeles",
+      "countryCode": "US",
+      "city": "Los Angeles",
+      "lat": 34.05223,
+      "lon": -118.24368,
+      "works": 261
+    },
+    {
+      "id": "I43406934",
+      "name": "Université Laval",
+      "countryCode": "CA",
+      "city": "Québec",
+      "lat": 46.81228,
+      "lon": -71.21454,
+      "works": 255
+    },
+    {
+      "id": "I1299303238",
+      "name": "National Institutes of Health",
+      "countryCode": "US",
+      "city": "Bethesda",
+      "lat": 38.98067,
+      "lon": -77.10026,
+      "works": 240
+    },
+    {
+      "id": "I52357470",
+      "name": "The Ohio State University",
+      "countryCode": "US",
+      "city": "Columbus",
+      "lat": 39.96118,
+      "lon": -82.99879,
+      "works": 236
+    },
+    {
+      "id": "I114027177",
+      "name": "University of North Carolina at Chapel Hill",
+      "countryCode": "US",
+      "city": "Chapel Hill",
+      "lat": 35.9132,
+      "lon": -79.05584,
+      "works": 220
+    },
+    {
+      "id": "I2799853436",
+      "name": "Johns Hopkins Medicine",
+      "countryCode": "US",
+      "city": "Baltimore",
+      "lat": 39.29038,
+      "lon": -76.61219,
+      "works": 220
+    },
+    {
+      "id": "I27804330",
+      "name": "Brown University",
+      "countryCode": "US",
+      "city": "Providence",
+      "lat": 41.82399,
+      "lon": -71.41283,
+      "works": 216
+    },
+    {
+      "id": "I592451",
+      "name": "Indiana University",
+      "countryCode": "US",
+      "city": "Bloomington",
+      "lat": 39.16533,
+      "lon": -86.52639,
+      "works": 216
+    },
+    {
+      "id": "I57206974",
+      "name": "New York University",
+      "countryCode": "US",
+      "city": "New York",
+      "lat": 40.71427,
+      "lon": -74.00597,
+      "works": 212
+    },
+    {
+      "id": "I45129253",
+      "name": "University College London",
+      "countryCode": "GB",
+      "city": "London",
+      "lat": 51.50853,
+      "lon": -0.12574,
+      "works": 210
+    },
+    {
+      "id": "I47508984",
+      "name": "Imperial College London",
+      "countryCode": "GB",
+      "city": "London",
+      "lat": 51.50853,
+      "lon": -0.12574,
+      "works": 210
+    },
+    {
+      "id": "I153718931",
+      "name": "University of Ottawa",
+      "countryCode": "CA",
+      "city": "Ottawa",
+      "lat": 45.41117,
+      "lon": -75.69812,
+      "works": 209
+    },
+    {
+      "id": "I197251160",
+      "name": "Hebrew University of Jerusalem",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "lat": 31.76904,
+      "lon": 35.21633,
+      "works": 207
+    },
+    {
+      "id": "I4210119109",
+      "name": "Indiana University Bloomington",
+      "countryCode": "US",
+      "city": "Bloomington",
+      "lat": 39.16533,
+      "lon": -86.52639,
+      "works": 207
+    },
+    {
+      "id": "I151746483",
+      "name": "University of Waterloo",
+      "countryCode": "CA",
+      "city": "Waterloo",
+      "lat": 43.4668,
+      "lon": -80.51639,
+      "works": 206
+    },
+    {
+      "id": "I4210087915",
+      "name": "Massachusetts General Hospital",
+      "countryCode": "US",
+      "city": "Boston",
+      "lat": 42.35843,
+      "lon": -71.05977,
+      "works": 203
+    },
+    {
+      "id": "I1294671590",
+      "name": "Centre National de la Recherche Scientifique",
+      "countryCode": "FR",
+      "city": "Paris",
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "works": 200
+    },
+    {
+      "id": "I125749732",
+      "name": "Western University",
+      "countryCode": "CA",
+      "city": "London",
+      "lat": 42.98339,
+      "lon": -81.23304,
+      "works": 200
+    },
+    {
+      "id": "I204250578",
+      "name": "University of California, Irvine",
+      "countryCode": "US",
+      "city": "Irvine",
+      "lat": 33.66946,
+      "lon": -117.82311,
+      "works": 197
+    },
+    {
+      "id": "I129902397",
+      "name": "Dalhousie University",
+      "countryCode": "CA",
+      "city": "Halifax",
+      "lat": 44.64269,
+      "lon": -63.57688,
+      "works": 197
+    },
+    {
+      "id": "I2801357902",
+      "name": "Instituto de Salud Carlos III",
+      "countryCode": "ES",
+      "city": "Madrid",
+      "lat": 40.4165,
+      "lon": -3.70256,
+      "works": 196
+    },
+    {
+      "id": "I130769515",
+      "name": "Pennsylvania State University",
+      "countryCode": "US",
+      "city": "State College",
+      "lat": 40.79339,
+      "lon": -77.86,
+      "works": 195
+    },
+    {
+      "id": "I102322142",
+      "name": "Rutgers, The State University of New Jersey",
+      "countryCode": "US",
+      "city": "New Brunswick",
+      "lat": 40.48622,
+      "lon": -74.45182,
+      "works": 193
+    },
+    {
+      "id": "I51601045",
+      "name": "University of Bath",
+      "countryCode": "GB",
+      "city": "Bath",
+      "lat": 51.3751,
+      "lon": -2.36172,
+      "works": 191
+    },
+    {
+      "id": "I151201029",
+      "name": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "countryCode": "AR",
+      "city": "Buenos Aires",
+      "lat": -34.61315,
+      "lon": -58.37723,
+      "works": 190
+    },
+    {
+      "id": "I97018004",
+      "name": "Stanford University",
+      "countryCode": "US",
+      "city": "Stanford",
+      "lat": 37.42411,
+      "lon": -122.16608,
+      "works": 189
+    },
+    {
+      "id": "I204465549",
+      "name": "Washington University in St. Louis",
+      "countryCode": "US",
+      "city": "St Louis",
+      "lat": 38.62727,
+      "lon": -90.19789,
+      "works": 189
+    },
+    {
+      "id": "I4405280014",
+      "name": "Campbell Family Mental Health Research Institute",
+      "countryCode": "CA",
+      "city": "Toronto",
+      "lat": 43.70643,
+      "lon": -79.39864,
+      "works": 187
+    },
+    {
+      "id": "I71999127",
+      "name": "Universitat de Barcelona",
+      "countryCode": "ES",
+      "city": "Barcelona",
+      "lat": 41.38879,
+      "lon": 2.15899,
+      "works": 184
+    },
+    {
+      "id": "I165690674",
+      "name": "Oregon Health & Science University",
+      "countryCode": "US",
+      "city": "Portland",
+      "lat": 45.5234489440918,
+      "lon": -122.67620849609375,
+      "works": 182
+    },
+    {
+      "id": "I63190737",
+      "name": "University at Buffalo, State University of New York",
+      "countryCode": "US",
+      "city": "Buffalo",
+      "lat": 42.88645,
+      "lon": -78.87837,
+      "works": 182
+    },
+    {
+      "id": "I92446798",
+      "name": "Colorado State University",
+      "countryCode": "US",
+      "city": "Fort Collins",
+      "lat": 40.58526,
+      "lon": -105.08442,
+      "works": 179
+    },
+    {
+      "id": "I121748325",
+      "name": "Universidad Complutense de Madrid",
+      "countryCode": "ES",
+      "city": "Madrid",
+      "lat": 40.4165,
+      "lon": -3.70256,
+      "works": 177
+    },
+    {
+      "id": "I165779595",
+      "name": "The University of Melbourne",
+      "countryCode": "AU",
+      "city": "Melbourne",
+      "lat": -37.814,
+      "lon": 144.96332,
+      "works": 176
+    },
+    {
+      "id": "I4388891851",
+      "name": "New York State Psychiatric Institute",
+      "countryCode": "US",
+      "city": "Manhattan",
+      "lat": 40.78342819213867,
+      "lon": -73.96624755859375,
+      "works": 176
+    },
+    {
+      "id": "I130238516",
+      "name": "University of Minnesota",
+      "countryCode": "US",
+      "city": "Minneapolis",
+      "lat": 44.97997,
+      "lon": -93.26384,
+      "works": 175
+    }
+  ],
+  "queries": [
+    "https://api.openalex.org/works?filter=topics.id%3AT10414%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-10-30%2Cis_retracted%3Afalse&mailto=accioncannabica%40gmail.com&sort=cited_by_count:desc&per-page=100&select=id,title,publication_year,publication_date,cited_by_count,doi,open_access,type,authorships,primary_location",
+    "https://api.openalex.org/works?filter=topics.id%3AT10414%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-10-30%2Cis_retracted%3Afalse&mailto=accioncannabica%40gmail.com&group_by=authorships.institutions.country_code",
+    "https://api.openalex.org/works?filter=topics.id%3AT10414%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-10-30%2Cis_retracted%3Afalse&mailto=accioncannabica%40gmail.com&group_by=publication_year",
+    "https://api.openalex.org/works?filter=topics.id%3AT10414%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-10-30%2Cis_retracted%3Afalse&mailto=accioncannabica%40gmail.com&group_by=authorships.institutions.id",
+    "https://api.openalex.org/institutions?filter=openalex%3AI185261750%7CI36258959%7CI136199984%7CI145311948%7CI154526488%7CI183935753%7CI17974374%7CI32971472%7CI51713134%7CI201448701%7CI1338135719%7CI180670191%7CI141945490%7CI98251732%7CI129604602%7CI27837315%7CI5023651%7CI168635309%7CI33213144%7CI165143802%7CI1174212%7CI4210155236%7CI70931966%7CI78577930%7CI161318765%7CI43406934%7CI1299303238%7CI52357470%7CI114027177%7CI2799853436%7CI27804330%7CI592451%7CI57206974%7CI45129253%7CI47508984%7CI153718931%7CI197251160%7CI4210119109%7CI151746483%7CI4210087915%7CI125749732%7CI1294671590%7CI129902397%7CI204250578%7CI2801357902%7CI130769515%7CI102322142%7CI51601045%7CI151201029%7CI204465549%7CI97018004%7CI4405280014%7CI71999127%7CI165690674%7CI63190737%7CI92446798%7CI121748325%7CI165779595%7CI4388891851%7CI130238516&per-page=100&select=id,display_name,country_code,geo&mailto=accioncannabica%40gmail.com"
+  ]
+}

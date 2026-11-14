@@ -3,6 +3,8 @@ export type Vista =
   | "quienes"
   | "recorrido"
   | "novedades"
+  | "patrones"
+  | "observatorio"
   | "redes"
   | "reprocann"
   | "facc"
@@ -16,7 +18,7 @@ export type ItemNav = {
   id: Vista;
   titulo: string;
   icono: string;
-  grupo: "Tablero" | "Institucional" | "Redes" | "Programas" | "Datos" | "Acción";
+  grupo: "Tablero" | "Institucional" | "Investigaciones" | "Observatorio" | "Redes" | "Programas" | "Datos" | "Acción";
   bajada: string;
   /** `false` oculta la sección del sitio público pero conserva su código y datos. Ausente = visible. */
   visible?: boolean;
@@ -27,6 +29,8 @@ export const NAV: ItemNav[] = [
   { id: "quienes", titulo: "Quiénes somos", icono: "users", grupo: "Institucional", bajada: "Manifiesto, pilares e historia" },
   { id: "recorrido", titulo: "Recorrido", icono: "calendar", grupo: "Institucional", bajada: "Actividades realizadas y agenda" },
   { id: "novedades", titulo: "Novedades", icono: "news", grupo: "Institucional", bajada: "Noticias locales e internacionales" },
+  { id: "patrones", titulo: "Patrones de Consumo", icono: "chart", grupo: "Investigaciones", bajada: "Investigaciones sobre patrones de consumo" },
+  { id: "observatorio", titulo: "Observatorio Global de Cannabis", icono: "globe", grupo: "Observatorio", bajada: "Observatorio Global de Cannabis" },
   { id: "redes", titulo: "Redes", icono: "network", grupo: "Redes", bajada: "Organizaciones y contactos" },
   { id: "facc", titulo: "FACC", icono: "globe", grupo: "Redes", bajada: "Federación y organizaciones miembras" },
   { id: "reprocann", titulo: "REPROCANN", icono: "clipboard", grupo: "Programas", bajada: "Programa, normativa y contacto" },

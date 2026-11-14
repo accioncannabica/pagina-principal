@@ -6,21 +6,32 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "observatorio:update-data": "tsx scripts/observatorio/update-open-data.ts",
+    "observatorio:update-literature": "tsx scripts/observatorio/update-literature.ts",
+    "observatorio:validate-science": "tsx scripts/observatorio/validate-science-harness.ts",
+    "test:observatorio": "node --import tsx --test tests/observatorio/*.test.ts"
   },
   "dependencies": {
     "clsx": "2.1.1",
+    "leaflet": "1.9.4",
+    "lucide-react": "1.65.0",
+    "papaparse": "5.7.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
+    "recharts": "3.10.1",
     "tailwind-merge": "3.4.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.17",
+    "@types/leaflet": "1.9.22",
     "@types/node": "22.19.17",
+    "@types/papaparse": "5.5.2",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "5.1.1",
     "tailwindcss": "4.1.17",
+    "tsx": "4.23.15",
     "typescript": "5.9.3",
     "vite": "7.3.2",
     "vite-plugin-singlefile": "2.3.0"

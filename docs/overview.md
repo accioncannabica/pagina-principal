@@ -22,9 +22,10 @@ Versiones fijadas en [`package.json`](../package.json) (sin rangos `^`):
 - Vite 7.3.2 con los plugins `@vitejs/plugin-react`, `@tailwindcss/vite` y `vite-plugin-singlefile`.
 - Tailwind CSS 4.1.17; el tema (colores `ink`, `lima`, `verde`, `cian`, `ambar`, `rose`, `violeta` y fuentes) se declara con `@theme` en [`src/index.css`](../src/index.css).
 - `clsx` y `tailwind-merge`, combinados en `cn()` ([`src/utils/cn.ts`](../src/utils/cn.ts)).
+- Para el Observatorio Global de Cannabis (`src/observatorio/`): `leaflet` 1.9.4, `recharts` 3.10.1, `lucide-react` 1.65.0 y `papaparse` 5.7.0 (más `@types/leaflet`, `@types/papaparse` y `tsx` 4.23.15 como dependencias de desarrollo).
 - Google Fonts (Space Grotesk, JetBrains Mono) cargadas por `<link>` en `index.html`.
 
-No hay backend, base de datos, llamadas de red (`fetch`) ni variables de entorno. Los únicos recursos externos son las fuentes tipográficas y los enlaces a redes sociales/fuentes.
+La shell no usa backend, base de datos ni variables de entorno. El Observatorio sí hace llamadas de red en runtime (`fetch`): a `public/data/*` (catálogo, instantáneas y GeoJSON), a OpenAlex, a NYC Open Data y a los tiles de OpenStreetMap (Leaflet). Los demás recursos externos son las fuentes tipográficas y los enlaces a redes sociales/fuentes.
 
 ## Arquitectura
 
@@ -35,6 +36,8 @@ index.html ─► src/main.tsx ─► src/App.tsx (shell + enrutado por estado)
                                    ├─ src/sections/*.tsx   (una vista por sección)
                                    │     ├─ src/data/content.ts, src/data/eda.ts   (datos)
                                    │     └─ src/components/ui.tsx, charts.tsx      (UI y gráficos)
+                                   ├─ src/observatorio/ObservatorioPage.tsx (vista `observatorio`; con sus propios components/, data/, lib/, utils/)
+                                   │     └─ public/data/*.json, *.geojson  (cargados por fetch en runtime)
                                    └─ src/components/Fondo.tsx (fondo animado)
 ```
 
@@ -48,12 +51,13 @@ Responsabilidades:
 - **[`src/components/ui.tsx`](../src/components/ui.tsx)**: primitivas reutilizables (`Icon`, `Reveal`, `Counter`, `Badge`, `Panel`, `SectionTitle`, `DemoBadge`, `Tabs`, `Progress`, `Boton`). Los íconos son SVG propios seleccionados por nombre.
 - **[`src/components/charts.tsx`](../src/components/charts.tsx)**: gráficos SVG propios (`AreaStream`, `HeatmapAgenda`, `MatrizCorr`, `Histograma`, `BoxPlotPorTipo`, `Radar`, `GradientePeso`, `GrafoOrganizaciones`, `MapaCalorGeo`, `BarrasCategorias`, `DonutDestino`, `Timeline`).
 - **[`src/components/Fondo.tsx`](../src/components/Fondo.tsx)**: fondo animado (usa `useEffect`/`useRef`).
+- **[`src/observatorio/`](../src/observatorio)**: Observatorio Global de Cannabis, fusionado desde el proyecto independiente `global-cannabis-usage-dashboard` ([PLAN-002](../plan/PLAN-002-incorporar-observatorio-global-cannabis.md)). `ObservatorioPage.tsx` es el componente de la vista `observatorio` (14 pestañas, estado de filtros y datos abiertos); `components/`, `data/`, `lib/` y `utils/` son propios y no se mezclan con los de la shell. Sus estilos están en `observatorio.css` (las reglas globales van acotadas bajo `.observatorio-root`; `@reference "../index.css"` evita duplicar Tailwind). Los datos en runtime viven en [`public/data/`](../public/data); los respaldos incluidos en el bundle, en `src/observatorio/data/snapshots/`. Más detalle en [`docs/observatorio/`](./observatorio/README.md).
 
 ## Navegación y flujo principal
 
 1. [`src/main.tsx`](../src/main.tsx) monta `<App />` en `#root` dentro de `StrictMode` e importa `index.css`.
-2. `App` calcula la vista inicial a partir del hash de la URL (`#eda`, `#reprocann`…); si no coincide con ningún `id` de `NAV_VISIBLE`, usa `inicio`.
-3. Cada cambio de vista actualiza `window.location.hash`, hace scroll al inicio y renderiza la sección correspondiente. Nota: solo se lee el hash al cargar; no hay escucha de `hashchange`, por lo que los botones del navegador no cambian la vista (observación derivada del código de `App.tsx`).
+2. `App` calcula la vista inicial a partir del primer segmento del hash de la URL (`#eda`, `#reprocann`…); si no coincide con ningún `id` de `NAV_VISIBLE`, usa `inicio`. El observatorio guarda su pestaña como sub-ruta: `#observatorio/<pestaña>` (por ejemplo `#observatorio/territorio`; claves en `TABS` de `ObservatorioPage.tsx`). La shell solo compara el primer segmento y no pisa la sub-ruta; el observatorio la actualiza con `history.replaceState`.
+3. Cada cambio de vista actualiza `window.location.hash`, hace scroll al inicio y renderiza la sección correspondiente. `VistaActual` se invoca como función (`{VistaActual()}`) y no como componente, porque está definida dentro de `App`: como componente se redefiniría en cada render y remontaría la vista (el observatorio perdería pestaña y filtros al escribir en el buscador). Nota: solo se lee el hash al cargar; no hay escucha de `hashchange` en la shell, por lo que los botones del navegador y editar el hash a mano no cambian la vista (observación derivada del código de `App.tsx`). Dentro del observatorio sí se escucha `hashchange` para cambiar de pestaña.
 4. El buscador filtra `NAV_VISIBLE` por título y bajada (máx. 6 resultados). La tecla `/` enfoca el buscador y `Escape` cierra el menú móvil.
 5. El ticker de la barra superior muestra las 6 noticias más recientes de `NOTICIAS` ordenadas por fecha.
 
@@ -69,6 +73,7 @@ Responsabilidades:
 | `facc` | `sections/Facc.tsx` | Datos de la federación, asambleas y líneas de trabajo. |
 | `reprocann` | `sections/Reprocann.tsx` | Definición, normativa, roles, requisitos, rangos de cultivo y pasos. |
 | `eda` | `sections/DataLab.tsx` | EDA con pestañas Univariado / Bivariado / Categórico y gradiente de peso. |
+| `observatorio` | `observatorio/ObservatorioPage.tsx` | Observatorio Global de Cannabis: 14 pestañas (panorama, atlas territorial, formas de uso, marcos penales, gasto judicial, cáñamo y precios, cultura, tendencias, ONGs, investigación publicada, laboratorio EDA, diccionario, fuentes y contacto). |
 | `harness` (oculta) | `sections/Harness.tsx` | Especificación (`SPEC`) y habilidades (`SKILLS`) del prototipo. |
 | `tienda` (oculta) | `sections/Comercial.tsx` (`Tienda`) | Catálogo mockup con carrito. |
 | `donaciones` (oculta) | `sections/Comercial.tsx` (`Donaciones`) | Destino de fondos (`DONACION_DESTINOS`) y montos sugeridos. |
@@ -84,6 +89,7 @@ Responsabilidades:
 
 - `Contacto.tsx` valida en cliente (nombre no vacío, email con `@`, mensaje de al menos 10 caracteres) y muestra un estado «enviado»; **no realiza ninguna petición**.
 - `Tienda` y `Donaciones` son mockups (`TIENDA_NOTA` y `DONACION_NOTA` lo indican explícitamente); no hay pasarela de pago.
+- La pestaña Contacto del observatorio (`ContactView.tsx`) abre un `mailto:` con los datos escritos; no envía nada a un servidor.
 
 ## Estilos y accesibilidad
 
@@ -91,11 +97,11 @@ Estética oscura con acentos lima/verde definida en `@theme` de `index.css`, con
 
 ## Compilación, pruebas y despliegue
 
-- Scripts en `package.json`: `dev`, `build` y `preview` (Vite).
-- `vite-plugin-singlefile` incrusta JS y CSS: `npm run build` genera un único `dist/index.html`.
-- `npm ci`, `npm run build` y `npx tsc --noEmit` se ejecutaron correctamente durante la elaboración de esta documentación.
-- No hay pruebas, linter, formateador, CI/CD, Docker ni infraestructura como código.
-- El repositorio no tiene `.gitignore`: tras instalar o compilar, `node_modules/` y `dist/` aparecerían como archivos sin seguimiento.
+- Scripts en `package.json`: `dev`, `build` y `preview` (Vite); `observatorio:update-data`, `observatorio:update-literature` y `observatorio:validate-science` (actualizan o validan los datos del observatorio con `tsx`, desde la raíz del repositorio); y `test:observatorio` (19 pruebas `node:test` en `tests/observatorio/`). `scripts/observatorio/update-argentina-data.py` se ejecuta aparte con Python. No existen pruebas ni scripts para el resto de la app.
+- `vite-plugin-singlefile` incrusta JS y CSS: `npm run build` genera un único `dist/index.html`. Los archivos de `public/data/` se copian junto a él en `dist/data/`; cómo se publican queda fuera de este documento.
+- `npx tsc --noEmit` y `npm run build` se ejecutaron correctamente tras incorporar el observatorio. `tsc` solo cubre `src/`, no `scripts/` ni `tests/`.
+- No hay linter, formateador, CI/CD (el workflow `open-data.yml` citado en `docs/observatorio/DATOS_ABIERTOS.md` no se incorporó), Docker ni infraestructura como código.
+- El repositorio tiene un `.gitignore` con `node_modules` y `dist`.
 
 ## Desconocido o pendiente
 
