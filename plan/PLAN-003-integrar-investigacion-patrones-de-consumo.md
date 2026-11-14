@@ -2,7 +2,7 @@
 
 Issue de referencia: [ISSUE-003-integrar-investigacion-patrones-de-consumo.md](../Issues/ISSUE-003-integrar-investigacion-patrones-de-consumo.md)
 
-> **Estado de implementación (2026-11-14):** Sin iniciar. Este documento define el plan para que otra IA ejecute la integración.
+> **Estado de implementación (2026-11-14):** Integración aplicada (vista `patrones` renderiza `PatronesPage`, hash `#patrones/<subvista>` activo, `src/investigaciones/patrones/**` incorporado). Pendiente: validación manual completa y QA cruzado.
 
 ## 1. Objetivo
 

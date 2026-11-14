@@ -40,7 +40,16 @@ El workflow evita cambios sin contexto y mantiene la trazabilidad.
 - Script Python adicional: `scripts/observatorio/update-argentina-data.py` (requiere el entorno descrito arriba).
 - Antes de tocar datasets, sincronizar snapshots y ejecutar `npm run observatorio:validate-science`.
 
-## 5. Checklists rápidos
+## 5. Investigaciones · Patrones de consumo
+
+- Código en `src/investigaciones/patrones/` (componentes y datos encapsulados).
+- Estilos específicos en `src/investigaciones/patrones/styles/patrones.css` (scoped con `.patrones-root`).
+- Vista pública en `src/sections/Patrones.tsx`; sincroniza el hash `#patrones/<subvista>`.
+- Dataset estático en `src/investigaciones/patrones/data/research.ts`.
+- Al agregar subsecciones nuevas, actualizar `SectionId` y la navegación interna (`PatronesPage`).
+- Validar manualmente con `npm run dev` cada subsección (Resumen, EDA, Mapa de calor, Harness, Specs, Skills, Encuesta, Presentación, Conclusiones, Código, Referencias, Contacto).
+
+## 6. Checklists rápidos
 
 **Antes de abrir PR:**
 
@@ -56,7 +65,7 @@ El workflow evita cambios sin contexto y mantiene la trazabilidad.
 - [ ] Añadir componente en `src/sections/`
 - [ ] Revisar textos/datos en `src/data/*`
 
-## 6. Referencias complementarias
+## 7. Referencias complementarias
 
 - `.codex/instructions.md`: resumen operativo y matrices de responsabilidades.
 - `.github/copilot-instructions.md`: mantener sincronía con las pautas de Copilot.

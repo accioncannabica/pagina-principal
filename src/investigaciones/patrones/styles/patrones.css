@@ -1,0 +1,74 @@
+@reference "../../../index.css";
+
+.patrones-root {
+  color: #f4f4f5;
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+.patrones-root ::selection {
+  background: rgba(52, 211, 153, 0.35);
+  color: #ecfdf5;
+}
+
+.patrones-root *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.patrones-root *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.patrones-root *::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 99px;
+}
+
+.patrones-root *::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.4);
+}
+
+.patrones-root .font-display {
+  font-family: "Sora", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+.patrones-root .font-mono {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.patrones-root .recharts-cartesian-axis-tick text {
+  fill: #71717a;
+  font-size: 11px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+.patrones-root .recharts-cartesian-grid line {
+  stroke: rgba(255, 255, 255, 0.05);
+}
+
+.patrones-root .recharts-legend-item-text {
+  color: #a1a1aa !important;
+  font-size: 12px;
+}
+
+.patrones-root .recharts-tooltip-cursor {
+  fill: rgba(52, 211, 153, 0.06);
+}
+
+@keyframes patrones-pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(0.8); }
+}
+
+.patrones-root .pulse-dot {
+  animation: patrones-pulse-dot 1.8s ease-in-out infinite;
+}
+
+@keyframes patrones-ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.patrones-root .ticker-track {
+  animation: patrones-ticker 36s linear infinite;
+}

@@ -7,7 +7,7 @@ import Inicio from "./sections/Inicio";
 import QuienesSomos from "./sections/QuienesSomos";
 import Recorrido from "./sections/Recorrido";
 import Novedades from "./sections/Novedades";
-import EnConstruccion from "./sections/EnConstruccion";
+import Patrones from "./sections/Patrones";
 import Redes from "./sections/Redes";
 import Reprocann from "./sections/Reprocann";
 import Facc from "./sections/Facc";
@@ -21,15 +21,20 @@ const GRUPOS = ["Tablero", "Institucional", "Investigaciones", "Observatorio", "
 
 export default function App() {
   const [vista, setVista] = useState<Vista>(() => {
-    const h = (typeof window !== "undefined" ? window.location.hash.replace("#", "").split("/")[0] : "") as Vista;
-    return NAV_VISIBLE.some((n) => n.id === h) ? h : "inicio";
+    const [segment] = typeof window !== "undefined" ? window.location.hash.replace("#", "").split("/") : [""];
+    const candidate = segment as Vista;
+    return NAV_VISIBLE.some((n) => n.id === candidate) ? candidate : "inicio";
   });
   const [q, setQ] = useState("");
   const [menu, setMenu] = useState(false);
 
   useEffect(() => {
-    // El observatorio guarda su pestaña como "#observatorio/<pestaña>": no pisar la sub-ruta.
-    if (window.location.hash.replace("#", "").split("/")[0] !== vista) window.location.hash = vista;
+    if (vista !== "patrones") {
+      const expectedHash = `#${vista}`;
+      if (window.location.hash !== expectedHash) {
+        history.replaceState(null, "", expectedHash);
+      }
+    }
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [vista]);
 
@@ -68,7 +73,7 @@ export default function App() {
       case "novedades":
         return <Novedades />;
       case "patrones":
-        return <EnConstruccion titulo="Patrones de Consumo" />;
+        return <Patrones />;
       case "observatorio":
         return <ObservatorioPage />;
       case "redes":

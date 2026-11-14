@@ -29,7 +29,7 @@ export const NAV: ItemNav[] = [
   { id: "quienes", titulo: "Quiénes somos", icono: "users", grupo: "Institucional", bajada: "Manifiesto, pilares e historia" },
   { id: "recorrido", titulo: "Recorrido", icono: "calendar", grupo: "Institucional", bajada: "Actividades realizadas y agenda" },
   { id: "novedades", titulo: "Novedades", icono: "news", grupo: "Institucional", bajada: "Noticias locales e internacionales" },
-  { id: "patrones", titulo: "Patrones de Consumo", icono: "chart", grupo: "Investigaciones", bajada: "Investigaciones sobre patrones de consumo" },
+  { id: "patrones", titulo: "Patrones de Consumo", icono: "chart", grupo: "Investigaciones", bajada: "Encuesta y análisis de patrones de consumo" },
   { id: "observatorio", titulo: "Observatorio Global de Cannabis", icono: "globe", grupo: "Observatorio", bajada: "Observatorio Global de Cannabis" },
   { id: "redes", titulo: "Redes", icono: "network", grupo: "Redes", bajada: "Organizaciones y contactos" },
   { id: "facc", titulo: "FACC", icono: "globe", grupo: "Redes", bajada: "Federación y organizaciones miembras" },

@@ -12,6 +12,7 @@ Para entender propósito, arquitectura y flujos, revisar `docs/overview.md` ante
 
 - **Textos y datos institucionales**: `src/data/content.ts`.
 - **Dataset analítico sintético y estadísticas**: `src/data/eda.ts`.
+- **Investigaciones / Patrones**: `src/investigaciones/patrones/` (componentes, datos y estilos encapsulados); `sections/Patrones.tsx` une la vista con la shell.
 - **Nueva vista o cambio de vista**: `src/sections/<Nombre>.tsx`. Al añadir vistas, actualizar también `Vista` y `NAV` en `src/types.ts`, el `switch` de `VistaActual` en `src/App.tsx` y, si se crean grupos nuevos, `GRUPOS` en `App.tsx` y el tipo `grupo` de `ItemNav`.
 - **Componentes reutilizables**: `src/components/ui.tsx`; **gráficos SVG**: `src/components/charts.tsx`.
 - **Tema, colores y animaciones**: `@theme` y `@keyframes` en `src/index.css`.
@@ -47,6 +48,12 @@ No hacer commits ni pushes desde Codex sin pedido explícito.
 1. Confirmar que los datos de `public/data/` están actualizados
 2. Revisar scripts en `scripts/observatorio/` y doc `docs/observatorio/`
 3. Ejecutar `npm run observatorio:validate-science` si se cambian fuentes/datasets
+
+**Antes de tocar Investigaciones/Patrones**
+
+1. Revisar `src/investigaciones/patrones/data/research.ts` y acordar cambios de contenido.
+2. Validar que las clases personalizadas sigan dentro de `.patrones-root` (`styles/patrones.css`).
+3. Confirmar navegación/hash `#patrones/<subvista>` y sincronizar con `sections/Patrones.tsx` si se agregan secciones.
 
 ## Requisitos y herramientas
 

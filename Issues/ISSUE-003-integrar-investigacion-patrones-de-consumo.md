@@ -1,9 +1,11 @@
 # ISSUE-003: Integrar el proyecto "Patrones de consumo" en la sección Investigaciones
 
-- **Estado:** abierto
+- **Estado:** implementado (pendiente de validación final)
 - **Tipo:** nueva funcionalidad (integración de un proyecto existente)
+- **Plan técnico:** [PLAN-003-integrar-investigacion-patrones-de-consumo.md](../plan/PLAN-003-integrar-investigacion-patrones-de-consumo.md)
+- **Implementación:** [IMPLEMENTACION-003-integrar-investigacion-patrones-de-consumo.md](../implementacion/IMPLEMENTACION-003-integrar-investigacion-patrones-de-consumo.md)
 - **Prioridad:** alta
-- **Siguiente paso:** análisis y plan técnico (`plan/PLAN-003-...`) por parte de un planificador técnico
+- **Siguiente paso:** validar en entorno local (`npx tsc --noEmit`, `npm run build`, navegación manual) y cerrar issue si todo pasa.
 
 ## Contexto
 

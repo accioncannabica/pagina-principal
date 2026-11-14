@@ -13,6 +13,7 @@ Para entender el propósito, la arquitectura o los flujos, consulta [`docs/overv
 - **Nueva vista o cambio de una vista**: `src/sections/<Nombre>.tsx`. Para añadir una vista nueva hay que actualizar a la vez el tipo `Vista` y `NAV` en `src/types.ts`, el `switch` de `VistaActual` en `src/App.tsx` y, si hace falta un grupo nuevo, `GRUPOS` en `App.tsx` y el tipo `grupo` de `ItemNav`.
 - **Componentes de UI reutilizables**: `src/components/ui.tsx`; **gráficos SVG**: `src/components/charts.tsx` (no se usa librería de gráficos).
 - **Tema, colores y animaciones**: `@theme` y `@keyframes` en `src/index.css`.
+- **Investigación “Patrones de consumo”**: `src/investigaciones/patrones/` (componentes, datos y estilos); la vista pública vive en `src/sections/Patrones.tsx` y sincroniza `#patrones/<subruta>`.
 - **Observatorio Global de Cannabis** (vista `observatorio`): todo en `src/observatorio/` (`ObservatorioPage.tsx`, `components/`, `data/`, `lib/`, `utils/`, `observatorio.css`). Datos en runtime en `public/data/`; respaldos en `src/observatorio/data/snapshots/`. Scripts en `scripts/observatorio/`, pruebas en `tests/observatorio/`, documentación en `docs/observatorio/`.
 
 ## Convenciones observables

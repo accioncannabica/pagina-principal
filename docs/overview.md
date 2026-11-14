@@ -36,6 +36,7 @@ index.html ─► src/main.tsx ─► src/App.tsx (shell + enrutado por estado)
                                    ├─ src/sections/*.tsx   (una vista por sección)
                                    │     ├─ src/data/content.ts, src/data/eda.ts   (datos)
                                    │     └─ src/components/ui.tsx, charts.tsx      (UI y gráficos)
+                                   ├─ src/investigaciones/patrones/ (vista `patrones`; components/, data/, styles/ propios)
                                    ├─ src/observatorio/ObservatorioPage.tsx (vista `observatorio`; con sus propios components/, data/, lib/, utils/)
                                    │     └─ public/data/*.json, *.geojson  (cargados por fetch en runtime)
                                    └─ src/components/Fondo.tsx (fondo animado)
@@ -45,6 +46,7 @@ Responsabilidades:
 
 - **[`src/App.tsx`](../src/App.tsx)**: shell del tablero (barra lateral agrupada, barra superior con buscador global, ticker de noticias, pie). Mantiene en `useState` la vista actual, el texto de búsqueda y el estado del menú móvil. El «router» es un `switch` sobre `Vista` en `VistaActual`.
 - **[`src/types.ts`](../src/types.ts)**: tipo `Vista` y la lista `NAV` (id, título, ícono, grupo, bajada y `visible` opcional de cada vista). `NAV_VISIBLE` (las entradas sin `visible: false`) alimenta la barra lateral, el buscador, el pie, los atajos de Inicio y la validación del hash. Las vistas `harness`, `tienda` y `donaciones` están ocultas con `visible: false`; para reactivarlas basta con quitar esa propiedad.
+- **[`src/investigaciones/patrones/PatronesPage.tsx`](../src/investigaciones/patrones/PatronesPage.tsx)**: versión integrada del micrositio «Patrones de consumo». Maneja navegación interna, ticker, animaciones condicionadas por `prefers-reduced-motion` y sincronización de hash `#patrones/<subvista>`.
 - **[`src/sections/`](../src/sections)**: un componente por vista. Reciben la función `irA(vista)` cuando necesitan enlazar a otra sección.
 - **[`src/data/content.ts`](../src/data/content.ts)**: todo el contenido textual y tipado (organización, KPIs, especificación, hitos, actividades, noticias, organizaciones, FACC, REPROCANN, productos, donaciones, contacto).
 - **[`src/data/eda.ts`](../src/data/eda.ts)**: dataset sintético y funciones estadísticas (ver más abajo).
@@ -69,6 +71,7 @@ Responsabilidades:
 | `quienes` | `sections/QuienesSomos.tsx` | Descripción, pilares, línea de tiempo de hitos. |
 | `recorrido` | `sections/Recorrido.tsx` | Actividades y agenda con filtros por tipo (`AGENDA_FILTROS`) y heatmap. |
 | `novedades` | `sections/Novedades.tsx` | Noticias con categorías y fuente. |
+| `patrones` | `sections/Patrones.tsx` + `investigaciones/patrones/` | Investigación «Patrones de consumo y percepciones de salud»: navegación interna, ticker, componentes dedicados (`components/`) y dataset estático (`data/research.ts`). |
 | `redes` | `sections/Redes.tsx` | Directorio y grafo de organizaciones. |
 | `facc` | `sections/Facc.tsx` | Datos de la federación, asambleas y líneas de trabajo. |
 | `reprocann` | `sections/Reprocann.tsx` | Definición, normativa, roles, requisitos, rangos de cultivo y pasos. |
@@ -83,6 +86,7 @@ Responsabilidades:
 
 - **Contenido** ([`content.ts`](../src/data/content.ts)): tipos exportados `SpecItem`, `Actividad`, `Noticia`, `Organizacion` y `Producto`; el resto son constantes literales.
 - **Dataset EDA** ([`eda.ts`](../src/data/eda.ts)): 220 registros `Consulta` generados con un generador congruencial lineal con semilla fija (`20260101`) y distribución normal (Box-Muller), por lo que el resultado es determinista. Exporta estadísticos (`stats`, `ESTADISTICOS`), histogramas, correlaciones (`MATRIZ_CORR`), conteos por categoría, y las series para el heatmap de agenda, el gradiente de peso (`PUNTOS_PESO`), el mapa geográfico, la serie mensual y el radar. `EDA_META.demo` es `true`.
+- **Investigación «Patrones de consumo»** ([`research.ts`](../src/investigaciones/patrones/data/research.ts)): metadatos del estudio, bins de edad y género, resultados de la encuesta, matrices de correlación, contenidos de mockups y scripts reproducibles. Alimenta los componentes `Overview`, `Eda`, `Heatmap`, `Mockups` y anexos.
 - No hay persistencia: el carrito, los filtros y el formulario viven en el estado de React y se pierden al recargar.
 
 ## Formulario de contacto, tienda y donaciones

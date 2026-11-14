@@ -23,6 +23,7 @@ Las 12 vistas están definidas en [`src/types.ts`](src/types.ts) (`NAV`); `harne
 | --- | --- |
 | Tablero | Inicio |
 | Institucional | Quiénes somos, Recorrido, Novedades |
+| Investigaciones | Patrones de Consumo |
 | Redes | Redes, FACC |
 | Programas | REPROCANN |
 | Datos | Datos & EDA, *Spec & Skills (oculta)* |
