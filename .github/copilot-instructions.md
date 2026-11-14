@@ -41,6 +41,16 @@ npm run observatorio:validate-science    # valida el harness de ciencia
 
 No existen scripts de lint ni pruebas para el resto de la app: no los inventes ni los documentes.
 
+## Flujo de trabajo: issue → plan → implementación
+
+Todo cambio no trivial sigue estos tres pasos, en este orden:
+
+1. **Issue en GitHub** (`accioncannabica/pagina-principal`). Es la única fuente de la descripción: problema, alcance y criterios de aceptación. No se crean archivos nuevos en `Issues/` (`ISSUE-001` e `ISSUE-002` quedan como histórico) para no duplicar datos. Repo público: no pongas en el issue datos internos ni instrucciones para IA.
+2. **Plan** en `plan/PLAN-00N-<nombre>.md`, con análisis técnico, diseño, pasos verificables y riesgos, y enlace al issue (`https://github.com/accioncannabica/pagina-principal/issues/N`). Al terminarlo, comenta en el issue con `gh issue comment N`: enlace al plan, resumen corto y decisiones que necesitan confirmación. El plan no implementa código.
+3. **Implementación** solo después de que el plan esté confirmado. Valida con `npx tsc --noEmit` y `npm run build`. El commit referencia el issue (`Closes #N`) para que GitHub lo cierre al subirlo.
+
+No hagas commit ni push sin que se pida.
+
 ## Cuidados al modificar
 
 - Mantén el contenido institucional verificable (fuentes citadas en la cabecera de `content.ts`); no inventes datos legales, normativos ni de la organización, y no presentes datos de demostración como reales.
