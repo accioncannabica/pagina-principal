@@ -18,7 +18,7 @@ const FAQ = [
   },
   {
     p: "¿Reciben donaciones?",
-    r: "Sí. La estructura de destino de fondos está publicada en la sección Donaciones; los datos bancarios se incorporan de forma oficial por la Comisión Directiva.",
+    r: "Sí. Para conocer cómo realizar un aporte, escribinos a accioncannabica@gmail.com; los datos bancarios se comunicarán de forma oficial por la Comisión Directiva.",
   },
 ];
 

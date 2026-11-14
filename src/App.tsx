@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Fondo from "./components/Fondo";
 import { Badge, Boton, DemoBadge, Icon, Reveal } from "./components/ui";
-import { NAV, type Vista } from "./types";
+import { NAV, NAV_VISIBLE, type Vista } from "./types";
 import { NOTICIAS, ORG } from "./data/content";
 import Inicio from "./sections/Inicio";
 import QuienesSomos from "./sections/QuienesSomos";
@@ -20,7 +20,7 @@ const GRUPOS = ["Tablero", "Institucional", "Redes", "Programas", "Datos", "Acci
 export default function App() {
   const [vista, setVista] = useState<Vista>(() => {
     const h = (typeof window !== "undefined" ? window.location.hash.replace("#", "") : "") as Vista;
-    return NAV.some((n) => n.id === h) ? h : "inicio";
+    return NAV_VISIBLE.some((n) => n.id === h) ? h : "inicio";
   });
   const [q, setQ] = useState("");
   const [menu, setMenu] = useState(false);
@@ -51,7 +51,7 @@ export default function App() {
   const resultados = useMemo(() => {
     if (!q.trim()) return [];
     const t = q.toLowerCase();
-    return NAV.filter((n) => (n.titulo + n.bajada).toLowerCase().includes(t)).slice(0, 6);
+    return NAV_VISIBLE.filter((n) => (n.titulo + n.bajada).toLowerCase().includes(t)).slice(0, 6);
   }, [q]);
 
   const titulares = useMemo(() => [...NOTICIAS].sort((a, b) => b.fecha.localeCompare(a.fecha)).slice(0, 6), []);
@@ -114,7 +114,7 @@ export default function App() {
               <div key={g}>
                 <p className="px-2 font-mono text-[9px] uppercase tracking-[0.28em] text-emerald-50/30">{g}</p>
                 <ul className="mt-2 space-y-1">
-                  {NAV.filter((n) => n.grupo === g).map((n) => (
+                  {NAV_VISIBLE.filter((n) => n.grupo === g).map((n) => (
                     <li key={n.id}>
                       <button
                         onClick={() => irA(n.id)}
@@ -262,7 +262,7 @@ export default function App() {
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-emerald-50/35">Secciones</p>
                 <ul className="mt-3 grid grid-cols-2 gap-1.5">
-                  {NAV.slice(0, 8).map((n) => (
+                  {NAV_VISIBLE.slice(0, 8).map((n) => (
                     <li key={n.id}>
                       <button onClick={() => irA(n.id)} className="text-[11px] text-emerald-50/55 transition hover:text-lima-300">
                         {n.titulo}

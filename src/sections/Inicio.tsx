@@ -2,7 +2,7 @@ import { ACTIVIDADES, KPIS, NOTICIAS, ORG, SKILLS } from "../data/content";
 import { GEO_CALOR, RADAR_ACCA, SERIE_MENSUAL } from "../data/eda";
 import { AreaStream, MapaCalorGeo, Radar } from "../components/charts";
 import { Badge, Boton, Counter, DemoBadge, Icon, Panel, Reveal, SectionTitle } from "../components/ui";
-import type { Vista } from "../types";
+import { NAV_VISIBLE, type Vista } from "../types";
 
 const SERIES = [
   { key: "consultas", label: "Consultas", color: "#a3e635" },
@@ -134,7 +134,7 @@ export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
           icono="cursor"
         />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-          {ATAJOS.map((a, i) => (
+          {ATAJOS.filter((a) => NAV_VISIBLE.some((n) => n.id === a.vista)).map((a, i) => (
             <Reveal key={a.vista} delay={i * 50}>
               <button onClick={() => irA(a.vista)} className="group h-full w-full text-left">
                 <Panel className="h-full p-4">
@@ -231,9 +231,6 @@ export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
             </Reveal>
           ))}
         </div>
-        <Boton variante="fantasma" className="mt-4" onClick={() => irA("harness")}>
-          Ver spec, skills y mockups <Icon name="arrow" className="h-4 w-4" />
-        </Boton>
       </section>
     </div>
   );
