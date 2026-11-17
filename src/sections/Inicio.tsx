@@ -42,7 +42,7 @@ export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
               <Badge tone="slate">CABA · Argentina</Badge>
             </div>
             <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl">
-              ACCION CANNABICA
+              Acción Cannábica  
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-emerald-50/70">
               {ORG.descripcion}
