@@ -38,9 +38,9 @@ export default function QuienesSomos({ irA }: { irA: (v: Vista) => void }) {
               “{ORG.lema}.”
             </blockquote>
             <p className="mt-5 text-sm leading-relaxed text-emerald-50/65">
-              Somos un grupo abierto de activistas, usuaries terapéutiques y recreatives, cultivadores, investigadores, familiares de
+              Somos un grupo abierto de activistas, usuarias y usuarios terapéuticos y recreativos, cultivadores, investigadores, familiares de
               pacientes y profesionales de distintas áreas. Trabajamos por el reconocimiento del derecho a todos los usos y aplicaciones
-              responsables del cannabis, con una mirada de derechos humanos, salud pública y justicia social.
+              del cannabis, con una mirada de derechos humanos, salud pública y justicia social.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               <Badge tone="lima">Asociación Civil sin fines de lucro</Badge>
@@ -68,7 +68,7 @@ export default function QuienesSomos({ irA }: { irA: (v: Vista) => void }) {
             <ul className="mt-4 space-y-3">
               {[
                 ["Activistas", "Militancia y articulación política"],
-                ["Usuaries terapéutiques", "Acompañamiento y defensa del acceso"],
+                ["Usuarios terapéuticos", "Acompañamiento y defensa del acceso"],
                 ["Cultivadores", "Saberes agroecológicos y cultivo asociativo"],
                 ["Investigadores", "Producción de evidencia y datos"],
                 ["Familiares de pacientes", "Cuidados y demanda por derechos"],
