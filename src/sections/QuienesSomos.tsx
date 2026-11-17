@@ -38,7 +38,7 @@ export default function QuienesSomos({ irA }: { irA: (v: Vista) => void }) {
               “{ORG.lema}.”
             </blockquote>
             <p className="mt-5 text-sm leading-relaxed text-emerald-50/65">
-              Somos un grupo abierto de activistas, usuarias y usuarios terapéuticos y recreativos, cultivadores, investigadores, familiares de
+              Somos un grupo de activistas, usuarias y usuarios terapéuticos y recreativos, cultivadores, investigadores, familiares de
               pacientes y profesionales de distintas áreas. Trabajamos por el reconocimiento del derecho a todos los usos y aplicaciones
               del cannabis, con una mirada de derechos humanos, salud pública y justicia social.
             </p>
