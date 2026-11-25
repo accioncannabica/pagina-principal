@@ -238,12 +238,14 @@ export default function App() {
 
         <main className="px-4 py-8 sm:px-6 lg:px-10">
           <div key={vista} className="mx-auto max-w-7xl" style={{ animation: "rise 0.6s cubic-bezier(0.22,1,0.36,1) both" }}>
-            <div className="mb-8">
-              <p className="font-mono text-[10px] uppercase tracking-[0.32em] text-lima-400/70">
-                {item.grupo} / {item.titulo}
-              </p>
-              <h1 className="mt-2 text-2xl font-semibold tracking-tight text-white sm:text-3xl">{item.bajada}</h1>
-            </div>
+            {vista !== "novedades" && (
+              <div className="mb-8">
+                <p className="font-mono text-[10px] uppercase tracking-[0.32em] text-lima-400/70">
+                  {item.grupo} / {item.titulo}
+                </p>
+                <h1 className="mt-2 text-2xl font-semibold tracking-tight text-white sm:text-3xl">{item.bajada}</h1>
+              </div>
+            )}
             {/* Llamada directa: como componente, VistaActual se redefine en cada render y remontaría la vista. */}
             {VistaActual()}
           </div>
@@ -261,10 +263,6 @@ export default function App() {
                     <p className="font-mono text-[10px] text-lima-400/80">{ORG.miembro}</p>
                   </div>
                 </div>
-                <p className="mt-4 max-w-md text-[11px] leading-relaxed text-emerald-50/50">
-                  Prototipo de tablero institucional (dashboard harness) con especificación, inventario de skills, mockups interactivos,
-                  análisis exploratorio de datos, mapa de calor y gradiente de peso.
-                </p>
               </div>
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-emerald-50/35">Secciones</p>
@@ -291,7 +289,7 @@ export default function App() {
             </div>
             <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-white/6 pt-5">
               <p className="text-[10px] text-emerald-50/35">
-                © {new Date().getFullYear()} {ORG.sigla} · Contenido institucional verificado; datasets analíticos de demostración.
+                © {new Date().getFullYear()} AC · Contenido institucional verificado
               </p>
               <div className="flex items-center gap-3">
                 {ORG.socials.map((s) => (

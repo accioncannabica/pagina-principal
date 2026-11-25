@@ -1,26 +1,13 @@
-import { ACTIVIDADES, KPIS, NOTICIAS, ORG, SKILLS } from "../data/content";
+import { ACTIVIDADES, KPIS, NOTICIAS, ORG } from "../data/content";
 import { GEO_CALOR, RADAR_ACCA, SERIE_MENSUAL } from "../data/eda";
 import { AreaStream, MapaCalorGeo, Radar } from "../components/charts";
 import { Badge, Boton, Counter, DemoBadge, Icon, Panel, Reveal, SectionTitle } from "../components/ui";
-import { NAV_VISIBLE, type Vista } from "../types";
+import type { Vista } from "../types";
 
 const SERIES = [
   { key: "consultas", label: "Consultas", color: "#a3e635" },
   { key: "talleres", label: "Talleres", color: "#34d399" },
   { key: "prensa", label: "Prensa", color: "#22d3ee" },
-];
-
-const ATAJOS: { vista: Vista; titulo: string; detalle: string; icono: string }[] = [
-  { vista: "quienes", titulo: "Quiénes somos", detalle: "Manifiesto, pilares e historia desde 2014", icono: "users" },
-  { vista: "recorrido", titulo: "Recorrido", detalle: "Actividades realizadas y agenda próxima", icono: "calendar" },
-  { vista: "novedades", titulo: "Novedades", detalle: "Legislación, ciencia, agronomía y cultura", icono: "news" },
-  { vista: "redes", titulo: "Redes", detalle: "Organizaciones locales, provinciales e internacionales", icono: "network" },
-  { vista: "reprocann", titulo: "REPROCANN", detalle: "Programa, normativa y contacto", icono: "clipboard" },
-  { vista: "facc", titulo: "FACC", detalle: "Federación y organizaciones miembras", icono: "globe" },
-  { vista: "eda", titulo: "Laboratorio de datos", detalle: "EDA, mapa de calor y gradiente de peso", icono: "lab" },
-  { vista: "tienda", titulo: "Tienda", detalle: "Merchandising institucional", icono: "shop" },
-  { vista: "donaciones", titulo: "Donaciones", detalle: "Estructura de destino de fondos", icono: "gift" },
-  { vista: "contacto", titulo: "Contacto", detalle: "Escribinos y sumate", icono: "mail" },
 ];
 
 export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
@@ -125,29 +112,21 @@ export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
         </div>
       </section>
 
-      {/* ---------- ATAJOS (spec-driven) ---------- */}
+      {/* ---------- NOVEDADES PREVIEW ---------- */}
       <section>
-        <SectionTitle
-          kicker="Spec driven · secciones"
-          titulo="Todo el tablero, en una sola vista"
-          bajada="Cada sección responde a un requisito del spec del producto. Usá los atajos para saltar directamente."
-          icono="cursor"
-        />
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-          {ATAJOS.filter((a) => NAV_VISIBLE.some((n) => n.id === a.vista)).map((a, i) => (
-            <Reveal key={a.vista} delay={i * 50}>
-              <button onClick={() => irA(a.vista)} className="group h-full w-full text-left">
-                <Panel className="h-full p-4">
-                  <span className="grid h-10 w-10 place-items-center rounded-xl border border-lima-500/25 bg-lima-500/10 text-lima-300 transition group-hover:scale-110">
-                    <Icon name={a.icono} />
-                  </span>
-                  <p className="mt-3 text-sm font-semibold text-white">{a.titulo}</p>
-                  <p className="mt-1 text-[11px] leading-snug text-emerald-50/55">{a.detalle}</p>
-                  <span className="mt-3 inline-flex items-center gap-1 text-[11px] text-lima-300 opacity-0 transition group-hover:opacity-100">
-                    Abrir <Icon name="arrow" className="h-3 w-3" />
-                  </span>
-                </Panel>
-              </button>
+        <SectionTitle kicker="Novedades" titulo="Lo último del ecosistema cannábico" icono="news" />
+        <div className="grid gap-4 md:grid-cols-3">
+          {ultimas.map((n, i) => (
+            <Reveal key={n.titular} delay={i * 90}>
+              <Panel className="h-full p-5">
+                <div className="flex items-center justify-between gap-2">
+                  <Badge tone={n.categoria === "Legislación" ? "cian" : n.categoria === "Internacional" ? "violeta" : "lima"}>{n.categoria}</Badge>
+                  <span className="font-mono text-[10px] text-emerald-50/40">{n.fecha}</span>
+                </div>
+                <h4 className="mt-3 text-sm font-semibold leading-snug text-white">{n.titular}</h4>
+                <p className="mt-2 line-clamp-4 text-[11px] leading-relaxed text-emerald-50/60">{n.bajada}</p>
+                <p className="mt-3 border-t border-white/8 pt-2 text-[10px] text-emerald-50/40">Fuente: {n.fuente}</p>
+              </Panel>
             </Reveal>
           ))}
         </div>
@@ -192,46 +171,6 @@ export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
         </div>
       </section>
 
-      {/* ---------- NOVEDADES PREVIEW ---------- */}
-      <section>
-        <SectionTitle kicker="Novedades" titulo="Lo último del ecosistema cannábico" icono="news" />
-        <div className="grid gap-4 md:grid-cols-3">
-          {ultimas.map((n, i) => (
-            <Reveal key={n.titular} delay={i * 90}>
-              <Panel className="h-full p-5">
-                <div className="flex items-center justify-between gap-2">
-                  <Badge tone={n.categoria === "Legislación" ? "cian" : n.categoria === "Internacional" ? "violeta" : "lima"}>{n.categoria}</Badge>
-                  <span className="font-mono text-[10px] text-emerald-50/40">{n.fecha}</span>
-                </div>
-                <h4 className="mt-3 text-sm font-semibold leading-snug text-white">{n.titular}</h4>
-                <p className="mt-2 line-clamp-4 text-[11px] leading-relaxed text-emerald-50/60">{n.bajada}</p>
-                <p className="mt-3 border-t border-white/8 pt-2 text-[10px] text-emerald-50/40">Fuente: {n.fuente}</p>
-              </Panel>
-            </Reveal>
-          ))}
-        </div>
-      </section>
-
-      {/* ---------- SKILLS PREVIEW ---------- */}
-      <section>
-        <SectionTitle kicker="Skills del equipo" titulo="Capacidades aplicadas a este tablero" icono="spark" />
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {SKILLS.slice(0, 4).map((s, i) => (
-            <Reveal key={s.titulo} delay={i * 70}>
-              <Panel className="h-full p-4">
-                <span className="grid h-9 w-9 place-items-center rounded-lg border border-cian-400/25 bg-cian-400/10 text-cian-400">
-                  <Icon name={s.icono} className="h-4 w-4" />
-                </span>
-                <p className="mt-3 text-xs font-semibold text-white">{s.titulo}</p>
-                <p className="mt-1 text-[11px] leading-snug text-emerald-50/55">{s.detalle}</p>
-                <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-white/8">
-                  <div className="h-full rounded-full bg-gradient-to-r from-cian-400 to-lima-400" style={{ width: `${s.nivel}%` }} />
-                </div>
-              </Panel>
-            </Reveal>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import { useMemo, useState } from "react";
 import { ACTIVIDADES, AGENDA_FILTROS } from "../data/content";
-import { DIAS_SEMANA, HEATMAP_AGENDA } from "../data/eda";
-import { HeatmapAgenda } from "../components/charts";
 import { Badge, DemoBadge, Icon, Panel, Reveal, SectionTitle, Tabs } from "../components/ui";
 
 const MESES = ["", "ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"];
@@ -117,11 +115,6 @@ export default function Recorrido() {
         )}
       </section>
 
-      {/* Heatmap */}
-      <section>
-        <SectionTitle kicker="Mapa de calor" titulo="Intensidad de la agenda" bajada="Cada columna es una semana del año; cada fila, un día. El color indica la carga de actividad." icono="chart" />
-        <HeatmapAgenda celdas={HEATMAP_AGENDA} dias={DIAS_SEMANA} />
-      </section>
     </div>
   );
 }
