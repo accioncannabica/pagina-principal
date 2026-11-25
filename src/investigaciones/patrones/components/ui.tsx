@@ -31,10 +31,12 @@ export function SectionHeader({
   return (
     <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
       <div className="max-w-2xl">
-        <div className="mb-2 flex items-center gap-2">
-          <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.9)]" />
-          <span className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-emerald-300/90">{eyebrow}</span>
-        </div>
+        {eyebrow && (
+          <div className="mb-2 flex items-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.9)]" />
+            <span className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-emerald-300/90">{eyebrow}</span>
+          </div>
+        )}
         <h2 className="font-display text-2xl font-semibold tracking-tight text-zinc-50 sm:text-[28px]">{title}</h2>
         {desc && <p className="mt-1.5 text-sm leading-relaxed text-zinc-400">{desc}</p>}
       </div>

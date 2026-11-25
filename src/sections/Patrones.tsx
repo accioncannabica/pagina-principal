@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 
 import { PatronesPage, type SectionId } from "../investigaciones/patrones/PatronesPage";
 
-const DEFAULT_SECTION: SectionId = "resumen";
+const DEFAULT_SECTION: SectionId = "ciencia-datos";
 
 const isSection = (value: string | undefined): value is SectionId =>
-  value ? (["resumen", "harness", "specs", "skills", "encuesta", "eda", "avanzado", "presentacion", "conclusiones", "variables", "codigo", "referencias", "contacto"] as const).includes(value as SectionId) : false;
+  value ? (["ciencia-datos", "resumen", "harness", "specs", "skills", "encuesta", "eda", "avanzado", "presentacion", "conclusiones", "variables", "codigo", "referencias", "contacto"] as const).includes(value as SectionId) : false;
 
 const readHashSection = (): SectionId => {
   if (typeof window === "undefined") {

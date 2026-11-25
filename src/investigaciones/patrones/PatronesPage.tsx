@@ -9,6 +9,7 @@ import {
   Flame,
   Presentation,
   BookOpenCheck,
+  Sparkles,
   Leaf,
   FileText,
   ChevronRight,
@@ -30,12 +31,14 @@ import Variables from "./components/Variables";
 import Codigo from "./components/Codigo";
 import Referencias from "./components/Referencias";
 import Contacto from "./components/Contacto";
+import CienciaDatos from "./components/CienciaDatos";
 import { cn } from "./utils/cn";
 import logoAccionCannabica from "../../assets/logo-accion-cannabica.png";
 
 import "./styles/patrones.css";
 
 export type SectionId =
+  | "ciencia-datos"
   | "resumen"
   | "harness"
   | "specs"
@@ -56,6 +59,7 @@ type PatronesPageProps = {
 };
 
 const NAV: { id: SectionId; label: string; icon: typeof LayoutDashboard; grupo: string; desc: string; visible?: boolean }[] = [
+  { id: "ciencia-datos", label: "Ciencia de Datos", icon: Sparkles, grupo: "Investigación", desc: "Conceptos y herramientas para comprender la evidencia" },
   { id: "resumen", label: "Resumen del estudio", icon: LayoutDashboard, grupo: "Investigación", desc: "Muestra y hallazgos clave" },
   { id: "eda", label: "Exploración (EDA)", icon: BarChart3, grupo: "Investigación", desc: "Resultados descriptivos 4" },
   { id: "avanzado", label: "Machine Learning", icon: Flame, grupo: "Investigación", desc: "Correlación · K-Means · Random Forest 5–6" },
@@ -71,7 +75,12 @@ const NAV: { id: SectionId; label: string; icon: typeof LayoutDashboard; grupo: 
   { id: "contacto", label: "Contacto", icon: Mail, grupo: "Entrega", desc: "Mail e Instagram oficiales" },
 ];
 
-const VIEWS: Record<SectionId, ComponentType> = {
+type ViewProps = {
+  onVerResumen?: () => void;
+};
+
+const VIEWS: Record<SectionId, ComponentType<ViewProps>> = {
+  "ciencia-datos": CienciaDatos,
   resumen: Overview,
   harness: Harness,
   specs: Specs,
@@ -192,7 +201,7 @@ export function PatronesPage({ section, onSectionChange }: PatronesPageProps) {
 
         <main className="mt-5">
           <div>
-            <View />
+            <View onVerResumen={() => ir("resumen")} />
           </div>
         </main>
 
