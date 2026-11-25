@@ -152,7 +152,7 @@ export default function Heatmap() {
                     <XAxis dataKey="comp" axisLine={false} tickLine={false} tick={{ fontSize: 10.5 }} />
                     <YAxis axisLine={false} tickLine={false} unit="%" />
                     <Tooltip {...CHART_TOOLTIP} formatter={(v: any, _n: any, item: any) => [`${fmt(Number(v), 1)}%${item?.payload?.reportado ? "" : " (distribuido)"}`, "Varianza"]} />
-                    <Bar dataKey="var" radius={[5, 5, 0, 0]} maxBarSize={40}>
+                    <Bar dataKey="var" radius={[5, 5, 0, 0]} maxBarSize={40} isAnimationActive={false}>
                       {PCA_BARRAS.map((b) => <Cell key={b.comp} fill={b.reportado ? "#38bdf8" : "#38bdf8"} fillOpacity={b.reportado ? 0.9 : 0.3} />)}
                     </Bar>
                   </BarChart>

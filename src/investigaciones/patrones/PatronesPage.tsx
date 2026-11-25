@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ComponentType } from "react";
+import { useEffect, useMemo, type ComponentType } from "react";
 import {
   LayoutDashboard,
   FlaskConical,
@@ -48,8 +48,8 @@ export type SectionId =
   | "contacto";
 
 type PatronesPageProps = {
-  initialSection?: SectionId;
-  onSectionChange?: (section: SectionId) => void;
+  section: SectionId;
+  onSectionChange: (section: SectionId) => void;
 };
 
 const NAV: { id: SectionId; label: string; icon: typeof LayoutDashboard; grupo: string; desc: string }[] = [
@@ -96,46 +96,25 @@ const TICKER: [string, string, string][] = [
 ];
 
 
-const isSection = (value: string | undefined): value is SectionId => NAV.some((item) => item.id === value);
-
-export function PatronesPage({ initialSection, onSectionChange }: PatronesPageProps) {
-  const [section, setSection] = useState<SectionId>(() => (isSection(initialSection) ? initialSection : "resumen"));
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-
+export function PatronesPage({ section, onSectionChange }: PatronesPageProps) {
   const View = VIEWS[section];
   const activa = NAV.find((item) => item.id === section)!;
   const grupos = useMemo(() => [...new Set(NAV.map((item) => item.grupo))], []);
   const navItems = useMemo(() => grupos.map((grupo) => ({ grupo, items: NAV.filter((item) => item.grupo === grupo) })), [grupos]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const update = () => setPrefersReducedMotion(media.matches);
-    update();
-    media.addEventListener("change", update);
-    return () => media.removeEventListener("change", update);
-  }, []);
-
-  useEffect(() => {
-    if (isSection(initialSection) && initialSection !== section) {
-      setSection(initialSection);
-    }
-  }, [initialSection, section]);
-
-  useEffect(() => {
-    onSectionChange?.(section);
     if (typeof window !== "undefined") {
       const hash = `#patrones/${section}`;
       if (window.location.hash !== hash) {
         history.replaceState(null, "", hash);
       }
     }
-  }, [section, onSectionChange]);
+  }, [section]);
 
   const ir = (id: SectionId) => {
-    setSection(id);
+    onSectionChange(id);
     if (typeof window !== "undefined") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: "auto" });
     }
   };
 
@@ -174,9 +153,9 @@ export function PatronesPage({ initialSection, onSectionChange }: PatronesPagePr
           </div>
         </header>
 
-        <nav className="mt-4 flex flex-wrap gap-2 rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-3 sm:px-6">
+        <nav className="mt-4 flex flex-col gap-2 rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-3 sm:px-6">
           {navItems.map(({ grupo, items }) => (
-            <div key={grupo} className="flex items-center gap-1.5">
+            <div key={grupo} className="flex flex-wrap items-center gap-1.5">
               <span className="mr-1 text-[9px] font-semibold uppercase tracking-[0.3em] text-emerald-50/40">{grupo}</span>
               {items.map((item) => (
                 <button

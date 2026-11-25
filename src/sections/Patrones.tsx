@@ -35,7 +35,7 @@ export default function Patrones() {
 
   return (
     <div className="space-y-6">
-      <PatronesPage initialSection={section} onSectionChange={setSection} />
+      <PatronesPage section={section} onSectionChange={setSection} />
     </div>
   );
 }

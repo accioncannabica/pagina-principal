@@ -63,7 +63,7 @@ export default function Overview() {
                   <XAxis dataKey="rango" axisLine={false} tickLine={false} tick={{ fontSize: 10.5 }} />
                   <YAxis axisLine={false} tickLine={false} unit="%" />
                   <Tooltip {...CHART_TOOLTIP} formatter={(v: any) => [`${fmt(Number(v), 1)}%`, "Participantes"]} />
-                  <Bar dataKey="pct" radius={[6, 6, 0, 0]} maxBarSize={46}>
+                  <Bar dataKey="pct" radius={[6, 6, 0, 0]} maxBarSize={46} isAnimationActive={false}>
                     {EDAD_BINS.map((b) => (
                       <Cell key={b.rango} fill={["20–24", "25–29", "30–34"].includes(b.rango) ? "#34d399" : "#34d399"} fillOpacity={["20–24", "25–29", "30–34"].includes(b.rango) ? 0.95 : 0.4} />
                     ))}
@@ -91,7 +91,7 @@ export default function Overview() {
             <div className="h-[168px]">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
-                  <Pie data={GENERO} dataKey="pct" nameKey="categoria" innerRadius={52} outerRadius={76} paddingAngle={3} strokeWidth={0}>
+                  <Pie data={GENERO} dataKey="pct" nameKey="categoria" innerRadius={52} outerRadius={76} paddingAngle={3} strokeWidth={0} isAnimationActive={false}>
                     {GENERO.map((g, i) => <Cell key={g.categoria} fill={G_COLORS[i]} />)}
                   </Pie>
                   <Tooltip {...CHART_TOOLTIP} formatter={(v: any, n: any) => [`${fmt(Number(v), 1)}%`, n]} />

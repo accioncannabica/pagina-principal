@@ -64,7 +64,7 @@ export default function Eda() {
                   <XAxis type="number" domain={[0, 100]} axisLine={false} tickLine={false} unit="%" />
                   <YAxis type="category" dataKey="name" axisLine={false} tickLine={false} width={150} tick={{ fontSize: 11 }} />
                   <Tooltip {...CHART_TOOLTIP} formatter={(v: any, _n: any, item: any) => [`${fmt(Number(v), 1)}%${item?.payload?.n ? ` · n=${item.payload.n}` : ""}`, "Participantes"]} />
-                  <Bar dataKey="pct" radius={[0, 6, 6, 0]} maxBarSize={22}>
+                  <Bar dataKey="pct" radius={[0, 6, 6, 0]} maxBarSize={22} isAnimationActive={false}>
                     {chartData.map((c, i) => (
                       <Cell key={c.name} fill={i === 0 ? "#34d399" : "#2dd4bf"} fillOpacity={1 - i * 0.09} />
                     ))}
