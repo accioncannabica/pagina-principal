@@ -123,7 +123,7 @@ export default function App() {
           </div>
 
           <nav className="flex-1 space-y-5 overflow-y-auto px-3 py-4">
-            {GRUPOS.map((g) => (
+            {GRUPOS.filter((g) => NAV_VISIBLE.some((n) => n.grupo === g)).map((g) => (
               <div key={g}>
                 <p className="px-2 font-mono text-[9px] uppercase tracking-[0.28em] text-emerald-50/30">{g}</p>
                 <ul className="mt-2 space-y-1">
@@ -238,7 +238,7 @@ export default function App() {
 
         <main className="px-4 py-8 sm:px-6 lg:px-10">
           <div key={vista} className="mx-auto max-w-7xl" style={{ animation: "rise 0.6s cubic-bezier(0.22,1,0.36,1) both" }}>
-            {vista !== "novedades" && (
+            {!["novedades", "facc", "reprocann"].includes(vista) && (
               <div className="mb-8">
                 <p className="font-mono text-[10px] uppercase tracking-[0.32em] text-lima-400/70">
                   {item.grupo} / {item.titulo}

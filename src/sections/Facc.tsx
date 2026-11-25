@@ -103,8 +103,8 @@ export default function Facc({ irA }: { irA: (v: Vista) => void }) {
 
       {/* Líneas de trabajo */}
       <section>
-        <SectionTitle kicker="Líneas de trabajo" titulo="Cuatro ejes de la Federación" icono="clipboard" />
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <SectionTitle kicker="Líneas de trabajo" titulo="Tres ejes de la Federación" icono="clipboard" />
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {FACC.lineas.map((l, i) => (
             <Reveal key={l.titulo} delay={i * 80}>
               <Panel className="h-full p-5">

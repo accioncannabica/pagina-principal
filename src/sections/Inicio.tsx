@@ -41,9 +41,6 @@ export default function Inicio({ irA }: { irA: (v: Vista) => void }) {
               <Boton variante="fantasma" onClick={() => irA("contacto")}>
                 <Icon name="mail" className="h-4 w-4" /> Contacto
               </Boton>
-              <Boton variante="fantasma" onClick={() => irA("eda")}>
-                <Icon name="lab" className="h-4 w-4" /> Ver el análisis de datos
-              </Boton>
             </div>
             <div className="mt-8 flex flex-wrap items-center gap-4 border-t border-white/10 pt-6">
               {ORG.socials.map((s) => (

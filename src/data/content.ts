@@ -275,7 +275,6 @@ export const FACC = {
   ],
   lineas: [
     { titulo: "Nueva Ley de Drogas", texto: "Estrategia federal por una ley respetuosa de les usuaries, con perspectiva de derechos humanos y desarrollo sustentable." },
-    { titulo: "Mesa consultiva ARICCAME", texto: "Composición de secretarías para intervenir en la creación e implementación de políticas públicas de la Agencia." },
     { titulo: "Industria y cáñamo", texto: "Articulación con provincias, cooperativa semillera, fitomejoramiento y nodos productivos." },
     { titulo: "Género y cuidados", texto: "Talleres de formación para las grupalidades que componen la federación, con mirada feminista." },
   ],

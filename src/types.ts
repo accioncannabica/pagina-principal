@@ -34,7 +34,7 @@ export const NAV: ItemNav[] = [
   { id: "redes", titulo: "Redes", icono: "network", grupo: "Redes", bajada: "Organizaciones y contactos" },
   { id: "facc", titulo: "FACC", icono: "globe", grupo: "Redes", bajada: "Federación y organizaciones miembras" },
   { id: "reprocann", titulo: "REPROCANN", icono: "clipboard", grupo: "Programas", bajada: "Programa, normativa y contacto" },
-  { id: "eda", titulo: "Datos & EDA", icono: "lab", grupo: "Datos", bajada: "EDA, mapa de calor y gradiente de peso" },
+  { id: "eda", titulo: "Datos & EDA", icono: "lab", grupo: "Datos", bajada: "EDA, mapa de calor y gradiente de peso", visible: false },
   { id: "harness", titulo: "Spec & Skills", icono: "code", grupo: "Datos", bajada: "Especificación, skills y mockups", visible: false },
   { id: "tienda", titulo: "Tienda", icono: "shop", grupo: "Acción", bajada: "Merchandising institucional", visible: false },
   { id: "donaciones", titulo: "Donaciones", icono: "gift", grupo: "Acción",   bajada: "Destino de los fondos", visible: false },
