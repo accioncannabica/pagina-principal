@@ -238,7 +238,7 @@ export default function App() {
 
         <main className="px-4 py-8 sm:px-6 lg:px-10">
           <div key={vista} className="mx-auto max-w-7xl" style={{ animation: "rise 0.6s cubic-bezier(0.22,1,0.36,1) both" }}>
-            {!["novedades", "facc", "reprocann"].includes(vista) && (
+            {!["inicio", "novedades", "facc", "reprocann"].includes(vista) && (
               <div className="mb-8">
                 <p className="font-mono text-[10px] uppercase tracking-[0.32em] text-lima-400/70">
                   {item.grupo} / {item.titulo}
