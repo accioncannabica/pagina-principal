@@ -39,17 +39,17 @@ const MATRIX: Record<string, number[]> = {
 };
 
 const ENFOQUES = [
-  { nombre: "Salud pública", detalle: "Prevalencia, reducción de daños y determinantes sociales (§2.6.1)", nivel: 86 },
-  { nombre: "Sociología", detalle: "Normalización, capital social e identidades (§2.6.2)", nivel: 82 },
-  { nombre: "Políticas de drogas", detalle: "Prohibición vs. regulación: Ley 27.350, Ley 27.669, Uruguay 19.172 (§2.6.3)", nivel: 89 },
-  { nombre: "Ciencia de datos", detalle: "Correlaciones, PCA, clustering y modelos supervisados (§2.6.4)", nivel: 91 },
+  { nombre: "Salud pública", detalle: "Prevalencia, reducción de daños y determinantes sociales (2.6.1)", nivel: 86 },
+  { nombre: "Sociología", detalle: "Normalización, capital social e identidades (2.6.2)", nivel: 82 },
+  { nombre: "Políticas de drogas", detalle: "Prohibición vs. regulación: Ley 27.350, Ley 27.669, Uruguay 19.172 (2.6.3)", nivel: 89 },
+  { nombre: "Ciencia de datos", detalle: "Correlaciones, PCA, clustering y modelos supervisados (2.6.4)", nivel: 91 },
 ];
 
 export default function Skills() {
   return (
     <div>
       <SectionHeader
-        eyebrow="Equipo multidisciplinario · §2.6"
+        eyebrow="Equipo multidisciplinario · 2.6"
         title="Skills del equipo investigador"
         desc="El estudio integra salud pública, sociología, políticas de drogas y ciencia de datos. La matriz cruza competencias con los perfiles del equipo: autores de Acción Cannábica, un analista de datos y colaboradoras de UNLP y UBA."
         right={<Badge tone="emerald">7 integrantes · 4 disciplinas</Badge>}
@@ -93,7 +93,7 @@ export default function Skills() {
         <FadeIn delay={0.08}>
           <Card className="p-5">
             <h3 className="font-display text-base font-semibold text-zinc-100">Enfoques disciplinarios del estudio</h3>
-            <p className="mb-4 text-xs text-zinc-500">Intensidad con que cada disciplina estructura el análisis (§2.6.1–2.6.4)</p>
+            <p className="mb-4 text-xs text-zinc-500">Intensidad con que cada disciplina estructura el análisis (2.6.1–2.6.4)</p>
             <div className="space-y-4">
               {ENFOQUES.map((e) => (
                 <div key={e.nombre}>
@@ -111,7 +111,7 @@ export default function Skills() {
               ))}
             </div>
             <div className="mt-5 rounded-xl border border-white/[0.06] bg-white/[0.02] p-3.5 text-xs leading-relaxed text-zinc-400">
-              <span className="font-semibold text-zinc-200">Lectura:</span> el diferencial del estudio es la combinación de capital comunitario (organización de usuarios) con capacidad técnica de datos — una configuración poco frecuente en la literatura regional, donde predominan enfoques clínicos o de vigilancia (§2.4).
+              <span className="font-semibold text-zinc-200">Lectura:</span> el diferencial del estudio es la combinación de capital comunitario (organización de usuarios) con capacidad técnica de datos — una configuración poco frecuente en la literatura regional, donde predominan enfoques clínicos o de vigilancia (2.4).
             </div>
           </Card>
         </FadeIn>
@@ -157,7 +157,7 @@ export default function Skills() {
           </div>
           <div className="mt-4 grid gap-2 sm:grid-cols-2">
             <div className="rounded-xl border border-amber-400/15 bg-amber-400/[0.05] px-3.5 py-2.5 text-xs leading-relaxed text-amber-100/80">
-              <span className="font-semibold text-amber-200">Punto único de fallo:</span> el pipeline Python/ML concentra su expertise en el perfil de ciencia de datos; el harness de doble verificación con IA (§14) mitiga ese riesgo.
+              <span className="font-semibold text-amber-200">Punto único de fallo:</span> el pipeline Python/ML concentra su expertise en el perfil de ciencia de datos; el harness de doble verificación con IA (14) mitiga ese riesgo.
             </div>
             <div className="rounded-xl border border-emerald-400/15 bg-emerald-400/[0.05] px-3.5 py-2.5 text-xs leading-relaxed text-emerald-100/80">
               <span className="font-semibold text-emerald-200">Fortaleza distintiva:</span> coordinación y campo superan 90 en trabajo con usuarios/as y políticas — la base del acceso a una población de difícil alcance.

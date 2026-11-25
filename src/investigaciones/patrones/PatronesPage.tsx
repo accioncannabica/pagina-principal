@@ -26,10 +26,12 @@ import Eda from "./components/Eda";
 import Heatmap from "./components/Heatmap";
 import PresentationView from "./components/Presentation";
 import Conclusions from "./components/Conclusions";
+import Variables from "./components/Variables";
 import Codigo from "./components/Codigo";
 import Referencias from "./components/Referencias";
 import Contacto from "./components/Contacto";
 import { cn } from "./utils/cn";
+import logoAccionCannabica from "../../assets/logo-accion-cannabica.png";
 
 import "./styles/patrones.css";
 
@@ -43,6 +45,7 @@ export type SectionId =
   | "avanzado"
   | "presentacion"
   | "conclusiones"
+  | "variables"
   | "codigo"
   | "referencias"
   | "contacto";
@@ -52,18 +55,19 @@ type PatronesPageProps = {
   onSectionChange: (section: SectionId) => void;
 };
 
-const NAV: { id: SectionId; label: string; icon: typeof LayoutDashboard; grupo: string; desc: string }[] = [
+const NAV: { id: SectionId; label: string; icon: typeof LayoutDashboard; grupo: string; desc: string; visible?: boolean }[] = [
   { id: "resumen", label: "Resumen del estudio", icon: LayoutDashboard, grupo: "Investigación", desc: "Muestra y hallazgos clave" },
-  { id: "eda", label: "Exploración (EDA)", icon: BarChart3, grupo: "Investigación", desc: "Resultados descriptivos §4" },
-  { id: "avanzado", label: "Mapa de calor y pesos", icon: Flame, grupo: "Investigación", desc: "Correlaciones · PCA · RF §5–6" },
-  { id: "harness", label: "Harness reproducible", icon: FlaskConical, grupo: "Metodología", desc: "22 scripts · doble verificación" },
-  { id: "specs", label: "Protocolo Spec-Driven", icon: FileCheck2, grupo: "Metodología", desc: "Objetivos y trazabilidad" },
-  { id: "skills", label: "Equipo y Skills", icon: GraduationCap, grupo: "Metodología", desc: "Matriz multidisciplinaria" },
-  { id: "encuesta", label: "Encuesta interactiva", icon: ClipboardList, grupo: "Instrumento", desc: "Mockup + instrumento §13.1" },
-  { id: "codigo", label: "Anexo de código", icon: Code2, grupo: "Metodología", desc: "22 scripts Python §14" },
+  { id: "eda", label: "Exploración (EDA)", icon: BarChart3, grupo: "Investigación", desc: "Resultados descriptivos 4" },
+  { id: "avanzado", label: "Machine Learning", icon: Flame, grupo: "Investigación", desc: "Correlación · K-Means · Random Forest 5–6" },
+  { id: "harness", label: "Metodología de trabajo", icon: FlaskConical, grupo: "Metodología", desc: "22 scripts · doble verificación" },
+  { id: "specs", label: "Protocolo Spec-Driven", icon: FileCheck2, grupo: "Metodología", desc: "Objetivos y trazabilidad", visible: false },
+  { id: "skills", label: "Equipo y Skills", icon: GraduationCap, grupo: "Metodología", desc: "Matriz multidisciplinaria", visible: false },
+  { id: "encuesta", label: "Encuesta", icon: ClipboardList, grupo: "Instrumento", desc: "Mockup + instrumento 13.1" },
+  { id: "codigo", label: "Anexo de código", icon: Code2, grupo: "Metodología", desc: "22 scripts Python 14" },
   { id: "presentacion", label: "Presentación", icon: Presentation, grupo: "Entrega", desc: "Deck del paper" },
   { id: "conclusiones", label: "Conclusiones", icon: BookOpenCheck, grupo: "Entrega", desc: "Hallazgos y veredicto" },
-  { id: "referencias", label: "Glosario y fuentes", icon: BookMarked, grupo: "Entrega", desc: "Términos y bibliografía §15–16" },
+  { id: "variables", label: "Diccionario de variables", icon: BookMarked, grupo: "Entrega", desc: "Variables y codificación 13.2" },
+  { id: "referencias", label: "Glosario y fuentes", icon: BookMarked, grupo: "Entrega", desc: "Términos y bibliografía 15–16" },
   { id: "contacto", label: "Contacto", icon: Mail, grupo: "Entrega", desc: "Mail e Instagram oficiales" },
 ];
 
@@ -77,6 +81,7 @@ const VIEWS: Record<SectionId, ComponentType> = {
   avanzado: Heatmap,
   presentacion: PresentationView,
   conclusiones: Conclusions,
+  variables: Variables,
   codigo: Codigo,
   referencias: Referencias,
   contacto: Contacto,
@@ -99,8 +104,9 @@ const TICKER: [string, string, string][] = [
 export function PatronesPage({ section, onSectionChange }: PatronesPageProps) {
   const View = VIEWS[section];
   const activa = NAV.find((item) => item.id === section)!;
-  const grupos = useMemo(() => [...new Set(NAV.map((item) => item.grupo))], []);
-  const navItems = useMemo(() => grupos.map((grupo) => ({ grupo, items: NAV.filter((item) => item.grupo === grupo) })), [grupos]);
+  const visibleNav = useMemo(() => NAV.filter((item) => item.visible !== false), []);
+  const grupos = useMemo(() => [...new Set(visibleNav.map((item) => item.grupo))], [visibleNav]);
+  const navItems = useMemo(() => grupos.map((grupo) => ({ grupo, items: visibleNav.filter((item) => item.grupo === grupo) })), [grupos, visibleNav]);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -124,9 +130,11 @@ export function PatronesPage({ section, onSectionChange }: PatronesPageProps) {
         <header className="flex flex-col gap-4 rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-4 sm:px-6">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-3">
-              <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-lima-400 text-ink-950 shadow-lg shadow-lima-500/25">
-                <Leaf size={22} strokeWidth={2.2} />
-              </span>
+              <img
+                src={logoAccionCannabica}
+                alt="Acción Cannábica"
+                className="h-11 w-11 shrink-0 rounded-2xl object-contain"
+              />
               <div className="min-w-0">
                 <p className="font-display text-sm font-semibold leading-tight text-white">Acción Cannábica · Investigación</p>
                 <p className="text-[10px] uppercase tracking-[0.24em] text-emerald-50/50">Patrones de consumo y percepciones de salud</p>

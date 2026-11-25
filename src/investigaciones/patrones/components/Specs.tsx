@@ -15,17 +15,17 @@ interface Objetivo {
   evidencia: string;
 }
 const OBJETIVOS: Objetivo[] = [
-  { id: "OE-01", titulo: "Caracterizar sociodemográficamente a los participantes", metodo: "Frecuencias, media/mediana/DE", seccion: "§4.1", estado: "Cumplido", avance: 100, evidencia: "Edad 31,1 (DE 10,8) · 61,5% masculino · AMBA 59,8% · n válido 933–1.041" },
-  { id: "OE-02", titulo: "Analizar patrones, motivos y efectos percibidos (recreativo / terapéutico / mixto)", metodo: "Tablas de frecuencia multirrespuesta", seccion: "§4.2–4.3", estado: "Cumplido", avance: 100, evidencia: "Disfrute 86,1% · diario 52,0% · relaja 79,7% · multiefectos x̄=5,01" },
-  { id: "OE-03", titulo: "Evaluar problemas/conflictos asociados, incl. experiencias policiales y judiciales", metodo: "Tablas de contingencia + χ²", seccion: "§4.5", estado: "Cumplido", avance: 100, evidencia: "Vida diaria ≈4% · policial 25,4% · detenidos 13,6% · Norte vs Patagonia p=0,406" },
-  { id: "OE-04", titulo: "Explorar cultivo, acceso y autoabastecimiento", metodo: "Reclasificación reproducible (§14.4)", seccion: "§4.2.3 · §4.7", estado: "Cumplido", avance: 100, evidencia: "Cultiva 65,2% · cohorte n=743 · autoabastece 66,5% · procedencia desconocida 60,2%" },
-  { id: "OE-05", titulo: "Investigar posicionamientos regulatorios y participación en colectivos", metodo: "Frecuencias y cruces descriptivos", seccion: "§4.6", estado: "Cumplido", avance: 100, evidencia: "Legalización 69,3% · colectivos 33,2% · Marcha 56,2%" },
-  { id: "OE-06", titulo: "Explorar asociaciones entre variables clave", metodo: "Correlación de Pearson + χ²", seccion: "§5.1", estado: "Cumplido", avance: 100, evidencia: "Consumo×problemas r≈0,04 · mayoría |r|<0,20" },
-  { id: "OE-07", titulo: "Aplicar PCA y determinar la varianza explicada", metodo: "PCA con StandardScaler (sklearn)", seccion: "§5.2", estado: "Cumplido", avance: 100, evidencia: "PC1 13,1% + PC2 9,1% ≈ 22% · sin eje dominante" },
-  { id: "OE-08", titulo: "Identificar y caracterizar perfiles de usuarios/as", metodo: "K-Means k=3 + silhouette", seccion: "§5.3 · §6.2", estado: "Cumplido parcial", avance: 78, evidencia: "3 perfiles descriptivos · silhouette 0,19 (fronteras difusas)" },
-  { id: "OE-09", titulo: "Modelos predictivos exploratorios de problemas y uso terapéutico", metodo: "Random Forest + regresión logística, ROC", seccion: "§6.1 · §6.5 · §6.6", estado: "Cumplido parcial", avance: 72, evidencia: "RF AUC 0,49 · Logística problemas AUC 0,58/F1 0,11 · Logística terapéutico AUC 0,67/F1 0,60" },
-  { id: "OE-10", titulo: "Proponer líneas de investigación futura", metodo: "Síntesis multidisciplinaria", seccion: "§11–12", estado: "Cumplido", avance: 100, evidencia: "Longitudinales, variables clínicas, modelos supervisados, comparativos regionales" },
-  { id: "OE-11", titulo: "Profundizar policonsumo, comorbilidades y diferencias entre países", metodo: "Diseños futuros / ampliación de muestra", seccion: "§2.7.2 · §12", estado: "Línea futura", avance: 15, evidencia: "Formulado como ampliación posible del estudio actual" },
+  { id: "OE-01", titulo: "Caracterizar sociodemográficamente a los participantes", metodo: "Frecuencias, media/mediana/DE", seccion: "4.1", estado: "Cumplido", avance: 100, evidencia: "Edad 31,1 (DE 10,8) · 61,5% masculino · AMBA 59,8% · n válido 933–1.041" },
+  { id: "OE-02", titulo: "Analizar patrones, motivos y efectos percibidos (recreativo / terapéutico / mixto)", metodo: "Tablas de frecuencia multirrespuesta", seccion: "4.2–4.3", estado: "Cumplido", avance: 100, evidencia: "Disfrute 86,1% · diario 52,0% · relaja 79,7% · multiefectos x̄=5,01" },
+  { id: "OE-03", titulo: "Evaluar problemas/conflictos asociados, incl. experiencias policiales y judiciales", metodo: "Tablas de contingencia + χ²", seccion: "4.5", estado: "Cumplido", avance: 100, evidencia: "Vida diaria ≈4% · policial 25,4% · detenidos 13,6% · Norte vs Patagonia p=0,406" },
+  { id: "OE-04", titulo: "Explorar cultivo, acceso y autoabastecimiento", metodo: "Reclasificación reproducible (14.4)", seccion: "4.2.3 · 4.7", estado: "Cumplido", avance: 100, evidencia: "Cultiva 65,2% · cohorte n=743 · autoabastece 66,5% · procedencia desconocida 60,2%" },
+  { id: "OE-05", titulo: "Investigar posicionamientos regulatorios y participación en colectivos", metodo: "Frecuencias y cruces descriptivos", seccion: "4.6", estado: "Cumplido", avance: 100, evidencia: "Legalización 69,3% · colectivos 33,2% · Marcha 56,2%" },
+  { id: "OE-06", titulo: "Explorar asociaciones entre variables clave", metodo: "Correlación de Pearson + χ²", seccion: "5.1", estado: "Cumplido", avance: 100, evidencia: "Consumo×problemas r≈0,04 · mayoría |r|<0,20" },
+  { id: "OE-07", titulo: "Aplicar PCA y determinar la varianza explicada", metodo: "PCA con StandardScaler (sklearn)", seccion: "5.2", estado: "Cumplido", avance: 100, evidencia: "PC1 13,1% + PC2 9,1% ≈ 22% · sin eje dominante" },
+  { id: "OE-08", titulo: "Identificar y caracterizar perfiles de usuarios/as", metodo: "K-Means k=3 + silhouette", seccion: "5.3 · 6.2", estado: "Cumplido parcial", avance: 78, evidencia: "3 perfiles descriptivos · silhouette 0,19 (fronteras difusas)" },
+  { id: "OE-09", titulo: "Modelos predictivos exploratorios de problemas y uso terapéutico", metodo: "Random Forest + regresión logística, ROC", seccion: "6.1 · 6.5 · 6.6", estado: "Cumplido parcial", avance: 72, evidencia: "RF AUC 0,49 · Logística problemas AUC 0,58/F1 0,11 · Logística terapéutico AUC 0,67/F1 0,60" },
+  { id: "OE-10", titulo: "Proponer líneas de investigación futura", metodo: "Síntesis multidisciplinaria", seccion: "11–12", estado: "Cumplido", avance: 100, evidencia: "Longitudinales, variables clínicas, modelos supervisados, comparativos regionales" },
+  { id: "OE-11", titulo: "Profundizar policonsumo, comorbilidades y diferencias entre países", metodo: "Diseños futuros / ampliación de muestra", seccion: "2.7.2 · 12", estado: "Línea futura", avance: 15, evidencia: "Formulado como ampliación posible del estudio actual" },
 ];
 
 const TECNICAS = ["Descriptivo", "χ²", "Pearson", "PCA", "K-Means", "Random Forest", "Logística"];
@@ -53,7 +53,7 @@ export default function Specs() {
       <SectionHeader
         eyebrow="Spec-Driven · Protocolo del estudio"
         title="Objetivos específicos como especificaciones verificables"
-        desc="El estudio es exploratorio, sin hipótesis confirmatorias a priori (§2.7): cada objetivo específico funciona como una especificación con método asignado, sección del manuscrito donde se resuelve y evidencia numérica trazable a los scripts del Anexo 14."
+        desc="El estudio es exploratorio, sin hipótesis confirmatorias a priori (2.7): cada objetivo específico funciona como una especificación con método asignado, sección del manuscrito donde se resuelve y evidencia numérica trazable a los scripts del Anexo 14."
         right={<Badge tone="emerald">Avance global {avance}%</Badge>}
       />
 
@@ -138,7 +138,7 @@ export default function Specs() {
             <GitBranch size={18} className="text-emerald-300" />
             <h3 className="font-display text-base font-semibold text-zinc-100">Matriz de trazabilidad · Objetivo × Técnica analítica</h3>
           </div>
-          <p className="mb-4 text-xs text-zinc-500">Cada objetivo se resuelve con técnicas declaradas en la estrategia analítica (§3.6). Intensidad = peso de la técnica en ese objetivo.</p>
+          <p className="mb-4 text-xs text-zinc-500">Cada objetivo se resuelve con técnicas declaradas en la estrategia analítica (3.6). Intensidad = peso de la técnica en ese objetivo.</p>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[760px] border-separate text-sm" style={{ borderSpacing: 3 }}>
               <thead>

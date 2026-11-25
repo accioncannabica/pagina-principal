@@ -114,7 +114,7 @@ export const CULTIVO = {
 };
 
 // ─── 5. Análisis avanzado ────────────────────────────────────────────────────
-// Matriz reconstruida fielmente desde los coeficientes reportados en §5.1
+// Matriz reconstruida fielmente desde los coeficientes reportados en 5.1
 export const CORR_VARS = ["Edad", "Frecuencia", "Cantidad", "Problemas", "Relajación", "↓ Ansiedad", "Alegría", "Colectivo", "Marcha"];
 export const CORR_MATRIX: number[][] = [
   [1.00, 0.12, -0.15, 0.02, 0.05, 0.04, -0.03, 0.08, 0.06],
@@ -128,10 +128,10 @@ export const CORR_MATRIX: number[][] = [
   [0.06, 0.09, 0.04, 0.02, 0.05, 0.04, 0.07, 0.42, 1.00],
 ];
 export const CORR_HALLAZGOS = [
-  { par: "Frecuencia / Cantidad × Problemas", r: "≈ 0.04", lectura: "Sin asociación lineal apreciable entre intensidad de consumo y percepción de inconvenientes (§5.1.1)." },
-  { par: "Edad × Frecuencia / Cantidad", r: "+0.12 / −0.15", lectura: "Variaciones leves: la edad no configura un eje organizador del fenómeno (§5.1.2)." },
-  { par: "Efectos positivos × Problemas", r: "< 0.10", lectura: "Relajación y ↓ansiedad no predicen menor malestar: la experiencia no es lineal (§5.1.3)." },
-  { par: "Participación social × resto", r: "< 0.20", lectura: "Colectivos y Marcha no estructuran patrones de consumo ni de malestar (§5.1.4)." },
+  { par: "Frecuencia / Cantidad × Problemas", r: "≈ 0.04", lectura: "Sin asociación lineal apreciable entre intensidad de consumo y percepción de inconvenientes (5.1.1)." },
+  { par: "Edad × Frecuencia / Cantidad", r: "+0.12 / −0.15", lectura: "Variaciones leves: la edad no configura un eje organizador del fenómeno (5.1.2)." },
+  { par: "Efectos positivos × Problemas", r: "< 0.10", lectura: "Relajación y ↓ansiedad no predicen menor malestar: la experiencia no es lineal (5.1.3)." },
+  { par: "Participación social × resto", r: "< 0.20", lectura: "Colectivos y Marcha no estructuran patrones de consumo ni de malestar (5.1.4)." },
 ];
 
 export const PCA = { pc1: 13.1, pc2: 9.1, acumulado: 22.2 };
@@ -383,7 +383,7 @@ export const GLOSARIO: { termino: string; definicion: string }[] = [
   { termino: "Regresión logística", definicion: "Modelo que estima la probabilidad de un evento binario (problemas / terapéutico)." },
   { termino: "Reproducibilidad", definicion: "Obtener los mismos resultados repitiendo datos y métodos: eje del Anexo 14." },
   { termino: "ROC AUC", definicion: "Capacidad discriminativa: 0,5 = azar; 1,0 = perfecta (aquí 0,49–0,67)." },
-  { termino: "SMOTE", definicion: "Sobremuestreo sintético de la clase minoritaria (línea futura, §6.7)." },
+  { termino: "SMOTE", definicion: "Sobremuestreo sintético de la clase minoritaria (línea futura, 6.7)." },
   { termino: "StandardScaler", definicion: "Estandariza variables (media 0, DE 1) antes de PCA y clustering." },
   { termino: "THC", definicion: "Principal compuesto psicoactivo del cannabis, responsable de los efectos eufóricos y analgésicos." },
   { termino: "Validación cruzada", definicion: "Evaluación por particiones (folds) para evitar sobreajuste." },

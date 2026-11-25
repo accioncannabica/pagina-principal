@@ -5,7 +5,7 @@ import { PatronesPage, type SectionId } from "../investigaciones/patrones/Patron
 const DEFAULT_SECTION: SectionId = "resumen";
 
 const isSection = (value: string | undefined): value is SectionId =>
-  value ? (["resumen", "harness", "specs", "skills", "encuesta", "eda", "avanzado", "presentacion", "conclusiones", "codigo", "referencias", "contacto"] as const).includes(value as SectionId) : false;
+  value ? (["resumen", "harness", "specs", "skills", "encuesta", "eda", "avanzado", "presentacion", "conclusiones", "variables", "codigo", "referencias", "contacto"] as const).includes(value as SectionId) : false;
 
 const readHashSection = (): SectionId => {
   if (typeof window === "undefined") {

@@ -1,8 +1,5 @@
-import {
-  ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, Tooltip,
-} from "recharts";
-import { CheckCircle2, AlertTriangle, Lightbulb, Rocket, BookOpenCheck, Quote, Scale, HeartPulse, Users, Landmark, BrainCircuit } from "lucide-react";
-import { Card, SectionHeader, Badge, CHART_TOOLTIP, FadeIn } from "./ui";
+import { CheckCircle2, AlertTriangle, Lightbulb, Rocket, BookOpenCheck, Quote, Scale, HeartPulse, Users, Landmark, BrainCircuit, Network, FlaskConical } from "lucide-react";
+import { Card, SectionHeader, Badge, FadeIn } from "./ui";
 
 const HALLAZGOS = [
   { id: "F1", texto: "El consumo está integrado a la vida cotidiana: efectos percibidos mayoritariamente positivos o neutros", evidencia: "Relaja 79,7% · violencia 0,1% (1 caso) · multiefectos x̄ = 5,01", fuerza: 95 },
@@ -15,22 +12,13 @@ const HALLAZGOS = [
   { id: "F8", texto: "Fuerte cultura de autocultivo y autoformación comunitaria", evidencia: "Cultiva 65,2% · autoabastece 66,5% · blogs/foros 71,5% · orgánicos 79,6%", fuerza: 87 },
 ];
 
-const RADAR_CALIDAD = [
-  { eje: "Validez interna", valor: 72 },
-  { eje: "Validez externa", valor: 48 },
-  { eje: "Reproducibilidad", valor: 96 },
-  { eje: "Transparencia", valor: 94 },
-  { eje: "Novedad regional", valor: 85 },
-  { eje: "Robustez analítica", valor: 81 },
-];
-
 export default function Conclusions() {
   return (
     <div>
       <SectionHeader
-        eyebrow="Discusión y conclusiones · §7–12"
+        eyebrow="Discusión y conclusiones · 7–12"
         title="Conclusiones del estudio"
-        desc="Hallazgos principales (§11.1) con su evidencia numérica y fuerza interpretativa. El estudio es exploratorio: describe asociaciones y patrones en una muestra autoseleccionada, sin causalidad ni generalización poblacional."
+        desc="Hallazgos principales (11.1) con su evidencia numérica y fuerza interpretativa. El estudio es exploratorio: describe asociaciones y patrones en una muestra autoseleccionada, sin causalidad ni generalización poblacional."
       />
 
       <div className="grid gap-4 xl:grid-cols-3">
@@ -59,21 +47,19 @@ export default function Conclusions() {
 
         <div className="space-y-4">
           <FadeIn delay={0.05}>
-            <Card className="p-5">
-              <h3 className="font-display text-base font-semibold text-zinc-100">Calidad y alcance del estudio</h3>
-              <p className="text-xs text-zinc-500">Autoevaluación según las limitaciones declaradas (§8)</p>
-              <div className="h-[230px]">
-                <ResponsiveContainer width="100%" height="100%">
-                  <RadarChart data={RADAR_CALIDAD} outerRadius="68%">
-                    <PolarGrid stroke="rgba(255,255,255,0.08)" />
-                    <PolarAngleAxis dataKey="eje" tick={{ fill: "#a1a1aa", fontSize: 10 }} />
-                    <Radar name="Puntuación" dataKey="valor" stroke="#34d399" fill="#34d399" fillOpacity={0.32} strokeWidth={2} />
-                    <Tooltip {...CHART_TOOLTIP} />
-                  </RadarChart>
-                </ResponsiveContainer>
+            <Card className="border-emerald-400/20 bg-emerald-400/[0.04] p-5">
+              <div className="flex items-center gap-2">
+                <Network size={17} className="text-emerald-300" />
+                <h3 className="font-display text-base font-semibold text-zinc-100">Convergencia de enfoques</h3>
               </div>
-              <p className="text-[11px] leading-relaxed text-zinc-600">
-                La validez externa es el punto débil declarado (muestra no probabilística, 48/100); la reproducibilidad, el más fuerte: 22 scripts y doble verificación (§14, nota metodológica).
+              <p className="mt-3 text-sm leading-relaxed text-zinc-300">
+                Diferentes enfoques de ciencia de datos convergieron en una misma lectura del fenómeno.
+              </p>
+              <p className="mt-2 text-[13px] leading-relaxed text-zinc-400">
+                Correlaciones, PCA, Random Forest y clustering muestran que el malestar percibido no emerge como una dimensión estructurante de los datos ni permite delimitar perfiles estadísticamente robustos.
+              </p>
+              <p className="mt-3 border-t border-white/[0.06] pt-3 text-[13px] leading-relaxed text-emerald-100/80">
+                Un método supervisado y predictivo y otro no supervisado y exploratorio llegan a la misma lectura, lo que refuerza el argumento central del estudio.
               </p>
             </Card>
           </FadeIn>
@@ -85,7 +71,7 @@ export default function Conclusions() {
                 «Los datos no sostienen supuestos de daño generalizado: el conflicto no nace del consumo, se concentra en su criminalización.»
               </p>
               <p className="mt-3 text-xs leading-relaxed text-emerald-200/60">
-                Síntesis interpretativa de §7 y §11 — en esta muestra, los problemas reportados se asocian al contacto policial-judicial (25,4%) y no a la frecuencia ni a la cantidad consumida (r ≈ 0,04).
+                Síntesis interpretativa de 7 y 11 — en esta muestra, los problemas reportados se asocian al contacto policial-judicial (25,4%) y no a la frecuencia ni a la cantidad consumida (r ≈ 0,04).
               </p>
             </Card>
           </FadeIn>
@@ -94,13 +80,13 @@ export default function Conclusions() {
             <Card className="p-5">
               <div className="flex items-center gap-2">
                 <Scale size={16} className="text-amber-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">Consideraciones éticas (§9)</h3>
+                <h3 className="font-display text-base font-semibold text-zinc-100">Consideraciones éticas (9)</h3>
               </div>
               <ul className="mt-3 space-y-2 text-[13px] leading-relaxed text-zinc-400">
                 <li>· <span className="text-zinc-200">Conflicto de interés declarado:</span> los autores pertenecen a una organización de usuarios de cannabis.</li>
                 <li>· <span className="text-zinc-200">Consentimiento implícito</span> al completar la encuesta anónima.</li>
                 <li>· <span className="text-zinc-200">Uso de IA transparente:</span> apoyo en código y revisión, con verificación cruzada y responsabilidad autoral plena.</li>
-                <li>· <span className="text-zinc-200">Sin financiamiento externo</span> (§10): herramientas open source.</li>
+                <li>· <span className="text-zinc-200">Sin financiamiento externo</span> (10): herramientas open source.</li>
               </ul>
             </Card>
           </FadeIn>
@@ -109,25 +95,25 @@ export default function Conclusions() {
 
       <div className="mt-6 mb-2 flex items-center gap-2">
         <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.9)]" />
-        <span className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-emerald-300/90">Discusión por enfoque · §7.6–7.9</span>
+        <span className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-emerald-300/90">Discusión por enfoque · 7.6–7.9</span>
       </div>
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         {[
           {
-            icon: HeartPulse, color: "#fb7185", titulo: "Salud pública (§7.6)",
+            icon: HeartPulse, color: "#fb7185", titulo: "Salud pública (7.6)",
             texto: "Baja autopercepción de daño sin medición clínica objetiva. Recomendación: vigilancia en subpoblaciones vulnerables (adolescentes, embarazadas, comorbilidades), monitoreo de policonsumo (28,3%) y campañas de reducción de daños centradas en prácticas seguras, no en daños generalizados supuestos.",
           },
           {
-            icon: Users, color: "#38bdf8", titulo: "Sociología (§7.7)",
+            icon: Users, color: "#38bdf8", titulo: "Sociología (7.7)",
             texto: "La normalización del consumo convive con capital social real: colectivos (33,2%) y redes de autocultivo como espacios de apoyo mutuo y aprendizaje de reducción de riesgos. Advertencia: esas redes pueden sobrerrepresentar sectores de mayor capital cultural y económico.",
           },
           {
-            icon: Landmark, color: "#fbbf24", titulo: "Políticas de drogas (§7.8)",
+            icon: Landmark, color: "#fbbf24", titulo: "Políticas de drogas (7.8)",
             texto: "La evidencia exploratoria contrasta con los supuestos de la «guerra contra las drogas» (gateway, caos): violencia 0,1% y sin patrón de malestar. Una regulación responsable —autocultivo licenciado, mercados comunitarios, acceso medicinal controlado— surge como alternativa a discutir con datos.",
           },
           {
-            icon: BrainCircuit, color: "#a3e635", titulo: "Ciencia de datos (§7.9)",
-            texto: "PCA y clustering aportaron estructura sin perder interpretabilidad, con reproducibilidad open source. Límites del dataset: tamaño, ausencia de imputación y autoselección. Futuro: modelos supervisados y longitudinales con variables clínicas, comorbilidades y validación cruzada.",
+            icon: BrainCircuit, color: "#a3e635", titulo: "Ciencia de datos (7.9)",
+            texto: "PCA, Random Forest y clustering aportaron lecturas exploratorias complementarias y reproducibles. En conjunto sugieren que el malestar percibido no estructura los datos ni habilita perfiles estadísticamente robustos. Futuro: modelos supervisados y longitudinales con variables clínicas, comorbilidades y validación cruzada.",
           },
         ].map((e, i) => (
           <FadeIn key={e.titulo} delay={i * 0.05}>
@@ -144,7 +130,7 @@ export default function Conclusions() {
         <FadeIn>
           <Card hover className="h-full p-5">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-400/10 text-emerald-300"><Lightbulb size={18} /></span>
-            <h4 className="mt-3 font-display text-base font-semibold text-zinc-50">Implicancias (§11.2)</h4>
+            <h4 className="mt-3 font-display text-base font-semibold text-zinc-50">Implicancias (11.2)</h4>
             <ul className="mt-2 space-y-2 text-sm leading-relaxed text-zinc-400">
               <li>· <span className="text-zinc-200">Salud pública:</span> diseñar prevención y reducción de daños desde la experiencia de usuarios, no desde el estereotipo de daño.</li>
               <li>· <span className="text-zinc-200">Políticas:</span> la evidencia respalda revisar el enfoque punitivo: el conflicto medido es legal, no sanitario.</li>
@@ -155,18 +141,21 @@ export default function Conclusions() {
         <FadeIn delay={0.06}>
           <Card hover className="h-full p-5">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-400/10 text-amber-300"><AlertTriangle size={18} /></span>
-            <h4 className="mt-3 font-display text-base font-semibold text-zinc-50">Limitaciones (§8)</h4>
+            <h4 className="mt-3 font-display text-base font-semibold text-zinc-50">Limitaciones (8)</h4>
             <ul className="mt-2 space-y-2 text-sm leading-relaxed text-zinc-400">
-              <li>· Muestra <span className="text-zinc-200">no probabilística y autoseleccionada</span>: sin representatividad poblacional.</li>
-              <li>· Datos <span className="text-zinc-200">autoinformados</span> y diseño <span className="text-zinc-200">transversal</span>: no hay causalidad ni trayectorias.</li>
-              <li>· Faltantes altos en ítems de subgrupos y variables clínicas/mental health ausentes; límites del ML con clases desbalanceadas.</li>
+              <li>· <span className="text-zinc-200">Muestra y recolección:</span> muestreo no probabilístico, muestra autoseleccionada, cobertura exclusivamente online y datos autoinformados.</li>
+              <li>· <span className="text-zinc-200">Diseño y contexto temporal:</span> estudio transversal, datos de 2018–2020 previos a cambios regulatorios y factores contextuales no captados.</li>
+              <li>· Faltantes altos en ítems de subgrupos y variables clínicas o de salud mental ausentes; límites del ML con clases desbalanceadas.</li>
             </ul>
+            <p className="mt-3 border-t border-white/[0.06] pt-3 text-xs leading-relaxed text-amber-100/80">
+              No permiten establecer relaciones causales ni generalizar los resultados a toda la población. Estos resultados no prueban ausencia de daño ni seguridad.
+            </p>
           </Card>
         </FadeIn>
         <FadeIn delay={0.12}>
           <Card hover className="h-full p-5">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-400/10 text-sky-300"><Rocket size={18} /></span>
-            <h4 className="mt-3 font-display text-base font-semibold text-zinc-50">Líneas futuras (§12)</h4>
+            <h4 className="mt-3 font-display text-base font-semibold text-zinc-50">Líneas futuras (12)</h4>
             <ul className="mt-2 space-y-2 text-sm leading-relaxed text-zinc-400">
               <li>· Estudios <span className="text-zinc-200">longitudinales</span> y con muestras representativas por país.</li>
               <li>· Incorporar <span className="text-zinc-200">variables clínicas y de salud mental</span> validadas, y policonsumo en profundidad.</li>
@@ -175,6 +164,21 @@ export default function Conclusions() {
           </Card>
         </FadeIn>
       </div>
+
+      <FadeIn>
+        <Card className="mt-4 p-6">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violeta-400/10 text-violeta-400"><FlaskConical size={20} /></span>
+            <div>
+              <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-violeta-400">Aporte del trabajo a la ciencia</p>
+              <h4 className="mt-1 font-display text-lg font-semibold text-zinc-50">Python y Machine Learning para el análisis científico de encuestas</h4>
+              <p className="mt-2 max-w-4xl text-sm leading-relaxed text-zinc-400">
+                El Machine Learning amplía el análisis de encuestas en ciencias sociales y salud: complementa la estadística clásica con modelos predictivos complejos aplicados a datos de cuestionarios y variables cualitativas codificadas.
+              </p>
+            </div>
+          </div>
+        </Card>
+      </FadeIn>
 
       <FadeIn>
         <Card className="mt-4 flex flex-col items-start justify-between gap-4 p-6 sm:flex-row sm:items-center">
@@ -190,6 +194,12 @@ export default function Conclusions() {
           <Badge tone="emerald">Exploratorio · evidencia convergente</Badge>
         </Card>
       </FadeIn>
+
+      <p className="mt-5 text-center font-display text-sm font-semibold leading-relaxed text-zinc-300">
+        Cannabis, salud y soberanía
+        <span className="mx-2 text-emerald-400">·</span>
+        Universidad y comunidad construyendo saberes hacia una sociedad con derechos
+      </p>
     </div>
   );
 }

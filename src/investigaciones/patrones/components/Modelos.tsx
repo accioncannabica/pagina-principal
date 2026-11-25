@@ -120,7 +120,7 @@ function ForestPlot() {
         })}
       </div>
       <p className="mt-3 text-[11px] leading-relaxed text-zinc-600">
-        IC 95% por bootstrap (500 iteraciones, §14.20). Solo el género masculino no cruza la unidad con claridad; con 43 positivos ningún OR es estable. El OR 10,20 de «fin de semana» es un evento raro con incertidumbre extrema.
+        IC 95% por bootstrap (500 iteraciones, 14.20). Solo el género masculino no cruza la unidad con claridad; con 43 positivos ningún OR es estable. El OR 10,20 de «fin de semana» es un evento raro con incertidumbre extrema.
       </p>
     </div>
   );
@@ -135,11 +135,19 @@ export default function Modelos() {
       <div className="mb-5 border-t border-white/[0.06] pt-7">
         <div className="flex items-center gap-2">
           <span className="h-1.5 w-1.5 rounded-full bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.9)]" />
-          <span className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-amber-300/90">Modelos predictivos · §6.3–6.7</span>
+          <span className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-amber-300/90">Modelos predictivos · 6.3–6.7</span>
         </div>
         <h3 className="mt-2 font-display text-[22px] font-semibold tracking-tight text-zinc-50">Regresión logística: predecir problemas vs. predecir uso terapéutico</h3>
         <p className="mt-1.5 max-w-3xl text-sm leading-relaxed text-zinc-400">
           Mismo pipeline (one-hot, class_weight='balanced', split estratificado 80/20), dos objetivos. El contraste es el hallazgo: las variables describen el <span className="text-zinc-100">perfil de uso</span> pero no anticipan el <span className="text-zinc-100">malestar percibido</span>.
+        </p>
+      </div>
+
+      <div className="mb-4 rounded-xl border border-amber-400/20 bg-amber-400/[0.06] p-5">
+        <p className="font-mono text-xs uppercase tracking-[0.25em] text-amber-300">Conclusión · modelo de problemas</p>
+        <p className="mt-2 text-base leading-7 text-amber-50/80">
+          <strong className="font-semibold text-amber-100">Un segundo modelo llegó a una conclusión similar.</strong>{" "}
+          Aunque logró detectar algunos casos, produjo muchas falsas alarmas y no permitió identificar de manera confiable quién percibirá problemas asociados al consumo.
         </p>
       </div>
 
@@ -189,8 +197,8 @@ export default function Modelos() {
                 </div>
                 <p className="mt-3 rounded-xl border border-white/[0.06] bg-white/[0.02] p-3 text-[11.5px] leading-relaxed text-zinc-400">
                   {modelo === "problemas"
-                    ? <>Precision 0,06: por cada positivo correcto, ~16 falsas alarmas. El AUC 0,58 mejora al RF (0,49) pero sigue sin utilidad predictiva (§6.5.4).</>
-                    : <>F1 0,60 vs 0,11 del modelo de problemas: la motivación terapéutica sí tiene correlatos observables — edad, consumo diario y matutino (§6.6.5).</>}
+                    ? <>Precision 0,06: por cada positivo correcto, ~16 falsas alarmas. El AUC 0,58 mejora al RF (0,49) pero sigue sin utilidad predictiva (6.5.4).</>
+                    : <>F1 0,60 vs 0,11 del modelo de problemas: la motivación terapéutica sí tiene correlatos observables — edad, consumo diario y matutino (6.6.5).</>}
                 </p>
               </div>
             </div>
@@ -213,7 +221,7 @@ export default function Modelos() {
           <Card className="p-5">
             <div className="mb-3 flex items-center gap-2.5">
               <Scale size={17} className="text-amber-300" />
-              <h3 className="font-display text-base font-semibold text-zinc-100">Odds Ratios · modelo de problemas (§6.5.6)</h3>
+              <h3 className="font-display text-base font-semibold text-zinc-100">Odds Ratios · modelo de problemas (6.5.6)</h3>
               <Badge tone="amber">escala logarítmica</Badge>
             </div>
             <ForestPlot />
@@ -225,7 +233,7 @@ export default function Modelos() {
             <Card className="p-5">
               <div className="mb-3 flex items-center gap-2.5">
                 <Crosshair size={17} className="text-emerald-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">OR destacados · uso terapéutico (§6.6)</h3>
+                <h3 className="font-display text-base font-semibold text-zinc-100">OR destacados · uso terapéutico (6.6)</h3>
               </div>
               <div className="space-y-2.5">
                 {ODDS_TERAPEUTICO.map((o) => (
@@ -248,7 +256,7 @@ export default function Modelos() {
             <Card className="p-5">
               <div className="mb-3 flex items-center gap-2.5">
                 <Layers size={17} className="text-sky-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">Triangulación de métodos (§6.3)</h3>
+                <h3 className="font-display text-base font-semibold text-zinc-100">Triangulación de métodos (6.3)</h3>
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 {[
@@ -269,7 +277,7 @@ export default function Modelos() {
               </div>
               <p className="mt-3 flex gap-2 text-[11px] leading-relaxed text-zinc-500">
                 <TriangleAlert size={13} className="mt-0.5 shrink-0 text-amber-300" />
-                Alcance (§6.4 y §6.7): carácter exploratorio y transversal; el desbalance se trató con class_weight='balanced' sin mejorar la señal. Los modelos no son herramientas diagnósticas ni generalizables.
+                Alcance (6.4 y 6.7): carácter exploratorio y transversal; el desbalance se trató con class_weight='balanced' sin mejorar la señal. Los modelos no son herramientas diagnósticas ni generalizables.
               </p>
             </Card>
           </FadeIn>

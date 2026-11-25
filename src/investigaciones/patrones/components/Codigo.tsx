@@ -86,7 +86,7 @@ export default function Codigo() {
             <div className="flex items-center gap-2 border-b border-white/[0.07] bg-white/[0.03] px-5 py-3">
               <FileCode2 size={16} className="text-emerald-300" />
               <div className="min-w-0 flex-1">
-                <p className="truncate text-sm font-semibold text-zinc-100">§{sel.id} · {sel.titulo}</p>
+                <p className="truncate text-sm font-semibold text-zinc-100">{sel.id} · {sel.titulo}</p>
                 <p className="font-mono text-[10.5px] text-zinc-500">scripts/{sel.id.replace(".", "_")}.py · etapa {sel.etapa}</p>
               </div>
               <button onClick={copiar}

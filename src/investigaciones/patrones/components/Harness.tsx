@@ -28,7 +28,7 @@ const SCRIPTS: Script[] = [
   { id: "14.11", nombre: "Figura: formas de consumo", etapa: "Figuras", entrada: "n=1.039 (múltiple)", salida: "Fig. 4.2.6-1", verificado: "Doble" },
   { id: "14.12", nombre: "Figura: motivos de consumo", etapa: "Figuras", entrada: "n=1.036 (múltiple)", salida: "Fig. 4.2.1-1", verificado: "IA cruzada" },
   { id: "14.13", nombre: "Figura: efectos percibidos", etapa: "Figuras", entrada: "n=1.032 (múltiple)", salida: "Fig. 4.3.1-1", verificado: "Doble" },
-  { id: "14.14", nombre: "Matriz de correlaciones de Pearson", etapa: "Modelos", entrada: "Variables codificadas", salida: "Figura 1 (§5.1)", verificado: "Doble" },
+  { id: "14.14", nombre: "Matriz de correlaciones de Pearson", etapa: "Modelos", entrada: "Variables codificadas", salida: "Figura 1 (5.1)", verificado: "Doble" },
   { id: "14.15", nombre: "PCA (StandardScaler + sklearn)", etapa: "Modelos", entrada: "Matriz estandarizada", salida: "PC1 13,1% · PC2 9,1%", verificado: "IA cruzada" },
   { id: "14.16", nombre: "Gráficos y varianza explicada del PCA", etapa: "Modelos", entrada: "Componentes", salida: "Scree + proyección 2D", verificado: "Doble" },
   { id: "14.17", nombre: "Random Forest + importancia de variables", etapa: "Modelos", entrada: "Objetivo: problemas (4,3% +)", salida: "Accuracy 0,94 · AUC 0,49", verificado: "Doble" },
@@ -36,7 +36,7 @@ const SCRIPTS: Script[] = [
   { id: "14.19", nombre: "Validación de clustering (silhouette)", etapa: "Modelos", entrada: "K-Means vs jerárquico", salida: "0,19 vs 0,16", verificado: "Doble" },
   { id: "14.20", nombre: "Regresión logística: percepción de problemas", etapa: "Modelos", entrada: "Dataset balanceado", salida: "AUC 0,58 · F1 0,11 · OR bootstrap", verificado: "IA cruzada" },
   { id: "14.21", nombre: "Regresión logística: uso terapéutico", etapa: "Modelos", entrada: "Objetivo terapéutico", salida: "AUC 0,67 · F1 0,60 · Fig. 8", verificado: "Doble" },
-  { id: "14.22", nombre: "K-Means (k=3) y caracterización de perfiles", etapa: "Modelos", entrada: "Variables de consumo", salida: "3 perfiles (§5.3)", verificado: "Doble" },
+  { id: "14.22", nombre: "K-Means (k=3) y caracterización de perfiles", etapa: "Modelos", entrada: "Variables de consumo", salida: "3 perfiles (5.3)", verificado: "Doble" },
 ];
 
 const ETAPAS: ("Todas" | Etapa)[] = ["Todas", "Datos", "Figuras", "Modelos"];
@@ -76,7 +76,7 @@ export default function Harness() {
       />
 
       <div className="grid grid-cols-2 gap-4 xl:grid-cols-4">
-        <FadeIn><Stat label="Scripts reproducibles" value="22" sub="Anexo 14 · §14.1–14.22" icon={<FileCode2 size={16} />} /></FadeIn>
+        <FadeIn><Stat label="Scripts reproducibles" value="22" sub="Anexo 14 · 14.1–14.22" icon={<FileCode2 size={16} />} /></FadeIn>
         <FadeIn delay={0.05}><Stat label="Registros depurados" value="1.046" sub="desde 1.048 · −2 duplicados" icon={<Database size={16} />} accent="sky" /></FadeIn>
         <FadeIn delay={0.1}><Stat label="Doble verificación" value="100%" sub="IA cruzada + revisión manual" icon={<UserCheck size={16} />} accent="amber" /></FadeIn>
         <FadeIn delay={0.15}><Stat label="Imputaciones aplicadas" value="0" sub="análisis por casos válidos" icon={<ShieldCheck size={16} />} accent="rose" /></FadeIn>
@@ -132,7 +132,7 @@ export default function Harness() {
                   {visibles.map((s) => (
                     <tr key={s.id} className="border-b border-white/[0.04] transition-colors hover:bg-white/[0.02]">
                       <td className="py-2.5 pr-3">
-                        <span className="font-mono text-[11px] text-emerald-300/80">§{s.id}</span>
+                        <span className="font-mono text-[11px] text-emerald-300/80">{s.id}</span>
                         <span className="block text-[13px] font-medium leading-snug text-zinc-100">{s.nombre}</span>
                       </td>
                       <td className="py-2.5 pr-3 text-xs text-zinc-400">{s.entrada} <span className="text-zinc-600">→</span> <span className="text-zinc-200">{s.salida}</span></td>
@@ -179,7 +179,7 @@ export default function Harness() {
               <span className="font-semibold text-zinc-200">Esquema de doble control:</span> una respuesta propuesta por una IA podía ser revisada por otra y luego comprobada manualmente, o contrastada primero por procedimientos propios y sometida después a una segunda revisión asistida.
             </div>
             <div className="mt-3 rounded-xl border border-emerald-400/15 bg-emerald-400/[0.05] p-3.5 text-xs leading-relaxed text-emerald-100/80">
-              Entorno documentado (§3.6.6.4): pandas 1.3.3 · numpy 1.21.2 · SciPy · scikit-learn · scripts modulares comentados y versionados.
+              Entorno documentado (3.6.6.4): pandas 1.3.3 · numpy 1.21.2 · SciPy · scikit-learn · scripts modulares comentados y versionados.
             </div>
           </Card>
         </FadeIn>

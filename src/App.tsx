@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Fondo from "./components/Fondo";
-import { Badge, Boton, DemoBadge, Icon, Reveal } from "./components/ui";
+import { Badge, Boton, Icon, Reveal } from "./components/ui";
 import { NAV, NAV_VISIBLE, type Vista } from "./types";
 import { NOTICIAS, ORG } from "./data/content";
 import Inicio from "./sections/Inicio";
@@ -16,6 +16,7 @@ import Harness from "./sections/Harness";
 import { Donaciones, Tienda } from "./sections/Comercial";
 import Contacto from "./sections/Contacto";
 import ObservatorioPage from "./observatorio/ObservatorioPage";
+import logoAccionCannabica from "./assets/logo-accion-cannabica.png";
 
 const GRUPOS = ["Tablero", "Institucional", "Investigaciones", "Observatorio", "Redes", "Programas", "Datos", "Acción"] as const;
 
@@ -111,13 +112,13 @@ export default function App() {
       >
         <div className="flex h-full flex-col">
           <div className="flex items-center gap-3 border-b border-white/8 px-5 py-5">
-            <span className="relative grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-lima-400 to-verde-500 text-ink-950">
-              <Icon name="leaf" className="h-6 w-6" />
-              <span className="absolute inset-0 rounded-2xl border border-lima-300/40" style={{ animation: "pulse-ring 3.4s ease-out infinite" }} />
-            </span>
+            <img
+              src={logoAccionCannabica}
+              alt="Acción Cannábica"
+              className="h-11 w-11 shrink-0 rounded-2xl object-contain"
+            />
             <span>
               <span className="block text-sm font-bold leading-tight text-white">Acción Cannábica</span>
-              <span className="block font-mono text-[10px] text-lima-400/80">@accannabica · dashboard</span>
             </span>
           </div>
 
@@ -153,13 +154,7 @@ export default function App() {
           </nav>
 
           <div className="border-t border-white/8 p-4">
-            <div className="rounded-xl border border-lima-500/25 bg-lima-500/6 p-3">
-              <p className="text-[10px] leading-relaxed text-emerald-50/65">
-                Tablero de prototipo. Los datasets analíticos son de demostración; el contenido institucional está referenciado a fuentes
-                públicas.
-              </p>
-            </div>
-            <div className="mt-3 flex gap-2">
+            <div className="flex gap-2">
               {ORG.socials.map((s) => (
                 <a key={s.red} href={s.url} target="_blank" rel="noreferrer" aria-label={s.red} className="grid h-8 w-8 place-items-center rounded-lg border border-white/10 bg-white/[0.03] text-emerald-50/55 transition hover:border-lima-500/40 hover:text-lima-300">
                   <Icon name={s.red === "Facebook" ? "face" : s.red === "Instagram" ? "insta" : "youtube"} className="h-4 w-4" />
@@ -212,7 +207,6 @@ export default function App() {
             </div>
 
             <div className="ml-auto flex items-center gap-2">
-              <DemoBadge texto="Datos demo en analítica" />
               <Boton onClick={() => irA("contacto")}>
                 <Icon name="mail" className="h-4 w-4" /> <span className="hidden sm:inline">Contacto</span>
               </Boton>

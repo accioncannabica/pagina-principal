@@ -20,7 +20,7 @@ export default function Referencias() {
   return (
     <div>
       <SectionHeader
-        eyebrow="Anexos · §15–16"
+        eyebrow="Anexos · 15–16"
         title="Glosario, bibliografía y fuentes"
         desc="Diccionario de términos del estudio, las 28 referencias bibliográficas, las fuentes de datos y herramientas open source, y las fuentes normativas recomendadas para el apartado de políticas de drogas."
         right={
@@ -38,7 +38,7 @@ export default function Referencias() {
             <div className="mb-4 flex items-center justify-between">
               <div className="flex items-center gap-2.5">
                 <BookMarked size={18} className="text-emerald-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">Diccionario de términos (§15)</h3>
+                <h3 className="font-display text-base font-semibold text-zinc-100">Diccionario de términos (15)</h3>
               </div>
               <Badge tone="zinc">{terminos.length} términos</Badge>
             </div>
@@ -61,7 +61,7 @@ export default function Referencias() {
                 <Card className="p-5">
                   <div className="mb-3 flex items-center gap-2.5">
                     <BookOpen size={17} className="text-sky-300" />
-                    <h3 className="font-display text-base font-semibold text-zinc-100">Bibliografía (§16.1)</h3>
+                    <h3 className="font-display text-base font-semibold text-zinc-100">Bibliografía (16.1)</h3>
                     <Badge tone="zinc">{biblio.length}</Badge>
                   </div>
                   <div className="max-h-[330px] space-y-2 overflow-y-auto pr-1">
@@ -82,7 +82,7 @@ export default function Referencias() {
                 <Card className="p-5">
                   <div className="mb-3 flex items-center gap-2.5">
                     <Wrench size={16} className="text-amber-300" />
-                    <h3 className="font-display text-base font-semibold text-zinc-100">Fuentes de datos y herramientas (§16.2)</h3>
+                    <h3 className="font-display text-base font-semibold text-zinc-100">Fuentes de datos y herramientas (16.2)</h3>
                   </div>
                   <div className="space-y-2">
                     {HERRAMIENTAS_FUENTE.map((h) => (
@@ -101,7 +101,7 @@ export default function Referencias() {
             <Card className="p-5">
               <div className="mb-3 flex items-center gap-2.5">
                 <Landmark size={16} className="text-rose-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">Fuentes normativas (§16.3)</h3>
+                <h3 className="font-display text-base font-semibold text-zinc-100">Fuentes normativas (16.3)</h3>
               </div>
               <div className="space-y-2.5">
                 {NORMATIVAS.map((n) => (

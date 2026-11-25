@@ -43,7 +43,7 @@ const SLIDES: Slide[] = [
       "11 objetivos específicos verificables: de la caracterización sociodemográfica a los modelos predictivos",
       "Estrategia: descriptivos y χ² → correlaciones → PCA → clustering → Random Forest y regresión logística",
     ],
-    metrica: { valor: "11", etiqueta: "objetivos específicos trazables (§2.7.2)" }, visual: "codigo", pie: "Pipeline reproducible en Python (Anexo 14)",
+    metrica: { valor: "11", etiqueta: "objetivos específicos trazables (2.7.2)" }, visual: "codigo", pie: "Pipeline reproducible en Python (Anexo 14)",
   },
   {
     kicker: "04 · La muestra", titulo: "1.046 usuarios/as únicos: jóvenes, escolarizados y del AMBA", icono: Users, color: "#2dd4bf",
@@ -61,7 +61,7 @@ const SLIDES: Slide[] = [
       "Motivos: disfrute 86,1% y terapéutico 44,9% — el uso mixto alcanza ~37% de la muestra",
       "65,2% cultiva y 66,5% se autoabastece; entre quienes compran, 60,2% ignora la procedencia",
     ],
-    metrica: { valor: "52,0%", etiqueta: "consume todos los días" }, visual: "frecuencia", pie: "Frecuencia de consumo (§4.2.4)",
+    metrica: { valor: "52,0%", etiqueta: "consume todos los días" }, visual: "frecuencia", pie: "Frecuencia de consumo (4.2.4)",
   },
   {
     kicker: "06 · Efectos y salud", titulo: "Efectos positivos, mejoría percibida alta y violencia excepcional", icono: HeartPulse, color: "#fb7185",
@@ -70,7 +70,7 @@ const SLIDES: Slide[] = [
       "Terapéuticos (n=485): 83,3% reporta mejoría ≥8/10 (media 8,57) — autoinforme, no eficacia clínica",
       "Efecto «violenta»: 1 solo caso (0,1%) · inconvenientes en la vida diaria ≈ 4%",
     ],
-    metrica: { valor: "0,1%", etiqueta: "asocia el consumo con violencia" }, visual: "salud", pie: "Indicadores de efectos y salud (§4.3–4.4)",
+    metrica: { valor: "0,1%", etiqueta: "asocia el consumo con violencia" }, visual: "salud", pie: "Indicadores de efectos y salud (4.3–4.4)",
   },
   {
     kicker: "07 · Sociedad y legalidad", titulo: "Consenso regulatorio y conflicto concentrado en lo policial", icono: Landmark, color: "#f59e0b",
@@ -79,7 +79,7 @@ const SLIDES: Slide[] = [
       "Participación: colectivos 33,2% · Marcha de la Marihuana 56,2%",
       "25,4% tuvo inconvenientes policiales/judiciales y 53,5% de ellos fue detenido (vs. ≈4% de problemas cotidianos)",
     ],
-    metrica: { valor: "25,4%", etiqueta: "con inconvenientes policiales o judiciales" }, visual: "sociedad", pie: "Posición frente a la regulación (§4.6)",
+    metrica: { valor: "25,4%", etiqueta: "con inconvenientes policiales o judiciales" }, visual: "sociedad", pie: "Posición frente a la regulación (4.6)",
   },
   {
     kicker: "08 · Análisis avanzado", titulo: "Sin ejes lineales: correlaciones nulas, PCA difuso y tres perfiles tenues", icono: BrainCircuit, color: "#34d399",
@@ -106,7 +106,7 @@ const SLIDES: Slide[] = [
       "ChatGPT, Claude, Copilot y Codex como apoyo — nunca como evidencia: contraste cruzado + revisión manual",
       "Sin imputaciones, casos válidos por variable y decisiones documentadas (p. ej., 162 ramas de cultivo reclasificadas)",
     ],
-    metrica: { valor: "22", etiqueta: "scripts verificados del Anexo 14" }, visual: "pesos", pie: "Importancia de variables del RF (§6.1.7)",
+    metrica: { valor: "22", etiqueta: "scripts verificados del Anexo 14" }, visual: "pesos", pie: "Importancia de variables del RF (6.1.7)",
   },
   {
     kicker: "11 · Conclusiones", titulo: "Consumo integrado, conflicto externo y agenda de investigación", icono: Flag, color: "#34d399",
@@ -115,7 +115,7 @@ const SLIDES: Slide[] = [
       "El conflicto medido es legal (25,4% policial) más que sanitario (≈4%): insumo para políticas basadas en evidencia",
       "Futuro: estudios longitudinales, variables clínicas y de salud mental, muestras representativas y validación externa",
     ],
-    metrica: { valor: "3 métodos", etiqueta: "convergentes en la misma conclusión" }, visual: "perfiles", pie: "Perfiles descriptivos de usuarios (§5.3)",
+    metrica: { valor: "3 métodos", etiqueta: "convergentes en la misma conclusión" }, visual: "perfiles", pie: "Perfiles descriptivos de usuarios (5.3)",
   },
 ];
 
@@ -371,7 +371,7 @@ export default function Presentation() {
       </div>
 
       <p className="mt-4 text-center text-xs text-zinc-600">
-        Estructura del deck: contexto → diseño → evidencia descriptiva → análisis avanzado → modelos → reproducibilidad → conclusiones. Cada lámina remite a su sección del manuscrito (§).
+        Estructura del deck: contexto → diseño → evidencia descriptiva → análisis avanzado → modelos → reproducibilidad → conclusiones. Cada lámina remite a su sección del manuscrito ().
       </p>
     </div>
   );
