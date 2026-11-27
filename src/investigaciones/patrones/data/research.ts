@@ -14,10 +14,10 @@ export const META = {
 };
 
 export const AUTORES = [
-  { nombre: "Horacio Adrián Rodríguez", rol: "Autor · Acción Cannábica", email: "accioncannabica@gmail.com" },
-  { nombre: "Claudia Sánchez", rol: "Autora · Acción Cannábica", email: "clauycharly@yahoo.com.ar" },
-  { nombre: "Daniela Rodríguez", rol: "Autora · Acción Cannábica", email: "danielapaularodriguez@gmail.com" },
-  { nombre: "Esteban Calabria", rol: "Autor · Analista en ciencia de datos", email: "esteban.calabria@gmail.com" },
+  { nombre: "Horacio Adrián Rodríguez", rol: "Autor · Acción Cannábica" },
+  { nombre: "Claudia Sánchez", rol: "Autora · Acción Cannábica" },
+  { nombre: "Daniela Rodríguez", rol: "Autora · Acción Cannábica" },
+  { nombre: "Esteban Calabria", rol: "Autor · Analista en ciencia de datos" },
 ];
 export const COLABORADORAS = [
   { nombre: "Ana Flor Sclani Horrac", rol: "Lic. en Geografía · UNLP" },

@@ -164,16 +164,13 @@ export default function Contacto() {
               </div>
               <div className="space-y-2">
                 {AUTORES.map((a) => (
-                  <a key={a.nombre} href={`mailto:${a.email}`}
-                    className="flex items-center justify-between gap-3 rounded-xl border border-white/[0.05] bg-white/[0.02] px-3.5 py-2.5 transition hover:border-emerald-400/25">
+                  <div key={a.nombre}
+                    className="rounded-xl border border-white/[0.05] bg-white/[0.02] px-3.5 py-2.5">
                     <span className="min-w-0">
                       <span className="block truncate text-[13px] font-medium text-zinc-100">{a.nombre}</span>
                       <span className="block truncate text-[11px] text-zinc-500">{a.rol}</span>
                     </span>
-                    <span className="flex shrink-0 items-center gap-1.5 font-mono text-[10.5px] text-emerald-300/80">
-                      <Mail size={12} /> <span className="hidden sm:inline">{a.email}</span>
-                    </span>
-                  </a>
+                  </div>
                 ))}
               </div>
               <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-wider text-zinc-500">Colaboradoras</p>
