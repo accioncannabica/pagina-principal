@@ -220,15 +220,11 @@ export default function ObservatorioPage() {
         <header className="mb-6">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div className="flex items-start gap-4">
-              {/* Espacio reservado para el logo de Acción Cannábica */}
               <LogoSlot className="h-[60px] w-[60px] sm:h-[72px] sm:w-[72px]" />
               <div>
-                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-emerald-300/80">
-                  Observatorio global de cannabis · edición 2026
-                </p>
-                <h2 className="mt-2 text-3xl font-semibold leading-[1.1] tracking-tight sm:text-[40px]">
+                <h2 className="text-3xl font-semibold leading-[1.1] tracking-tight sm:text-[40px]">
                   <span className="bg-gradient-to-r from-emerald-300 via-teal-200 to-indigo-300 bg-clip-text text-transparent">
-                    Acción Cannábica
+                    Observatorio Global de Cannabis
                   </span>
                 </h2>
                 <p className="mt-2 max-w-3xl text-sm font-medium leading-relaxed text-emerald-100/90">
@@ -315,7 +311,6 @@ export default function ObservatorioPage() {
         </header>
 
         {/* ── KPIs ───────────────────────────────────────────────── */}
-        {!extendedView && <p className="mb-3 text-[10px] uppercase tracking-wider text-amber-200/70">Base histórica orientativa: indicadores originales pendientes de validación individual</p>}
         {!extendedView && <div className="mb-6 grid grid-cols-2 gap-3 lg:grid-cols-5">
           <Kpi
             label="Consumidores en el mundo"
@@ -1110,7 +1105,6 @@ export default function ObservatorioPage() {
         {/* ── Pie ────────────────────────────────────────────────── */}
         <footer className="mt-8 grid gap-6 rounded-2xl border border-white/10 bg-white/[0.02] p-5 lg:grid-cols-[auto_1.3fr_1fr]">
           <div className="flex flex-col items-center gap-2 text-center lg:items-start lg:text-left">
-            {/* Espacio reservado para el logo de Acción Cannábica */}
             <LogoSlot className="h-16 w-16" />
             <p className="text-sm font-semibold text-white">Acción Cannábica</p>
             <div className="mt-1 flex flex-col gap-2 text-[11px] text-slate-400">

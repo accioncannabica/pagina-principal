@@ -8,19 +8,27 @@ export default function Mockups() {
     <div>
       <SectionHeader
         eyebrow="Instrumento · Encuesta"
-        title="La encuesta online, tal como la respondieron 1.046 personas"
-        desc="Mockup navegable del cuestionario autoadministrado (3.2, Anexo 13.1): anónimo, con preguntas cerradas y abiertas, validado en un piloto con 30 participantes y desplegado durante 21 meses. Completá las 5 preguntas clave y el sistema te asigna el perfil de clúster más cercano (5.3)."
+        title="Encuesta Online"
+        desc="Queremos conocer tu experiencia. Invitamos a usuarios y usuarias de cannabis a completar esta encuesta anónima y aportar una mirada propia sobre sus consumos, prácticas y necesidades."
       />
 
-      <Card className="p-5 sm:p-7">
+      <Card className="relative overflow-hidden border-emerald-400/20 bg-[radial-gradient(circle_at_top_right,rgba(52,211,153,0.18),transparent_42%)] p-5 sm:p-7">
+        <div className="mb-5 max-w-xl">
+          <p className="text-lg font-semibold text-zinc-50">
+            Tu participación ayuda a construir información más representativa.
+          </p>
+          <p className="mt-1.5 text-sm leading-relaxed text-zinc-400">
+            Respondé con total libertad y privacidad. Solo lleva unos minutos.
+          </p>
+        </div>
         <a
           href={URL_ENCUESTA}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-xl bg-emerald-400 px-5 py-3 text-sm font-semibold text-emerald-950 transition hover:bg-emerald-300"
+          className="inline-flex items-center gap-2 rounded-xl bg-emerald-400 px-5 py-3 text-sm font-semibold text-emerald-950 shadow-[0_10px_30px_-12px_rgba(52,211,153,0.75)] transition hover:-translate-y-0.5 hover:bg-emerald-300 hover:shadow-[0_14px_34px_-12px_rgba(52,211,153,0.9)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300 motion-reduce:transform-none"
         >
           <ClipboardList size={16} />
-          Completar la encuesta
+          Quiero completar la encuesta
           <ExternalLink size={14} />
         </a>
       </Card>

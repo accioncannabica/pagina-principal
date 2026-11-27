@@ -22,7 +22,7 @@ export const ORG = {
   anio: 2014,
   lema: "Accionamos política, social y culturalmente para la regulación integral del cannabis",
   descripcion:
-    "Asociación Civil sin fines de lucro integrada por activistas, usuaries terapéutiques y recreativas, cultivadores, investigadores, familiares de pacientes y profesionales de distintas áreas. Activamos por el reconocimiento del derecho a todos los usos y aplicaciones del cannabis.",
+    "Asociación Civil sin fines de lucro integrada por activistas, usuarios terapeuticos y recreativos, cultivadores, investigadores, familiares de pacientes y profesionales de distintas áreas. Activamos por el reconocimiento del derecho a todos los usos y aplicaciones del cannabis.",
   cuit: "30-71629859-7",
   igj: "N° correlativo IGJ 1921803 · Resolución 08/03/2018 · Registro de inscripción N°374",
   tipo: "ONG vinculada a la salud · Derechos Humanos y Libertades Civiles",
