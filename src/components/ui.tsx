@@ -137,15 +137,29 @@ export function Panel({ children, className = "", hover = true }: { children: Re
   return <div className={`panel noise ${hover ? "panel-hover" : ""} ${className}`}>{children}</div>;
 }
 
-export function SectionTitle({ kicker, titulo, bajada, icono }: { kicker: string; titulo: ReactNode; bajada?: string; icono?: string }) {
+export function SectionTitle({
+  kicker,
+  titulo,
+  bajada,
+  icono,
+  emblema,
+}: {
+  kicker: string;
+  titulo: ReactNode;
+  bajada?: string;
+  icono?: string;
+  emblema?: ReactNode;
+}) {
   return (
     <Reveal className="mb-8">
       <div className="flex items-center gap-3">
-        {icono && (
+        {emblema ? (
+          <span className="grid h-14 w-14 shrink-0 place-items-center">{emblema}</span>
+        ) : icono ? (
           <span className="grid h-11 w-11 place-items-center rounded-2xl border border-lima-500/30 bg-lima-500/10 text-lima-300">
             <Icon name={icono} className="h-5 w-5" />
           </span>
-        )}
+        ) : null}
         <div>
           <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-lima-400/80">{kicker}</p>
           <h2 className="mt-1 text-2xl font-semibold tracking-tight text-white sm:text-3xl">{titulo}</h2>

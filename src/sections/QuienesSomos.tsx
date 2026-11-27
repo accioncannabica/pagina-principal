@@ -3,6 +3,7 @@ import { HITOS, ORG, PILARES } from "../data/content";
 import { Timeline } from "../components/charts";
 import { Badge, DemoBadge, Icon, Panel, Reveal, SectionTitle } from "../components/ui";
 import type { Vista } from "../types";
+import logoAccionCannabica from "../assets/logo-accion-cannabica.png";
 
 const FUENTES = [
   "Instagram y Facebook @accannabica — bio institucional y publicaciones.",
@@ -26,7 +27,13 @@ export default function QuienesSomos({ irA }: { irA: (v: Vista) => void }) {
           </>
         }
         bajada={ORG.descripcion}
-        icono="users"
+        emblema={
+          <img
+            src={logoAccionCannabica}
+            alt="Acción Cannábica"
+            className="h-14 w-14 rounded-full object-contain"
+          />
+        }
       />
 
       <div className="grid gap-5 lg:grid-cols-[1.25fr_0.75fr]">

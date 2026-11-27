@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Scale, GitCompareArrows, TriangleAlert, Layers, Crosshair } from "lucide-react";
-import { Card, Badge, FadeIn } from "./ui";
-import { LOGREG, ODDS_PROBLEMAS, ODDS_TERAPEUTICO, ROC_POINTS, ROC_LOGREG_PROBLEMAS, ROC_LOGREG_TERAPEUTICO, fmt } from "../data/research";
+import { GitCompareArrows, Layers, TriangleAlert } from "lucide-react";
+import { Card, FadeIn } from "./ui";
+import { LOGREG, ROC_POINTS, ROC_LOGREG_PROBLEMAS, ROC_LOGREG_TERAPEUTICO, fmt } from "../data/research";
 import { cn } from "../utils/cn";
 
 function ConfusionMatrix({ matriz, titulo, subtitulo, color }: { matriz: number[][]; titulo: string; subtitulo: string; color: string }) {
@@ -46,6 +46,21 @@ const METRICAS: { k: keyof typeof LOGREG.problemas; label: string }[] = [
   { k: "recall", label: "Recall" }, { k: "f1", label: "F1-score" },
 ];
 
+const EFECTOS_CLUSTER = [
+  { efecto: "Relaja", valores: [77.5, 81.6, 80.5] },
+  { efecto: "Tranquiliza", valores: [61.4, 75.4, 77.9] },
+  { efecto: "Genera alegría", valores: [50.6, 68.4, 68.1] },
+  { efecto: "Reduce la ansiedad", valores: [57.0, 55.1, 59.7] },
+  { efecto: "Estimula", valores: [51.9, 55.1, 64.7] },
+  { efecto: "Abre el apetito", valores: [46.0, 61.7, 65.2] },
+  { efecto: "Calma dolores", valores: [56.8, 44.5, 53.5] },
+  { efecto: "Equilibra", valores: [41.2, 37.1, 49.6] },
+  { efecto: "Elude la realidad", valores: [4.9, 4.3, 4.7] },
+  { efecto: "Genera alucinaciones", valores: [0.5, 3.1, 1.8] },
+  { efecto: "Deprime", valores: [0.8, 1.6, 0.8] },
+  { efecto: "Violenta", valores: [0.0, 0.0, 0.3] },
+] as const;
+
 function RocChart() {
   const pts = (arr: { fpr: number; tpr: number }[]) => arr.map((p) => `${10 + p.fpr * 84},${94 - p.tpr * 84}`).join(" L ");
   const curvas = [
@@ -75,53 +90,6 @@ function RocChart() {
         ))}
         <p className="pt-1 text-[11px] leading-relaxed text-zinc-600">Figura 9 del paper: el modelo terapéutico separa moderadamente; el de problemas apenas supera la diagonal del azar.</p>
       </div>
-    </div>
-  );
-}
-
-function ForestPlot() {
-  // Escala logarítmica entre 0.1 y 60
-  const lo = Math.log(0.1), hi = Math.log(60);
-  const x = (v: number) => ((Math.log(Math.max(0.1, Math.min(60, v))) - lo) / (hi - lo)) * 100;
-  return (
-    <div>
-      <div className="relative mb-2 h-5 border-b border-white/[0.07] font-mono text-[9.5px] text-zinc-500">
-        {[0.1, 0.5, 1, 2, 5, 10, 50].map((t) => (
-          <span key={t} className="absolute -translate-x-1/2" style={{ left: `${x(t)}%` }}>{t}</span>
-        ))}
-      </div>
-      <div className="space-y-2.5">
-        {ODDS_PROBLEMAS.map((o) => {
-          const sig = o.lo > 1 || o.hi < 1;
-          const color = o.or >= 1 ? (sig ? "#fb7185" : "#fbbf24") : sig ? "#34d399" : "#a1a1aa";
-          return (
-            <div key={o.variable} className="group">
-              <div className="flex items-baseline justify-between gap-2">
-                <span className="text-xs font-medium text-zinc-200">{o.variable}</span>
-                <span className="font-mono text-[11px] text-zinc-400">
-                  OR <span className="font-bold" style={{ color }}>{fmt(o.or, 2)}</span>
-                  <span className="text-zinc-600"> [{fmt(o.lo, 2)}–{fmt(o.hi, 2)}]</span>
-                </span>
-              </div>
-              <div className="relative mt-1 h-4">
-                <div className="absolute inset-y-0 w-px bg-white/25" style={{ left: `${x(1)}%` }} />
-                <div
-                  className="absolute top-1/2 h-[3px] -translate-y-1/2 rounded-full"
-                  style={{ left: `${x(o.lo)}%`, width: `${Math.max(1.5, x(o.hi) - x(o.lo))}%`, background: color, opacity: 0.55 }}
-                />
-                <span
-                  className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-[#0d120e]"
-                  style={{ left: `${x(o.or)}%`, background: color }}
-                />
-              </div>
-              <p className={cn("text-[10.5px]", sig ? "text-zinc-400" : "text-zinc-600")}>{o.nota}</p>
-            </div>
-          );
-        })}
-      </div>
-      <p className="mt-3 text-[11px] leading-relaxed text-zinc-600">
-        IC 95% por bootstrap (500 iteraciones, 14.20). Solo el género masculino no cruza la unidad con claridad; con 43 positivos ningún OR es estable. El OR 10,20 de «fin de semana» es un evento raro con incertidumbre extrema.
-      </p>
     </div>
   );
 }
@@ -216,73 +184,77 @@ export default function Modelos() {
         </FadeIn>
       </div>
 
-      <div className="mt-4 grid gap-4 xl:grid-cols-2">
-        <FadeIn>
-          <Card className="p-5">
-            <div className="mb-3 flex items-center gap-2.5">
-              <Scale size={17} className="text-amber-300" />
-              <h3 className="font-display text-base font-semibold text-zinc-100">Odds Ratios · modelo de problemas (6.5.6)</h3>
-              <Badge tone="amber">escala logarítmica</Badge>
+      <FadeIn delay={0.12}>
+        <Card className="mt-4 border-sky-400/25 bg-sky-400/[0.035] p-6 sm:p-7">
+          <div className="mb-5 flex items-center gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-400/10">
+              <Layers size={20} className="text-sky-300" />
+            </span>
+            <div>
+              <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-sky-300/70">Síntesis del análisis</p>
+              <h3 className="font-display text-xl font-semibold text-zinc-50 sm:text-2xl">Triangulación de métodos (6.3)</h3>
             </div>
-            <ForestPlot />
-          </Card>
-        </FadeIn>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            {[
+              { m: "Correlaciones", r: "|r| < 0,20" },
+              { m: "PCA + Clusters", r: "22% · silh. 0,19" },
+              { m: "ML predictivo", r: "AUC 0,49–0,58" },
+            ].map((t) => (
+              <div key={t.m} className="rounded-xl border border-sky-400/20 bg-sky-400/[0.07] px-4 py-4 text-center">
+                <p className="text-xs font-semibold text-sky-100">{t.m}</p>
+                <p className="mt-1 font-mono text-sm font-medium text-sky-300">{t.r}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mx-auto h-5 w-px bg-sky-300/40" />
+          <div className="rounded-xl border border-emerald-400/30 bg-emerald-400/[0.09] px-5 py-6 text-center">
+            <p className="font-display text-lg font-semibold leading-snug text-emerald-50 sm:text-xl">Sin patrón estructurado de malestar asociado al consumo</p>
+            <p className="mx-auto mt-2 max-w-3xl text-sm leading-relaxed text-emerald-100/70">El malestar aparece idiosincrático y contextual: probablemente mediado por variables no capturadas (clínicas, sociales, legales).</p>
+          </div>
+          <p className="mt-4 flex gap-2 text-[11.5px] leading-relaxed text-zinc-400">
+            <TriangleAlert size={14} className="mt-0.5 shrink-0 text-amber-300" />
+            Alcance (6.4 y 6.7): carácter exploratorio y transversal; el desbalance se trató con class_weight='balanced' sin mejorar la señal. Los modelos no son herramientas diagnósticas ni generalizables.
+          </p>
+        </Card>
+      </FadeIn>
 
-        <div className="space-y-4">
-          <FadeIn delay={0.05}>
-            <Card className="p-5">
-              <div className="mb-3 flex items-center gap-2.5">
-                <Crosshair size={17} className="text-emerald-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">OR destacados · uso terapéutico (6.6)</h3>
-              </div>
-              <div className="space-y-2.5">
-                {ODDS_TERAPEUTICO.map((o) => (
-                  <div key={o.variable} className="flex items-center justify-between rounded-xl border border-white/[0.05] bg-white/[0.02] px-3.5 py-2.5">
-                    <div>
-                      <p className="text-[13px] font-medium text-zinc-100">{o.variable}</p>
-                      <p className="text-[11px] text-zinc-500">{o.lectura}</p>
-                    </div>
-                    <span className="rounded-lg bg-emerald-400/10 px-2.5 py-1 font-mono text-sm font-bold text-emerald-300">OR ≈ {fmt(o.or, 2)}</span>
-                  </div>
+      <FadeIn delay={0.16}>
+        <Card className="mt-4 overflow-hidden border-white/[0.08] p-0">
+          <div className="border-b border-white/[0.07] px-5 py-5 sm:px-6">
+            <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-violeta-400">Efectos percibidos</p>
+            <h3 className="mt-1 font-display text-xl font-semibold text-zinc-50 sm:text-2xl">Relación entre los clusters y los efectos percibidos</h3>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[560px] border-collapse text-left">
+              <thead>
+                <tr className="border-b border-white/[0.08] bg-white/[0.025]">
+                  <th className="px-5 py-3 text-xs font-semibold uppercase tracking-wider text-zinc-400 sm:px-6">Efecto percibido</th>
+                  {[0, 1, 2].map((cluster) => (
+                    <th key={cluster} className="px-5 py-3 text-right text-xs font-semibold uppercase tracking-wider text-violeta-300/80 sm:px-6">Cluster {cluster}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {EFECTOS_CLUSTER.map(({ efecto, valores }) => (
+                  <tr key={efecto} className="border-b border-white/[0.05] transition-colors last:border-0 hover:bg-white/[0.025]">
+                    <th scope="row" className="px-5 py-3 text-[13px] font-medium text-zinc-200 sm:px-6">{efecto}</th>
+                    {valores.map((valor, i) => (
+                      <td key={`${efecto}-${i}`} className="px-5 py-3 text-right font-mono text-[13px] text-zinc-300 sm:px-6">{fmt(valor, 1)} %</td>
+                    ))}
+                  </tr>
                 ))}
-              </div>
-              <p className="mt-3 text-[11px] leading-relaxed text-zinc-600">
-                Predictores coherentes con la hipótesis: usuarios más maduros, con hábitos continuos y rutinas matinales tienden a reportar uso terapéutico.
-              </p>
-            </Card>
-          </FadeIn>
-
-          <FadeIn delay={0.1}>
-            <Card className="p-5">
-              <div className="mb-3 flex items-center gap-2.5">
-                <Layers size={17} className="text-sky-300" />
-                <h3 className="font-display text-base font-semibold text-zinc-100">Triangulación de métodos (6.3)</h3>
-              </div>
-              <div className="grid grid-cols-3 gap-2 text-center">
-                {[
-                  { m: "Correlaciones", r: "|r| < 0,20" },
-                  { m: "PCA + Clusters", r: "22% · silh. 0,19" },
-                  { m: "ML predictivo", r: "AUC 0,49–0,58" },
-                ].map((t) => (
-                  <div key={t.m} className="rounded-xl border border-sky-400/15 bg-sky-400/[0.05] px-2 py-3">
-                    <p className="text-[11px] font-semibold text-sky-200">{t.m}</p>
-                    <p className="mt-1 font-mono text-[11px] text-sky-300/80">{t.r}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="mx-auto my-2 h-4 w-px bg-sky-300/30" />
-              <div className="rounded-xl border border-emerald-400/25 bg-emerald-400/[0.07] px-4 py-3 text-center">
-                <p className="text-[13px] font-semibold leading-snug text-emerald-100">Sin patrón estructurado de malestar asociado al consumo</p>
-                <p className="mt-1 text-[11px] leading-snug text-emerald-200/60">El malestar aparece idiosincrático y contextual: probablemente mediado por variables no capturadas (clínicas, sociales, legales).</p>
-              </div>
-              <p className="mt-3 flex gap-2 text-[11px] leading-relaxed text-zinc-500">
-                <TriangleAlert size={13} className="mt-0.5 shrink-0 text-amber-300" />
-                Alcance (6.4 y 6.7): carácter exploratorio y transversal; el desbalance se trató con class_weight='balanced' sin mejorar la señal. Los modelos no son herramientas diagnósticas ni generalizables.
-              </p>
-            </Card>
-          </FadeIn>
-        </div>
-      </div>
+              </tbody>
+            </table>
+          </div>
+          <div className="border-t border-emerald-400/25 bg-emerald-400/[0.09] px-5 py-8 sm:px-8 sm:py-10">
+            <p className="font-mono text-sm uppercase tracking-[0.26em] text-emerald-300 sm:text-base">Conclusión</p>
+            <p className="mt-4 max-w-5xl font-display text-xl font-semibold leading-relaxed text-emerald-50 sm:text-2xl sm:leading-relaxed">
+              No se observa una relación significativa entre los clusters y los efectos percibidos. Los tres grupos presentan porcentajes similares, por lo que los efectos son independientes del cluster de pertenencia.
+            </p>
+          </div>
+        </Card>
+      </FadeIn>
     </div>
   );
 }
