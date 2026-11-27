@@ -211,8 +211,8 @@ export function PatronesPage({ section, onSectionChange }: PatronesPageProps) {
             «Patrones de consumo de cannabis y percepciones de salud» · Acción Cannábica · Estudio exploratorio (sin inferencia causal).
           </p>
           <p className="flex flex-wrap items-center gap-3 font-mono">
-            <a href="mailto:accioncannabica@gmail.com" className="flex items-center gap-1.5 transition hover:text-lima-200">
-              <Mail size={12} /> accioncannabica@gmail.com
+            <a href="mailto:info@accioncannabica.org.ar" className="flex items-center gap-1.5 transition hover:text-lima-200">
+              <Mail size={12} /> info@accioncannabica.org.ar
             </a>
             <a
               href="https://www.instagram.com/accannabica"

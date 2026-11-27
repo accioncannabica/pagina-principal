@@ -104,7 +104,6 @@ export default function Overview() {
                   <div key={a.nombre} className="rounded-xl border border-white/[0.05] bg-white/[0.02] p-3">
                     <p className="text-sm font-medium text-zinc-100">{a.nombre}</p>
                     <p className="text-[11px] text-zinc-500">{a.rol}</p>
-                    <p className="mt-0.5 truncate font-mono text-[10.5px] text-emerald-300/70">{a.email}</p>
                   </div>
                 ))}
               </div>

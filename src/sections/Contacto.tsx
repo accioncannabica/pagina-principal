@@ -6,7 +6,7 @@ import type { Vista } from "../types";
 const FAQ = [
   {
     p: "¿Cómo me acerco a la asociación?",
-    r: "Escribinos a accioncannabica@gmail.com o por mensaje directo en Instagram y Facebook. Contanos desde qué rol te acercás (paciente, familiar, profesional, organización o prensa) para derivarte con el área correspondiente.",
+    r: "Escribinos a info@accioncannabica.org.ar o por mensaje directo en Instagram y Facebook. Contanos desde qué rol te acercás (paciente, familiar, profesional, organización o prensa) para derivarte con el área correspondiente.",
   },
   {
     p: "¿Orientan sobre REPROCANN?",
@@ -18,7 +18,7 @@ const FAQ = [
   },
   {
     p: "¿Reciben donaciones?",
-    r: "Sí. Para conocer cómo realizar un aporte, escribinos a accioncannabica@gmail.com; los datos bancarios se comunicarán de forma oficial por la Comisión Directiva.",
+    r: "Sí. Para conocer cómo realizar un aporte, escribinos a info@accioncannabica.org.ar; los datos bancarios se comunicarán de forma oficial por la Comisión Directiva.",
   },
 ];
 

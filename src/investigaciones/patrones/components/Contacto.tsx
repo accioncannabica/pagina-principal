@@ -14,7 +14,7 @@ function InstagramIcon({ size = 22, className }: { size?: number; className?: st
   );
 }
 
-const EMAIL = "accioncannabica@gmail.com";
+const EMAIL = "info@accioncannabica.org.ar";
 const INSTAGRAM = "accannabica";
 const IG_URL = `https://www.instagram.com/${INSTAGRAM}`;
 

@@ -4,7 +4,7 @@
  * Fuentes relevadas (investigación documental):
  *  - Instagram/Facebook @accannabica (bio: "✊Asociación Civil establecida en 2014 🌿 N° correlativo IGJ 1921803.
  *    ONG Vinculada a la Salud"; 13 K seguidores, 1.786 seguidos, 895 publicaciones).
- *  - Directorio Marimba (marimba.com.ar/mapa/accioncannabica) — email accioncannabica@gmail.com, CABA.
+ *  - Directorio Marimba (marimba.com.ar/mapa/accioncannabica) — email info@accioncannabica.org.ar, CABA.
  *  - Idealist — N° correlativo IGJ 1921803 / Resolución 08/03/2018 / Registro de inscripción N°374 (IGJ Nación).
  *  - Revista "Cannabis y Salud" CONICET-CIM, Edición #5 (oct. 2025) — entrevista FACC.
  *  - cannabicaargentina.com, elplanteo.com, izquierdadiario.es (asambleas FACC 2023 / 2025).
@@ -28,7 +28,7 @@ export const ORG = {
   tipo: "ONG vinculada a la salud · Derechos Humanos y Libertades Civiles",
   sede: "Ciudad Autónoma de Buenos Aires (CABA), Argentina",
   domicilio: "Av. Entre Ríos 50 — CABA (referencia de dominio público en directorios)",
-  email: "accioncannabica@gmail.com",
+  email: "info@accioncannabica.org.ar",
   miembro: "Miembro fundadora de la FACC — Federación Argentina de Cannabis y Cáñamo",
   socials: [
     { red: "Instagram", handle: "@accannabica", url: "https://www.instagram.com/accannabica/", seguidores: "13 K", publicaciones: 895, siguiendo: "1.786" },
@@ -229,7 +229,7 @@ export type Organizacion = {
 };
 
 export const ORGANIZACIONES: Organizacion[] = [
-  { nombre: "Asociación Civil Acción Cannábica", sigla: "ACCA", ambito: "Nacional", territorio: "CABA", eje: "Derechos · Salud · Cultura", contacto: "accioncannabica@gmail.com", instagram: "https://www.instagram.com/accannabica/", facc: true },
+  { nombre: "Asociación Civil Acción Cannábica", sigla: "ACCA", ambito: "Nacional", territorio: "CABA", eje: "Derechos · Salud · Cultura", contacto: "info@accioncannabica.org.ar", instagram: "https://www.instagram.com/accannabica/", facc: true },
   { nombre: "Asociación de Usuaries y Profesionales para el Abordaje del Cannabis", sigla: "AUPAC", ambito: "Provincial", territorio: "Rosario, Santa Fe", eje: "Clínica · Formación · Políticas públicas", contacto: "aupac.org.ar", web: "https://aupac.org.ar/", facc: true },
   { nombre: "Asociación Civil Ciencia Sativa", sigla: "Ciencia Sativa", ambito: "Provincial", territorio: "Río Negro", eje: "Cultivo · Convenio INTA", contacto: "Presidencia de la FACC", facc: true },
   { nombre: "Cogollos Córdoba", sigla: "Cogollos", ambito: "Provincial", territorio: "Córdoba", eje: "Pionera del movimiento · CD FACC", contacto: "Referente: Nicolás Costamagna", facc: true },
@@ -365,7 +365,7 @@ export const DONACION_NOTA = "Estructura preparada para incorporar datos reales:
 
 /* ---------------- CONTACTO ---------------- */
 export const CONTACTO = {
-  email: "accioncannabica@gmail.com",
+  email: "info@accioncannabica.org.ar",
   sede: "Ciudad Autónoma de Buenos Aires — Argentina",
   horarios: "Atención por agenda · Lunes a viernes (referencia de directorios 8:00 a 17:00 h)",
   areas: [

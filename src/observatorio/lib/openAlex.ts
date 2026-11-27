@@ -2,7 +2,7 @@ import type { LiteratureSnapshot, LiteratureWork } from '../data/science';
 import { OPENALEX_TOPIC } from '../data/science';
 
 const API = 'https://api.openalex.org';
-const EMAIL = 'accioncannabica@gmail.com';
+const EMAIL = 'info@accioncannabica.org.ar';
 const pickId = (v: string) => v.split('/').pop() || v;
 export function openAlexUrls(through: string) {
   const filter = `topics.id:${OPENALEX_TOPIC.id},from_publication_date:${OPENALEX_TOPIC.from},to_publication_date:${through},is_retracted:false`;

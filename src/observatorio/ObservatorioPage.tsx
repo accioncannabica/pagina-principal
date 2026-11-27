@@ -237,7 +237,7 @@ export default function ObservatorioPage() {
                   castiga —o se vende en farmacia— según la frontera que se cruce.
                 </p>
                 <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-[11px] text-slate-400">
-                  <a className="inline-flex items-center gap-1.5 hover:text-emerald-300" href="mailto:accioncannabica@gmail.com"><Mail size={12} />accioncannabica@gmail.com</a>
+                  <a className="inline-flex items-center gap-1.5 hover:text-emerald-300" href="mailto:info@accioncannabica.org.ar"><Mail size={12} />info@accioncannabica.org.ar</a>
                   <a className="inline-flex items-center gap-1.5 hover:text-emerald-300" href="https://www.instagram.com/accannabica/" target="_blank" rel="noopener noreferrer"><AtSign size={12} />@accannabica</a>
                 </div>
               </div>
@@ -1108,7 +1108,7 @@ export default function ObservatorioPage() {
             <LogoSlot className="h-16 w-16" />
             <p className="text-sm font-semibold text-white">Acción Cannábica</p>
             <div className="mt-1 flex flex-col gap-2 text-[11px] text-slate-400">
-              <a className="hover:text-emerald-300" href="mailto:accioncannabica@gmail.com">accioncannabica@gmail.com</a>
+              <a className="hover:text-emerald-300" href="mailto:info@accioncannabica.org.ar">info@accioncannabica.org.ar</a>
               <a className="hover:text-emerald-300" href="https://www.instagram.com/accannabica/" target="_blank" rel="noopener noreferrer">Instagram @accannabica</a>
             </div>
             <p className="text-[11px] leading-snug text-slate-500">
